@@ -1,11 +1,12 @@
 module DLkitty
+using DataDeps
+using CSV
+using DataFrames
 
-"""
-    hi = hello_world()
-A simple function to return "Hello, World!"
-"""
-function hello_world()
-    return "Hello, World!"
+include("data.jl")
+
+function __init__()
+    init_data()
 end
 
 end
