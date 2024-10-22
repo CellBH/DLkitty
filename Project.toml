@@ -1,0 +1,6 @@
+name = "DLkitty"
+uuid = "d5dc50c5-ec9f-588f-8bbc-2f86cb530d38"
+version = "0.1.0"
+
+[compat]
+julia = "1.10"

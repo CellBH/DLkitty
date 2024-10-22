@@ -1,0 +1,26 @@
+# Changes here will be overwritten by Copier
+AddAllcontributors: false
+AddCodeOfConduct: false
+AddContributionDocs: false
+AddCopierCI: false
+AddGitHubTemplates: false
+AddMacToCI: false
+AddPrecommit: false
+AddWinToCI: false
+AnswerStrategy: ask
+Authors: ''
+AutoIncludeTests: false
+ConfigIndentation: 2
+JuliaIndentation: 4
+JuliaMinCIVersion: lts
+JuliaMinVersion: '1.10'
+License: MIT
+LicenseCopyrightHolders: Cell Bauhaus
+MarkdownIndentation: 2
+PackageName: DLkitty
+PackageOwner: CellBH
+PackageUUID: d5dc50c5-ec9f-588f-8bbc-2f86cb530d38
+RunJuliaNightlyOnCI: false
+UseCirrusCI: false
+_commit: v0.13.0
+_src_path: https://github.com/abelsiqueira/BestieTemplate.jl
