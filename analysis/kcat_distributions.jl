@@ -4,12 +4,8 @@ using DataFrames
 using Statistics
 using Plots
 tbl = reaction_rates_table()
-kcats = filter(
-    (
-        "parameter.type" => ==("kcat"),
-        "parameter.unit" => =="s^(-1)",
-    )
-    tbl)
+kcats = filter("parameter.type" => ==("kcat"), tbl)
+filter!("parameter.unit" => x->!ismissing(x) && x==("s^(-1)"), kcats)
 
 println("total kcats samples: ", nrow(kcats))
 
