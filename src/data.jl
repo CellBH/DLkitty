@@ -6,7 +6,7 @@ function init_data()
     register(DataDep(
         "dlkitty_reaction_rates",
         """
-        Data originally from SABIO???
+        Data originally from SABIO
         prepared by Michael and Augustinas.
         """,
         "https://dlkitty.file.core.windows.net/dlkitty/initial_dataset.tsv?sp=r&st=2024-10-22T10:35:35Z&se=2052-10-22T10:27:00Z&sv=2022-11-02&sig=o8AMnCfjwxRtGEGaditHwGj25Qg%2FBKZx3N5eYyxcu%2Bo%3D&sr=f"
