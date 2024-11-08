@@ -20,7 +20,7 @@ def download_sabio():
     qs = ["[" + str(i[0]) + " TO " + str(i[-1]) + "]" for i in _entryIDs]
 
     QUERY_URL = 'http://sabiork.h-its.org/sabioRestWebServices/kineticlawsExportTsv'
-    query = {'fields[]':['EntryID', 'Substrate', 'EnzymeType', 'PubMedID', 'Organism', 'UniprotID', 'ECNumber', 'Parameter', 'pH', 'Temperature']}
+    query = {'fields[]':['EntryID', 'PubMedID', 'Organism', 'Substrate', 'EnzymeType', 'Enzymename', 'UniprotID', 'ECNumber', 'Parameter', 'pH', 'Temperature']}
 
     fname = "data/databases/Sabio-RK/dataset_download.tsv"
     fout = open(fname, 'w')
@@ -43,7 +43,8 @@ def download_sabio():
             try:
                 request = requests.get(QUERY_URL, params = query)
                 if request.status_code == 200:
-                    fout.write(''.join(request.text.splitlines(keepends=True)[1:]))
+                    ind = 0 if i==1 else 1
+                    fout.write(''.join(request.text.splitlines(keepends=True)[ind:]))
                     log_tries[i-1] = j
                     break
                 else:
@@ -56,7 +57,7 @@ def download_sabio():
     fout.close()
     flog.close()
 
-    fname = 'data/databases/Sabio-RK/temp/log_tries_alt.out'
+    fname = 'data/databases/Sabio-RK/temp/log_tries.out'
     with open(fname, 'w') as flogntries:
         flogntries.write("\n".join(str(ntry) for ntry in log_tries))
 
