@@ -49,16 +49,19 @@ function (l::DistOutputLayer{D})(x::AbstractMatrix, ps, st) where D
 end
 
 
-struct DistributionLoss <: Lux.AbstractLossFunction
-    # TODO: put relative weights for different loss types in here
+@kwdef struct DistributionLoss <: Lux.AbstractLossFunction
+    sample_weight::Float64 = 1.0
+    mean_std_weight::Float64 = 2.0  # 2x as much information as a single point
 end
+
+
 
 (loss::DistributionLoss)(ŷs, ys) = mean(((ŷ, y),)->loss1(loss, ŷ, y), zip(ŷs, ys))
 
 # for samples
-loss1(::DistributionLoss, dist::Distribution, y::Number) = -loglikelihood(dist, y)
+loss1(d::DistributionLoss, dist::Distribution, y::Number) = d.sample_weight * -loglikelihood(dist, y)
 
 # for mean + std-dev
-function loss1(::DistributionLoss, dist::Distribution, y::NamedTuple{(:mean, :std)})
-    return abs2(mean(dist) - y.mean) + abs2(std(dist) - y.std)
+function loss1(d::DistributionLoss, dist::Distribution, y::NamedTuple{(:mean, :std)})
+    return d.mean_std_weight * (abs2(mean(dist) - y.mean) + abs2(std(dist) - y.std))
 end
