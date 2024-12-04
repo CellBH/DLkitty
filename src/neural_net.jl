@@ -59,8 +59,8 @@ end
 (loss::DistributionLoss)(ŷs, ys) = mean(((ŷ, y),)->loss1(loss, ŷ, y), zip(ŷs, ys))
 
 # for samples
-loss1(d::DistributionLoss, dist::Distribution, y::Number) = d.sample_weight * -loglikelihood(dist, y)
 
+loss1(d::DistributionLoss, dist::Distribution, y::Number) = d.sample_weight * abs2(mean(dist) - mean(y))
 # for mean + std-dev
 function loss1(d::DistributionLoss, dist::Distribution, y::NamedTuple{(:mean, :std)})
     return d.mean_std_weight * (abs2(mean(dist) - y.mean) + abs2(std(dist) - y.std))
