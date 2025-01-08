@@ -11,7 +11,7 @@ using Random
 export kcat_table_train_and_valid, is_usable, resample
 
 include("data.jl")
-include("neural_net.jl")
+include("neural_net_output.jl")
 include("resampling.jl")
 
 function __init__()
