@@ -7,6 +7,9 @@ using Random
 using Lux
 using Optimisers
 using Zygote
+using PythonCall
+using Statistics
+using Graphs
 using OneHotArrays
 
 @testset "DLkitty.jl" begin
@@ -14,4 +17,5 @@ using OneHotArrays
     @testset "neural_net_output.jl" include("neural_net_output.jl")
     @testset "neural_net_model.jl" include("neural_net_model.jl")
     @testset "resampling.jl" include("resampling.jl")
+    @testset "substrate.jl" include("substrate.jl")
 end
