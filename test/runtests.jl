@@ -11,6 +11,8 @@ using PythonCall
 using Statistics
 using Graphs
 using OneHotArrays
+using Statistics
+using GNNLux
 
 @testset "DLkitty.jl" begin
     @testset "data.jl" include("data.jl")
