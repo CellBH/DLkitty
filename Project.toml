@@ -3,7 +3,6 @@ uuid = "d5dc50c5-ec9f-588f-8bbc-2f86cb530d38"
 version = "0.1.0"
 
 [deps]
-Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
@@ -25,7 +24,6 @@ Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 [compat]
-Accessors = "0.1.41"
 CSV = "0.10.15"
 CondaPkg = "0.2.24"
 DataDeps = "0.7.13"
@@ -40,8 +38,8 @@ LuxCore = "1.1.0"
 OneHotArrays = "0.2.6"
 Plots = "1.40.8"
 PythonCall = "0.9.23"
-Tables = "1.12.0"
 Statistics = "1.11.1"
+Tables = "1.12.0"
 julia = "1.10"
 
 [extras]

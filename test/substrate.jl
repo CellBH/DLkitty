@@ -158,13 +158,6 @@ end
         train_state = Lux.Training.TrainState(model, ps, st, Adam(5f0))
         train_losses = Float64[]
         for iter in 1:100
-            # basic learning rate scheduling
-            if iter < 90
-                train_state= @set train_state.optimizer = Adam(0.1f0)
-            elseif iter < 70
-                train_state= @set train_state.optimizer = Adam(0.001f0)
-            end
-
             iter_loss = 0.0
             for (g, y) in zip(graphs, weights)
                 _, step_loss, _, train_state = Lux.Training.single_train_step!(
