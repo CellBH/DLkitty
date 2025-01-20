@@ -41,8 +41,6 @@ end
     atomic_nums = 100  # 94 gives us plutonium, so 6 past that is plenty
     bond_types = 22
 
-    
-
     @testset "using only atomic weights" begin
         model = GNNChain(
             Embedding(atomic_nums=>16),
@@ -72,7 +70,6 @@ end
                 
                 iter_loss += step_loss
             end
-            println(iter_loss)
             push!(train_losses, iter_loss)
         end
         
@@ -85,6 +82,110 @@ end
             return y[]
         end
         @test ŷs ≈ weights rtol=0.05 # at most off by 5%
+    end
+
+    @testset "using atomic weights and bond_types" begin
+        # We actually don't expect this to do better, because bond-type is not revervent to weight
+
+        # Below SHOULD work but doesn't, probably because the `@compact` macro doesn't understand GNNFlux
+        #==
+        model = @compact(;            
+            atomic_num_embed = Embedding(atomic_nums=>17),
+            bond_embedding = Embedding(bond_types=>5),
+            input_net = CGConv((17,5) => 64, relu; residual=false),
+            output_net = GNNChain(            
+                CGConv(64 => 64, relu; residual=true),
+                CGConv(64 => 64, relu; residual=true),
+                x -> mean(x, dims=2),  # combine all node data
+                Dense(64, 1),
+            ),
+        ) do g
+            xn = atomic_num_embed(g.ndata.atomic_num)
+            xe = bond_embedding(g.edata.bond_type)
+            h = input_net(g, xn, xe)
+            y = output_net(g, h)
+            @return y
+        end
+        ==#
+        # So instead we write it out the long way:
+
+        struct NE1Model <: LuxCore.AbstractLuxLayer
+        end
+        components() = (;            
+            atomic_num_embed = Embedding(atomic_nums=>17),
+            bond_embedding = Embedding(bond_types=>5),
+            input_net = CGConv((17,5) => 64, relu; residual=false),
+            output_net = GNNChain(            
+                CGConv(64 => 64, relu; residual=true),
+                CGConv(64 => 64, relu; residual=true),
+                x -> mean(x, dims=2),  # combine all node data
+                Dense(64, 1),
+            ),
+        )
+        function LuxCore.initialparameters(rng::AbstractRNG, l::NE1Model)
+            return Lux.fmap(x->LuxCore.initialparameters(rng, x), components())
+        end
+        
+        function LuxCore.initialstates(rng::AbstractRNG, l::NE1Model)
+            return Lux.fmap(x->LuxCore.initialstates(rng, x), components())
+        end
+        
+        function (l::NE1Model)(g::GNNGraph, ps, st)
+            c = Zygote.@ignore components()
+            xn, _ = c.atomic_num_embed(g.ndata.atomic_num, ps.atomic_num_embed, st.atomic_num_embed)
+            xe, _ = c.bond_embedding(g.edata.bond_type, ps.bond_embedding, st.bond_embedding)
+            h, _ = c.input_net(g, xn, xe, ps.input_net, st.input_net)
+            y, _ = c.output_net(g, h, ps.output_net, st.output_net)
+            return y[], st
+        end
+
+       
+        function loss(model, ps, st, (g, y))
+            ŷ, st = model(g, ps, st)
+            return MSELoss()(ŷ, y), st, 0
+        end
+
+        rng = Xoshiro(0)
+        model = NE1Model()
+        ps, st = LuxCore.setup(rng, model)
+    
+        # Test basic functionality
+        g1 = first(graphs)
+        y1, _ = model(g1, ps, st)
+        @test y1 isa Real
+
+        # test that it trains
+        train_state = Lux.Training.TrainState(model, ps, st, Adam(5f0))
+        train_losses = Float64[]
+        for iter in 1:100
+            # basic learning rate scheduling
+            if iter < 90
+                train_state= @set train_state.optimizer = Adam(0.1f0)
+            elseif iter < 70
+                train_state= @set train_state.optimizer = Adam(0.001f0)
+            end
+
+            iter_loss = 0.0
+            for (g, y) in zip(graphs, weights)
+                _, step_loss, _, train_state = Lux.Training.single_train_step!(
+                    AutoZygote(), loss, (g, y), train_state
+                )
+                
+                iter_loss += step_loss
+            end
+            push!(train_losses, iter_loss)
+        end
+
+        # should be at least 1000x better by the end (this starts out terrible)
+        @test train_losses[end] < 0.001 * train_losses[1]
+
+        # no single prediction super wrong
+        ŷs = map(graphs) do g
+            y, _= model(g, ps, st)
+            return y[]
+        end
+        @test ŷs ≈ weights rtol=0.05 # at most off by 5%
+        
     end
 end
 

@@ -13,6 +13,7 @@ using Graphs
 using OneHotArrays
 using Statistics
 using GNNLux
+using Accessors
 
 @testset "DLkitty.jl" begin
     @testset "data.jl" include("data.jl")
