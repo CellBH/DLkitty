@@ -37,13 +37,9 @@ end
     weights = pyconvert.(Float64, Descriptors.ExactMolWt.(mols))
 
     graphs = gnn_graph.(mols)
-
-    atomic_nums = 100  # 94 gives us plutonium, so 6 past that is plenty
-    bond_types = 22
-
     @testset "using only atomic weights" begin
         model = GNNChain(
-            Embedding(atomic_nums=>16),
+            Embedding(DLKitty.MAX_ATOMIC_NUM=>16),
             CGConv(16 => 64, relu; residual=false),
             CGConv(64 => 64, relu; residual=true),
             CGConv(64 => 64, relu; residual=true),
@@ -84,14 +80,14 @@ end
         @test ŷs ≈ weights rtol=0.05 # at most off by 5%
     end
 
-    @testset "using atomic weights and bond_types" begin
+    @testset "using atomic weights and DLKitty.BOND_TYPES" begin
         # We actually don't expect this to do better, because bond-type is not revervent to weight
 
         # Below SHOULD work but doesn't, probably because the `@compact` macro doesn't understand GNNFlux
         #==
         model = @compact(;            
-            atomic_num_embed = Embedding(atomic_nums=>17),
-            bond_embedding = Embedding(bond_types=>5),
+            atomic_num_embed = Embedding(DLKitty.MAX_ATOMIC_NUM=>17),
+            bond_embedding = Embedding(DLKitty.BOND_TYPES=>5),
             input_net = CGConv((17,5) => 64, relu; residual=false),
             output_net = GNNChain(            
                 CGConv(64 => 64, relu; residual=true),
@@ -112,8 +108,8 @@ end
         struct NE1Model <: LuxCore.AbstractLuxLayer
         end
         components() = (;            
-            atomic_num_embed = Embedding(atomic_nums=>17),
-            bond_embedding = Embedding(bond_types=>5),
+            atomic_num_embed = Embedding(DLKitty.MAX_ATOMIC_NUM=>17),
+            bond_embedding = Embedding(DLKitty.BOND_TYPES=>5),
             input_net = CGConv((17,5) => 64, relu; residual=false),
             output_net = GNNChain(            
                 CGConv(64 => 64, relu; residual=true),

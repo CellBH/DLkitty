@@ -33,6 +33,7 @@ function gnn_graph(mol)
     for atom in mol.GetAtoms()
         push!(node_data, (;
             atomic_num = bond_type=pyconvert(Int, atom.GetAtomicNum()),
+            # TODO: insert fingerprint here: https://github.com/CellBH/DLkitty/issues/9
         ))
     end
     return GNNGraph(
