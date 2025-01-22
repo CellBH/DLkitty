@@ -25,6 +25,7 @@ JSONTables = "1.0.3"
 Lux = "1.2.1"
 LuxCore = "1.1.0"
 Plots = "1.40.8"
+Statistics = "1"
 julia = "1.10"
 
 [extras]
