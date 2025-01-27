@@ -1,0 +1,2504 @@
+Substrate	SMILES	strlen
+Methane	C	1
+NH3	N	1
+H2O	O	1
+Hydrogen sulfide	S	1
+Methylamine	CN	2
+Methanol	CO	2
+Hydroxylamine	NO	2
+H2O2	OO	2
+Formaldehyde	C=O	3
+Ethylamine	CCN	3
+Alcohol	CCO	3
+Ethanol	CCO	3
+O2	O=O	3
+Acetaldehyde	CC=O	4
+Propylamine	CCCN	4
+1-Propanol	CCCO	4
+Ethyl hydroperoxide	CCOO	4
+H+	[H+]	4
+I-	[I-]	4
+Aldoxime	CC=NO	5
+Propanal	CCC=O	5
+1-Bromopropane	CCCBr	5
+Butylamine	CCCCN	5
+1-Butanol	CCCCO	5
+1-Chloropropane	CCCCl	5
+Br-	[Br-]	5
+Cl-	[Cl-]	5
+Cu+	[Cu+]	5
+Nitric oxide	[N]=O	5
+Sulfide	[S-2]	5
+Hydrosulfide	[SH-]	5
+Cyanamide	C(#N)N	6
+Formamide	C(=O)N	6
+Glycol	C(CO)O	6
+Cysteamine	C(CS)N	6
+2-Mercaptoethanol	C(CS)O	6
+Acrolein	C=CC=O	6
+2-Propanol	CC(C)O	6
+2-Buten-1-ol	CC=CCO	6
+Butanal	CCCC=O	6
+Amylamine	CCCCCN	6
+1-Pentanol	CCCCCO	6
+1-Chlorobutane	CCCCCl	6
+Trimethylamine	CN(C)C	6
+Cyanide	[C-]#N	6
+Ca2+	[Ca+2]	6
+Cr(VI)	[Cr+6]	6
+Fe2+	[Fe+2]	6
+Fe3+	[Fe+3]	6
+Mn2+	[Mn+2]	6
+CO2	C(=O)=O	7
+Carbonyl sulfide	C(=O)=S	7
+Carbon disulfide	C(=S)=S	7
+Glycolaldehyde	C(C=O)O	7
+2-Bromoethanol	C(CBr)O	7
+2-Chloroethanol	C(CCl)O	7
+1,3-Diaminopropane	C(CN)CN	7
+3-Aminopropanol	C(CN)CO	7
+Acetone	CC(=O)C	7
+Acetamide	CC(=O)N	7
+Isobutanol	CC(C)CO	7
+Crotonaldehyde	CC=CC=O	7
+(S)-2-Butanol	CCC(C)O	7
+(R)-2-Butanol	CCC(C)O	7
+2-Butanol	CCC(C)O	7
+R-(-)-2-Butanol	CCC(C)O	7
+(S)-(+)-2-Butanol	CCC(C)O	7
+n-Butyraldoxime	CCCC=NO	7
+1-Pentanal	CCCCC=O	7
+Pentanal	CCCCC=O	7
+1-Hexanol	CCCCCCO	7
+Glyoxal	C(=O)C=O	8
+1,2-Dibromoethane	C(CBr)Br	8
+Putrescine	C(CCN)CN	8
+3-Bromo-1-propanol	C(CO)CBr	8
+beta-Lactam	C1CNC1=O	8
+Hydroxyacetone	CC(=O)CO	8
+2-Methylpropanal	CC(C)C=O	8
+3-Methylbutanol	CC(C)CCO	8
+D-Lactaldehyde	CC(C=O)O	8
+L-Lactaldehyde	CC(C=O)O	8
+Lactaldehyde	CC(C=O)O	8
+2-Butanone	CCC(=O)C	8
+Propionamide	CCC(=O)N	8
+(S)-2-Methylbutanol	CCC(C)CO	8
+Pentan-3-ol	CCC(CC)O	8
+(R)-1,2-Butanediol	CCC(CO)O	8
+1,2-Butanediol	CCC(CO)O	8
+(E)-2-Pentenal	CCC=CC=O	8
+Leaf alcohol	CCC=CCCO	8
+2-Pentanol	CCCC(C)O	8
+trans-2-Hexenol	CCCC=CCO	8
+trans-2-Hexene-1-ol	CCCC=CCO	8
+Hexanal	CCCCCC=O	8
+1-Chlorohexane	CCCCCCCl	8
+Chlorite	[O-]Cl=O	8
+Thiocyanate	C(#N)[S-]	9
+Urea	C(=O)(N)N	9
+Dihydrogen carbonate	C(=O)(O)O	9
+Formate	C(=O)[O-]	9
+2-Butene-1,4-diol	C(C=CCO)O	9
+Malondialdehyde	C(C=O)C=O	9
+1,3-Dibromopropane	C(CBr)CBr	9
+4-Aminobutanal	C(CC=O)CN	9
+Cadaverine	C(CCN)CCN	9
+1,3-Dichloropropane	C(CCl)CCl	9
+Imidazole	C1=CN=CN1	9
+Pyrazole	C1=CNN=C1	9
+Furan	C1=COC=C1	9
+2-Methylene-1,3-propanediol	C=C(CO)CO	9
+Acrylamide	C=CC(=O)N	9
+(2R)-3-Butene-1,2-diol	C=CC(CO)O	9
+Methacrylonitrile	CC(=C)C#N	9
+3-Methyl-3-buten-1-ol	CC(=C)CCO	9
+Prenol	CC(=CCO)C	9
+3-Buten-2-one	CC(=O)C=C	9
+Methylglyoxal	CC(=O)C=O	9
+3-Methylbutanal	CC(C)CC=O	9
+4-Methylpentan-1-ol	CC(C)CCCO	9
+1,2-Dibromopropane	CC(CBr)Br	9
+2,4-Hexadien-1-ol	CC=CC=CCO	9
+2-Methylbutanal	CCC(C)C=O	9
+Butyramide	CCCC(=O)N	9
+(R)-1,2-Pentanediol	CCCC(CO)O	9
+trans-2-Hexenal	CCCC=CC=O	9
+S-(+)-2-Hexanol	CCCCC(C)O	9
+2-Hexanol	CCCCC(C)O	9
+Heptanal	CCCCCCC=O	9
+1-Octanol	CCCCCCCCO	9
+Sarcosine	CNCC(=O)O	9
+Nitrite	N(=O)[O-]	9
+Carbon monoxide	[C-]#[O+]	9
+Glycine	C(C(=O)O)N	10
+Glycolate	C(C(=O)O)O	10
+Glycerol	C(C(CO)O)O	10
+1,6-Diaminohexane	C(CCCN)CCN	10
+1,6-Hexanediol	C(CCCO)CCO	10
+Decarboxycystine	C(CSSCCN)N	10
+Hydroxyethyl disulfide	C(CSSCCO)O	10
+Vinylacetate	CC(=O)OC=C	10
+Acetate	CC(=O)[O-]	10
+2,3-Butanediol	CC(C(C)O)O	10
+(R,R)-Butane-2,3-diol	CC(C(C)O)O	10
+erythro-2,3-Butanediol	CC(C(C)O)O	10
+t-Butylhydroperoxide	CC(C)(C)OO	10
+3-Penten-2-one	CC=CC(=O)C	10
+But-2-enoyl-[acyl-carrier protein]	CC=CC(=O)S	10
+1-Penten-3-one	CCC(=O)C=C	10
+2-Ethylbutanal	CCC(CC)C=O	10
+2-Methylpentanal	CCCC(C)C=O	10
+4-Heptanol	CCCC(CCC)O	10
+Pentanamide	CCCCC(=O)N	10
+Heptan-2-ol	CCCCCC(C)O	10
+1-Octanal	CCCCCCCC=O	10
+1-Nonanol	CCCCCCCCCO	10
+S-Propyl thioacetate	CCCSC(=O)C	10
+Dihydroxyacetone	C(C(=O)CO)O	11
+D-Glyceraldehyde	C(C(C=O)O)O	11
+Glyceraldehyde	C(C(C=O)O)O	11
+L-Glyceraldehyde	C(C(C=O)O)O	11
+Glutaral	C(CC=O)CC=O	11
+1,7-Diaminoheptane	C(CCCN)CCCN	11
+beta-Alanine	C(CN)C(=O)O	11
+Bis(3-aminopropyl)amine	C(CN)CNCCCN	11
+(R)-1,2,4-Butanetriol	C(CO)C(CO)O	11
+Pyridine	C1=CC=NC=C1	11
+Cyclohexanol	C1CCC(CC1)O	11
+Ethylenethiourea	C1CNC(=S)N1	11
+Acetoin	CC(C(=O)C)O	11
+L-Alaninamide	CC(C(=O)N)N	11
+D-Alaninamide	CC(C(=O)N)N	11
+Lactamide	CC(C(=O)N)O	11
+D-Lactamide	CC(C(=O)N)O	11
+D-Alanine	CC(C(=O)O)N	11
+L-Alanine	CC(C(=O)O)N	11
+Alanine	CC(C(=O)O)N	11
+D-Lactate	CC(C(=O)O)O	11
+Acetone cyanohydrin	CC(C)(C#N)O	11
+2,2-Dimethylpropanal	CC(C)(C)C=O	11
+3-Methylbutan-2-one	CC(C)C(=O)C	11
+Isobutyramide	CC(C)C(=O)N	11
+Isobutanoate	CC(C)C(=O)O	11
+4-Hexen-3-one	CCC(=O)C=CC	11
+Vinyl propionate	CCC(=O)OC=C	11
+Propanoate	CCC(=O)[O-]	11
+Hexanoamide	CCCCCC(=O)N	11
+Nonanal	CCCCCCCCC=O	11
+1-Decanol	CCCCCCCCCCO	11
+Methimazole	CN1C=CNC1=S	11
+Phosphonate	[O-]P(=O)=O	11
+Carbamate	C(=O)(N)[O-]	12
+Hydrogencarbonate	C(=O)(O)[O-]	12
+2,3-Dibromopropan-1-ol	C(C(CBr)Br)O	12
+2,3-Dichloropropan-1-ol	C(C(CCl)Cl)O	12
+1,3-Dichloro-2-propanol	C(C(CCl)O)Cl	12
+Aminobutyrate	C(CC(=O)O)CN	12
+1,8-Diaminooctane	C(CCCCN)CCCN	12
+Octane-1,8-diol	C(CCCCO)CCCO	12
+Spermidine	C(CCNCCCN)CN	12
+Cyclohex-2-en-1-ol	C1CC=CC(C1)O	12
+Cyclohexanone	C1CCC(=O)CC1	12
+Bromocyclohexane	C1CCC(CC1)Br	12
+Chlorocyclohexane	C1CCC(CC1)Cl	12
+5-Valerolactone	C1CCOC(=O)C1	12
+Acrylate	C=CC(=O)[O-]	12
+Dimethylglyoxal	CC(=O)C(=O)C	12
+3-Chloro-2-butanone	CC(C(=O)C)Cl	12
+(R)-3-Hydroxybutanoate	CC(CC(=O)O)O	12
+trans-4-Methylcyclohexanol	CC1CCC(CC1)O	12
+cis-4-Methylcyclohexanol	CC1CCC(CC1)O	12
+4-Methylcyclohexanol	CC1CCC(CC1)O	12
+3-Methylcyclohexanol	CC1CCCC(C1)O	12
+L-alpha-Aminobutyrate	CCC(C(=O)O)N	12
+D-2-Hydroxybutanoate	CCC(C(=O)O)O	12
+2-Hydroxybutyrate	CCC(C(=O)O)O	12
+Vinyl butyrate	CCCC(=O)OC=C	12
+Butanoate	CCCC(=O)[O-]	12
+trans-2-Nonenal	CCCCCCC=CC=O	12
+Decanal	CCCCCCCCCC=O	12
+N,N-Dimethylglycine	CN(C)CC(=O)O	12
+Methyl methanethiolsulfonate	CSS(=O)(=O)C	12
+trans-3-Bromoacrylic acid	C(=CBr)C(=O)O	13
+trans-3-Chloroacrylic acid	C(=CCl)C(=O)O	13
+cis-3-Chloroacrylic acid	C(=CCl)C(=O)O	13
+1,2,3-Tribromopropane	C(C(CBr)Br)Br	13
+1,2,3-Trichloropropane	C(C(CCl)Cl)Cl	13
+1,9-Diaminononane	C(CCCCN)CCCCN	13
+5-Aminopentanoate	C(CCN)CC(=O)O	13
+Cyclohex-2-enone	C1CC=CC(=O)C1	13
+Cyclohexane carboxaldehyde	C1CCC(CC1)C=O	13
+2,4-Pentanedione	CC(=O)CC(=O)C	13
+5-Methyl-2-hexanone	CC(C)CCC(=O)C	13
+4-Methylvalerate	CC(C)CCC(=O)O	13
+o-Toluidine	CC1=CC=CC=C1N	13
+4-Methylcyclohexanone	CC1CCC(=O)CC1	13
+3-Methylcyclohexanone	CC1CCCC(=O)C1	13
+2,3-Pentanedione	CCC(=O)C(=O)C	13
+2-Oxobutyrate	CCC(=O)C(=O)O	13
+gamma-Caprolactone	CCC1CCC(=O)O1	13
+L-Norvaline	CCCC(C(=O)O)N	13
+1,2,3-Hexanetriol	CCCC(C(CO)O)O	13
+Pentanoate	CCCCC(=O)[O-]	13
+Undecanal	CCCCCCCCCCC=O	13
+1-Dodecanol	CCCCCCCCCCCCO	13
+Anisole	COC1=CC=CC=C1	13
+Methylphenyl sulfide	CSC1=CC=CC=C1	13
+S-Methyl-L-cysteine	CSCC(C(=O)O)N	13
+Sulfite	[O-]S(=O)[O-]	13
+Glyoxylate	C(=O)C(=O)[O-]	14
+Bromoacetate	C(C(=O)[O-])Br	14
+2,3-Diaminopropanoate	C(C(C(=O)O)N)N	14
+D-Serine	C(C(C(=O)O)N)O	14
+L-Serine	C(C(C(=O)O)N)O	14
+Serine	C(C(C(=O)O)N)O	14
+L-Cysteine	C(C(C(=O)O)N)S	14
+Cysteine	C(C(C(=O)O)N)S	14
+Glycerate	C(C(C(=O)O)O)O	14
+Threitol	C(C(C(CO)O)O)O	14
+L-Threitol	C(C(C(CO)O)O)O	14
+Erythritol	C(C(C(CO)O)O)O	14
+1,4-Dithiothreitol	C(C(C(CS)O)O)S	14
+Dithioerythritol	C(C(C(CS)O)O)S	14
+1,10-Diaminodecane	C(CCCCCN)CCCCN	14
+Agmatine	C(CCN=C(N)N)CN	14
+N-Carbamoylputrescine	C(CCNC(=O)N)CN	14
+3-Hydroxypropanoate	C(CO)C(=O)[O-]	14
+3-Mercaptopropanoate	C(CS)C(=O)[O-]	14
+Histamine	C1=C(NC=N1)CCN	14
+Aniline	C1=CC=C(C=C1)N	14
+Phenol	C1=CC=C(C=C1)O	14
+Pyridine-4-aldehyde	C1=CN=CC=C1C=O	14
+2-Pyrrole carboxaldehyde	C1=CNC(=C1)C=O	14
+2-Thiophenaldehyde	C1=CSC(=C1)C=O	14
+1,4-Cyclohexanedione	C1CC(=O)CCC1=O	14
+5,6-Dihydrouracil	C1CNC(=O)NC1=O	14
+Styrene	C=CC1=CC=CC=C1	14
+4-Vinylpyridine	C=CC1=CC=NC=C1	14
+Acetylcyclohexane	CC(=O)C1CCCCC1	14
+L-Lactate	CC(C(=O)[O-])O	14
+2-Amino-2-methylpropanoate	CC(C)(C(=O)O)N	14
+Pivalamide	CC(C)(C)C(=O)N	14
+Isoamyl acetate	CC(C)CCOC(=O)C	14
+2-Methylanisole	CC1=CC=CC=C1OC	14
+3,4-Hexanedione	CCC(=O)C(=O)CC	14
+2,3-Hexanedione	CCCC(=O)C(=O)C	14
+L-Norleucine	CCCCC(C(=O)O)N	14
+1,2,3-Heptanetriol	CCCCC(C(CO)O)O	14
+Hexanoate	CCCCCC(=O)[O-]	14
+S-Ethyl-L-cysteine	CCSCC(C(=O)O)N	14
+Nitroethane	CC[N+](=O)[O-]	14
+Guaiacol	COC1=CC=CC=C1O	14
+(2S,3S)-1,4-Dimethoxy-2,3-butanediol	COCC(C(COC)O)O	14
+L-Methioninamide	CSCCC(C(=O)N)N	14
+Methioninamide	CSCCC(C(=O)N)N	14
+D-Methionine	CSCCC(C(=O)O)N	14
+L-Methionine	CSCCC(C(=O)O)N	14
+Methionine	CSCCC(C(=O)O)N	14
+Choline	C[N+](C)(C)CCO	14
+Biuret	C(=O)(N)NC(=O)N	15
+3-Mercaptopyruvate	C(C(=O)C(=O)O)S	15
+L-Erythrulose	C(C(C(=O)CO)O)O	15
+D-Erythrulose	C(C(C(=O)CO)O)O	15
+3-Chloro-L-alanine	C(C(C(=O)O)N)Cl	15
+3-Chloro-D-alanine	C(C(C(=O)O)N)Cl	15
+D-Erythrose	C(C(C(C=O)O)O)O	15
+D-Threose	C(C(C(C=O)O)O)O	15
+L-Threose	C(C(C(C=O)O)O)O	15
+Erythrose	C(C(C(C=O)O)O)O	15
+3-Oxopropanoate	C(C=O)C(=O)[O-]	15
+2-Phosphonoacetaldehyde	C(C=O)P(=O)(O)O	15
+4-Aminobutanoate	C(CC(=O)[O-])CN	15
+L-2,4-Diaminobutanoate	C(CN)C(C(=O)O)N	15
+L-Homoserine	C(CO)C(C(=O)O)N	15
+D-Homoserine	C(CO)C(C(=O)O)N	15
+Taurine	C(CS(=O)(=O)O)N	15
+L-Homocysteine	C(CS)C(C(=O)O)N	15
+Hydroquinone	C1=CC(=CC=C1O)O	15
+3-Pyridinemethanol	C1=CC(=CN=C1)CO	15
+Benzylamine	C1=CC=C(C=C1)CN	15
+Benzyl alcohol	C1=CC=C(C=C1)CO	15
+2-Aminomethylpyridine	C1=CC=NC(=C1)CN	15
+Uracil	C1=CNC(=O)NC1=O	15
+Thioproline	C1C(NCS1)C(=O)O	15
+L-Prolinamide	C1CC(NC1)C(=O)N	15
+D-Proline	C1CC(NC1)C(=O)O	15
+L-Proline	C1CC(NC1)C(=O)O	15
+Proline	C1CC(NC1)C(=O)O	15
+(2E)-2-Hydroxypenta-2,4-dienoic acid	C=CC=C(C(=O)O)O	15
+Pyruvate	CC(=O)C(=O)[O-]	15
+2-Acetylpyrrole	CC(=O)C1=CC=CN1	15
+L-Threoninamide	CC(C(C(=O)N)N)O	15
+D-Threonine	CC(C(C(=O)O)N)O	15
+L-allo-Threonine	CC(C(C(=O)O)N)O	15
+L-Threonine	CC(C(C(=O)O)N)O	15
+Threonine	CC(C(C(=O)O)N)O	15
+2,4-Dimethyl-3-pentanone	CC(C)C(=O)C(C)C	15
+D-Valine	CC(C)C(C(=O)O)N	15
+L-Valine	CC(C)C(C(=O)O)N	15
+Valine	CC(C)C(C(=O)O)N	15
+m-Toluidine	CC1=CC(=CC=C1)N	15
+p-Toluidine	CC1=CC=C(C=C1)N	15
+4-Cresol	CC1=CC=C(C=C1)O	15
+o-Methylbenzaldehyde	CC1=CC=CC=C1C=O	15
+2-Methylbenzaldehyde	CC1=CC=CC=C1C=O	15
+5,6-Dihydrothymine	CC1CNC(=O)NC1=O	15
+1,2-Dihydroxyhex-1-en-3-one	CCCC(=O)C(=CO)O	15
+2,3-Heptanedione	CCCCC(=O)C(=O)C	15
+1,2,3-Octanetriol	CCCCCC(C(CO)O)O	15
+4-Hydroxy-2-nonenal	CCCCCC(C=CC=O)O	15
+Heptanoate	CCCCCCC(=O)[O-]	15
+1-Tetradecanol	CCCCCCCCCCCCCCO	15
+1-Nitropropane	CCC[N+](=O)[O-]	15
+L-Homoserine ethyl ester	CCOC(=O)C(CCO)N	15
+Guaethol	CCOC1=CC=CC=C1O	15
+Ethyl nitronate	CCO[N+](=C)[O-]	15
+L-Ethionine	CCSCCC(C(=O)O)N	15
+Veratrole	COC1=CC=CC=C1OC	15
+4-Methylthio-2-oxobutanoate	CSCCC(=O)C(=O)O	15
+Betaine aldehyde	C[N+](C)(C)CC=O	15
+3-Bromopyruvate	C(C(=O)C(=O)O)Br	16
+Guanidinoacetate	C(C(=O)O)N=C(N)N	16
+2-Deoxy-D-ribose	C(C=O)C(C(CO)O)O	16
+Succinate semialdehyde	C(CC(=O)[O-])C=O	16
+L-Ornithine	C(CC(C(=O)O)N)CN	16
+D-Ornithine	C(CC(C(=O)O)N)CN	16
+Spermine	C(CCNCCCN)CNCCCN	16
+p-Fluorobenzyl alcohol	C1=CC(=CC=C1CO)F	16
+p-Hydroxybenzyl alcohol	C1=CC(=CC=C1CO)O	16
+4-Bromophenol	C1=CC(=CC=C1O)Br	16
+4-Chlorophenol	C1=CC(=CC=C1O)Cl	16
+3-Pyridinecarboxaldehyde	C1=CC(=CN=C1)C=O	16
+Pyridine-3-aldehyde	C1=CC(=CN=C1)C=O	16
+1,4-Benzoquinone	C1=CC(=O)C=CC1=O	16
+Benzene dihydrodiol	C1=CC(C(C=C1)O)O	16
+trans-1,2-Dihydrobenzene-1,2-diol	C1=CC(C(C=C1)O)O	16
+Benzaldehyde	C1=CC=C(C=C1)C=O	16
+2-Phenylethylamine	C1=CC=C(C=C1)CCN	16
+Nitrosobenzene	C1=CC=C(C=C1)N=O	16
+Pyridine-2-aldehyde	C1=CC=NC(=C1)C=O	16
+trans-4-Hydroxy-L-proline	C1C(CNC1C(=O)O)O	16
+3,4-Dehydro-L-proline	C1C=CC(N1)C(=O)O	16
+(S)-1-Pyrroline-5-carboxylate	C1CC(N=C1)C(=O)O	16
+L-Pipecolate	C1CCNC(C1)C(=O)O	16
+trans-L-3-Hydroxyproline	C1CNC(C1O)C(=O)O	16
+Acetoacetate	CC(=O)CC(=O)[O-]	16
+N1-Acetylspermidine	CC(=O)NCCCNCCCCN	16
+Acetyl phosphate	CC(=O)OP(=O)(O)O	16
+alpha-Ketovaline	CC(C)C(=O)C(=O)O	16
+L-Leucinamide	CC(C)CC(C(=O)N)N	16
+Leucinamide	CC(C)CC(C(=O)N)N	16
+L-Leucine	CC(C)CC(C(=O)O)N	16
+D-Leucine	CC(C)CC(C(=O)O)N	16
+Leucine	CC(C)CC(C(=O)O)N	16
+2-Hydroxyisocaproate	CC(C)CC(C(=O)O)O	16
+(R)-1-Phenylethylamine	CC(C1=CC=CC=C1)N	16
+1-Phenylethanol	CC(C1=CC=CC=C1)O	16
+(S)-1-Phenylethanol	CC(C1=CC=CC=C1)O	16
+2-Methyl-3-oxopropanoate	CC(C=O)C(=O)[O-]	16
+beta-Citronellol	CC(CCC=C(C)C)CCO	16
+Thymine	CC1=CNC(=O)NC1=O	16
+D-Isoleucine	CCC(C)C(C(=O)O)N	16
+L-Isoleucine	CCC(C)C(C(=O)O)N	16
+3-Methylvalerate	CCC(C)CC(=O)[O-]	16
+4-Ethylphenol	CCC1=CC=C(C=C1)O	16
+D-2-Hydroxyvalerate	CCCC(C(=O)[O-])O	16
+2-Hydroxyvalerate	CCCC(C(=O)[O-])O	16
+4-Oxonon-2-enal	CCCCCC(=O)C=CC=O	16
+gamma-Nonalactone	CCCCCC1CCC(=O)O1	16
+Octanoate	CCCCCCCC(=O)[O-]	16
+1,1-Dimethoxydecane	CCCCCCCCCC(OC)OC	16
+2-Dodecanone	CCCCCCCCCCC(=O)C	16
+1-Nitrobutane	CCCC[N+](=O)[O-]	16
+L-Homoserine n-propyl ester	CCCOC(=O)C(CCO)N	16
+N-Ethylmaleimide	CCN1C(=O)C=CC1=O	16
+p-Anisidine	COC1=CC=C(C=C1)N	16
+4-Hydroxyanisole	COC1=CC=C(C=C1)O	16
+4-Methoxyphenol	COC1=CC=C(C=C1)O	16
+m-Hydroxyanisole	COC1=CC=CC(=C1)O	16
+2-Methoxybenzaldehyde	COC1=CC=CC=C1C=O	16
+Methylphosphonate	CP(=O)([O-])[O-]	16
+Gly-Gly	C(C(=O)NCC(=O)O)N	17
+L-Selenocysteine	C(C(C(=O)O)N)[Se]	17
+D-Glycerate	C(C(C(=O)[O-])O)O	17
+5-Aminolevulinate	C(CC(=O)O)C(=O)CN	17
+Glutarate	C(CC(=O)O)CC(=O)O	17
+L-Lysine	C(CCN)CC(C(=O)O)N	17
+D-Lysine	C(CCN)CC(C(=O)O)N	17
+N-Carbamoyl-beta-alanine	C(CNC(=O)N)C(=O)O	17
+4-Fluorobenzaldehyde	C1=CC(=CC=C1C=O)F	17
+4-Hydroxybenzaldehyde	C1=CC(=CC=C1C=O)O	17
+Tyramine	C1=CC(=CC=C1CCN)O	17
+p-Chlorobenzyl alcohol	C1=CC(=CC=C1CO)Cl	17
+p-Nitrosophenol	C1=CC(=CC=C1N=O)O	17
+2,6-Dihydroxypyridine	C1=CC(=O)NC(=C1)O	17
+Catechol	C1=CC=C(C(=C1)O)O	17
+Phenylacetaldehyde	C1=CC=C(C=C1)CC=O	17
+3-Phenyl-1-propanol	C1=CC=C(C=C1)CCCO	17
+Pyridine-2-aldoxime	C1=CC=NC(=C1)C=NO	17
+Isonicotinamide	C1=CN=CC=C1C(=O)N	17
+1-Aminocyclopropane-1-carboxylate	C1CC1(C(=O)[O-])N	17
+1-Indanole	C1CC2=CC=CC=C2C1O	17
+(S)-Indan-1-ol	C1CC2=CC=CC=C2C1O	17
+Indan-1-ol	C1CC2=CC=CC=C2C1O	17
+delta1-Piperideine-2-carboxylate	C1CCN=C(C1)C(=O)O	17
+Lipoamide	C1CSSC1CCCCC(=O)N	17
+(R)-Lipoic acid	C1CSSC1CCCCC(=O)O	17
+(S)-Lipoic acid	C1CSSC1CCCCC(=O)O	17
+Geraniol	CC(=CCCC(=CCO)C)C	17
+Nerol	CC(=CCCC(=CCO)C)C	17
+Acetophenone	CC(=O)C1=CC=CC=C1	17
+2-Acetylpyridine	CC(=O)C1=CC=CC=N1	17
+4-Acetylpyridine	CC(=O)C1=CC=NC=C1	17
+N-Acetyl-L-alanine	CC(C(=O)O)NC(=O)C	17
+4-Methyl-2-oxopentanoate	CC(C)CC(=O)C(=O)O	17
+2-Keto-4-methylpentanoic acid	CC(C)CC(=O)C(=O)O	17
+2-Oxoleucine	CC(C)CC(=O)C(=O)O	17
+L-Leucine methyl ester	CC(C)CC(C(=O)OC)N	17
+2-Nitropropane	CC(C)[N+](=O)[O-]	17
+Citronellal	CC(CCC=C(C)C)CC=O	17
+m-Methylbenzaldehyde	CC1=CC(=CC=C1)C=O	17
+3-Methylbenzaldehyde	CC1=CC(=CC=C1)C=O	17
+Methyl-1,4-benzoquinone	CC1=CC(=O)C=CC1=O	17
+p-Tolualdehyde	CC1=CC=C(C=C1)C=O	17
+Phosphonomycin	CC1C(O1)P(=O)(O)O	17
+Propanoyl phosphate	CCC(=O)OP(=O)(O)O	17
+(R)-2-Oxo-3-methylpentanoate	CCC(C)C(=O)C(=O)O	17
+2-Oxopentanoate	CCCC(=O)C(=O)[O-]	17
+2-Hydroxycaproate	CCCCC(C(=O)[O-])O	17
+2-Hydroxyhexanoate	CCCCC(C(=O)[O-])O	17
+Nonanoate	CCCCCCCCC(=O)[O-]	17
+Dodecanoyl-[acyl-carrier protein]	CCCCCCCCCCCC(=O)S	17
+1-Nitropentane	CCCCC[N+](=O)[O-]	17
+L-Homoserine n-butyl ester	CCCCOC(=O)C(CCO)N	17
+N1,N11-Diethylnorspermine	CCNCCCNCCCNCCCNCC	17
+4-Ethoxyphenol	CCOC1=CC=C(C=C1)O	17
+Phosphodimethylethanolamine	CN(C)CCOP(=O)(O)O	17
+Creatine	CN(CC(=O)O)C(=N)N	17
+Tropinone	CN1C2CCC1CC(=O)C2	17
+4-Methoxybenzyl alcohol	COC1=CC=C(C=C1)CO	17
+1,4-Dimethoxybenzene	COC1=CC=C(C=C1)OC	17
+3-Methoxybenzyl alcohol	COC1=CC=CC(=C1)CO	17
+3-Methoxycatechol	COC1=CC=CC(=C1O)O	17
+4-(Methoxymethyl)phenol	COCC1=CC=C(C=C1)O	17
+N-Formyl-L-methionine	CSCCC(C(=O)O)NC=O	17
+Sulfate	[O-]S(=O)(=O)[O-]	17
+Thiosulfate	[O-]S(=O)(=S)[O-]	17
+Carbamoyl phosphate	C(=O)(N)OP(=O)(O)O	18
+2-Hydroxy-3-oxopropanoate	C(=O)C(C(=O)[O-])O	18
+1,4-Dibromo-2,3-butanedione	C(C(=O)C(=O)CBr)Br	18
+3-Hydroxypyruvate	C(C(=O)C(=O)[O-])O	18
+N-Chloroacetylglycine	C(C(=O)O)NC(=O)CCl	18
+Phosphonoacetate	C(C(=O)O)P(=O)(O)O	18
+D-Erythronic acid	C(C(C(C(=O)O)O)O)O	18
+Xylitol	C(C(C(C(CO)O)O)O)O	18
+L-Arabitol	C(C(C(C(CO)O)O)O)O	18
+Ribitol	C(C(C(C(CO)O)O)O)O	18
+D-Arabitol	C(C(C(C(CO)O)O)O)O	18
+4-Amino-3-hydroxybutanoate	C(C(CN)O)C(=O)[O-]	18
+Chloral hydrate	C(C(Cl)(Cl)Cl)(O)O	18
+4-Guanidinobutanoate	C(CC(=O)O)CN=C(N)N	18
+1,2,7,8-Octanetetrol	C(CCC(CO)O)CC(CO)O	18
+6-Amino-2-oxohexanoate	C(CCN)CC(=O)C(=O)O	18
+L-Histidinol	C1=C(NC=N1)CC(CO)N	18
+Benzene-1,2,4-triol	C1=CC(=C(C=C1O)O)O	18
+3-Bromophenol	C1=CC(=CC(=C1)Br)O	18
+3-Chlorophenol	C1=CC(=CC(=C1)Cl)O	18
+m-Fluorobenzyl alcohol	C1=CC(=CC(=C1)F)CO	18
+4-Bromobenzaldehyde	C1=CC(=CC=C1C=O)Br	18
+4-Chlorobenzaldehyde	C1=CC(=CC=C1C=O)Cl	18
+4-Hydroxyphenylacetonitrile	C1=CC(=CC=C1CC#N)O	18
+4-Hydroxyphenylacetaldehyde	C1=CC(=CC=C1CC=O)O	18
+Cinnamyl alcohol	C1=CC=C(C=C1)C=CCO	18
+Phenylacetaldoxime	C1=CC=C(C=C1)CC=NO	18
+Hydrocinnamaldehyde	C1=CC=C(C=C1)CCC=O	18
+Styrene oxide	C1C(O1)C2=CC=CC=C2	18
+2-Hydroxy-2,4-pentadienoate	C=CC=C(C(=O)O)[O-]	18
+Chavicol	C=CCC1=CC=C(C=C1)O	18
+2-Methylmaleate	CC(=CC(=O)O)C(=O)O	18
+Citral	CC(=CCCC(=CC=O)C)C	18
+Phenylacetone	CC(=O)CC1=CC=CC=C1	18
+N-Acetyl-DL-serine	CC(=O)NC(CO)C(=O)O	18
+N-Acetyl-L-cysteine	CC(=O)NC(CS)C(=O)O	18
+O-Acetyl-L-serine	CC(=O)OCC(C(=O)O)N	18
+L-Homoserine isopropyl ester	CC(C)OC(=O)C(CCO)N	18
+alpha-Phenylpropionaldehyde	CC(C=O)C1=CC=CC=C1	18
+2,3-Dihydroxytoluene	CC1=C(C(=CC=C1)O)O	18
+2-Methyl-p-cresol	CC1=CC(=C(C=C1)O)C	18
+2-Amino-p-cresol	CC1=CC(=C(C=C1)O)N	18
+4-Methylcatechol	CC1=CC(=C(C=C1)O)O	18
+Skatole	CC1=CNC2=CC=CC=C12	18
+Propiophenone	CCC(=O)C1=CC=CC=C1	18
+N-Butyryl-L-homoserine lactone	CCCC(=O)NC1CCOC1=O	18
+Butanoyl phosphate	CCCC(=O)OP(=O)(O)O	18
+2-Oxohexanoate	CCCCC(=O)C(=O)[O-]	18
+1-Nitrohexane	CCCCCC[N+](=O)[O-]	18
+Pentanesulfonic acid	CCCCCS(=O)(=O)[O-]	18
+N1,N12-Diethylspermine	CCNCCCNCCCCNCCCNCC	18
+N-Methyl-D-aspartic acid	CNC(CC(=O)O)C(=O)O	18
+Methylbenzoate	COC(=O)C1=CC=CC=C1	18
+p-Anisaldehyde	COC1=CC=C(C=C1)C=O	18
+4-Methoxybenzaldehyde	COC1=CC=C(C=C1)C=O	18
+4-Methoxyphenylethylamine	COC1=CC=C(C=C1)CCN	18
+3-Methoxybenzaldehyde	COC1=CC=CC(=C1)C=O	18
+2-Hydroxy-3-methoxybenzyl alcohol	COC1=CC=CC(=C1O)CO	18
+2,3-Dimethoxyphenol	COC1=CC=CC(=C1OC)O	18
+L-Methionine S-oxide	CS(=O)CCC(C(=O)O)N	18
+L-Methionine (R)-S-oxide	CS(=O)CCC(C(=O)O)N	18
+(-)-Ureidoglycolate	C(C(=O)O)(NC(=O)N)O	19
+D-Asparagine	C(C(C(=O)O)N)C(=O)N	19
+L-Asparagine	C(C(C(=O)O)N)C(=O)N	19
+Asparagine	C(C(C(=O)O)N)C(=O)N	19
+D-Aspartate	C(C(C(=O)O)N)C(=O)O	19
+L-Aspartate	C(C(C(=O)O)N)C(=O)O	19
+Aspartate	C(C(C(=O)O)N)C(=O)O	19
+3-Sulfino-L-alanine	C(C(C(=O)O)N)S(=O)O	19
+D-Malate	C(C(C(=O)O)O)C(=O)O	19
+D-Ribulose	C(C(C(C(=O)CO)O)O)O	19
+D-Xylulose	C(C(C(C(=O)CO)O)O)O	19
+L-Xylulose	C(C(C(C(=O)CO)O)O)O	19
+L-Ribulose	C(C(C(C(=O)CO)O)O)O	19
+L-Xylose	C(C(C(C(C=O)O)O)O)O	19
+L-Lyxose	C(C(C(C(C=O)O)O)O)O	19
+L-Ribose	C(C(C(C(C=O)O)O)O)O	19
+D-Apiose	C(C(CO)(C(C=O)O)O)O	19
+Glycerol 2-phosphate	C(C(CO)OP(=O)(O)O)O	19
+sn-Glycerol 3-phosphate	C(C(COP(=O)(O)O)O)O	19
+sn-Glycerol 1-phosphate	C(C(COP(=O)(O)O)O)O	19
+Succinamate	C(CC(=O)[O-])C(=O)N	19
+Dihydrolipoamide	C(CCC(=O)N)CC(CCS)S	19
+Dihydrolipoylprotein	C(CCC(=O)N)CC(CCS)S	19
+Carboxynorspermidine	C(CN)CNCCC(C(=O)O)N	19
+3-Chlorobenzyl alcohol	C1=CC(=CC(=C1)Cl)CO	19
+m-Fluorobenzaldehyde	C1=CC(=CC(=C1)F)C=O	19
+3-Fluorobenzaldehyde	C1=CC(=CC(=C1)F)C=O	19
+3-Hydroxybenzaldehyde	C1=CC(=CC(=C1)O)C=O	19
+4-Coumaryl alcohol	C1=CC(=CC=C1C=CCO)O	19
+4-Cyanobenzaldehyde	C1=CC(=CC=C1C=O)C#N	19
+Terephthalaldehyde	C1=CC(=CC=C1C=O)C=O	19
+4-Hydroxyphenylacetaldoxime	C1=CC(=CC=C1CC=NO)O	19
+Nicotinamide	C1=CC(=CN=C1)C(=O)N	19
+Thionicotinamide	C1=CC(=CN=C1)C(=S)N	19
+2,5-Dihydro-5-oxofuran-2-acetate	C1=CC(=O)OC1CC(=O)O	19
+Salicylaldehyde	C1=CC=C(C(=C1)C=O)O	19
+Benzamide	C1=CC=C(C=C1)C(=O)N	19
+Phenylethanolamine	C1=CC=C(C=C1)C(CN)O	19
+trans-Cinnamaldehyde	C1=CC=C(C=C1)C=CC=O	19
+Cinnamaldehyde	C1=CC=C(C=C1)C=CC=O	19
+Indole	C1=CC=C2C(=C1)C=CN2	19
+Naphthalene	C1=CC=C2C=CC=CC2=C1	19
+Phthalazine	C1=CC=C2C=NN=CC2=C1	19
+1-Pyrroline-2-carboxylate	C1CC(=NC1)C(=O)[O-]	19
+3,4-Dihydro-2H-Pyrrole-2-carboxylate	C1CC(N=C1)C(=O)[O-]	19
+(S)-2-Acetolactate	CC(=O)C(C)(C(=O)O)O	19
+2-Acetolactate	CC(=O)C(C)(C(=O)O)O	19
+Benzylacetone	CC(=O)CCC1=CC=CC=C1	19
+3-Hydroxy-2-oxobutanoate	CC(C(=O)C(=O)[O-])O	19
+6-deoxy-L-Mannitol	CC(C(C(C(CO)O)O)O)O	19
+D-Pantoate	CC(C)(CO)C(C(=O)O)O	19
+4-Isopropylphenol	CC(C)C1=CC=C(C=C1)O	19
+Isopropylbenzaldehyde	CC(C)C1=CC=CC=C1C=O	19
+L-Homoserine isobutyl ester	CC(C)COC(=O)C(CCO)N	19
+Creosol	CC1=CC(=C(C=C1)O)OC	19
+4-Amino-5-hydroxymethyl-2-methylpyrimidine	CC1=NC=C(C(=N1)N)CO	19
+(+)-Neomenthol	CC1CCC(C(C1)O)C(C)C	19
+(-)-Menthol	CC1CCC(C(C1)O)C(C)C	19
+2-Hydroxyhexa-2,4-dienoate	CC=CC=C(C(=O)O)[O-]	19
+Butyrophenone	CCCC(=O)C1=CC=CC=C1	19
+2-Hydroxyoctanoate	CCCCCCC(C(=O)[O-])O	19
+Myristic acid	CCCCCCCCCCCCCC(=O)O	19
+N,N-Dimethyl-1,4-phenylenediamine	CN(C)C1=CC=C(C=C1)N	19
+Methyl salicylate	COC(=O)C1=CC=CC=C1O	19
+Methyl 2-phenylacetate	COC(=O)CC1=CC=CC=C1	19
+Methoxyhydroquinone	COC1=C(C=CC(=C1)O)O	19
+Phosphate	[O-]P(=O)([O-])[O-]	19
+Oxalate	C(=O)(C(=O)[O-])[O-]	20
+Oxaloacetate	C(C(=O)C(=O)O)C(=O)O	20
+Glycerone phosphate	C(C(=O)COP(=O)(O)O)O	20
+D-Xylosone	C(C(C(C(=O)C=O)O)O)O	20
+D-Glyceraldehyde 3-phosphate	C(C(C=O)O)OP(=O)(O)O	20
+Glyceraldehyde 3-phosphate	C(C(C=O)O)OP(=O)(O)O	20
+2-Deoxy-D-glucose	C(C=O)C(C(C(CO)O)O)O	20
+2-Deoxy-D-galactose	C(C=O)C(C(C(CO)O)O)O	20
+Glutamine	C(CC(=O)N)C(C(=O)O)N	20
+L-Glutamine	C(CC(=O)N)C(C(=O)O)N	20
+D-Glutamine	C(CC(=O)N)C(C(=O)O)N	20
+D-Glutamate	C(CC(=O)O)C(C(=O)O)N	20
+L-Glutamate	C(CC(=O)O)C(C(=O)O)N	20
+Glutamate	C(CC(=O)O)C(C(=O)O)N	20
+(R)-2-Hydroxyglutarate	C(CC(=O)O)C(C(=O)O)O	20
+(S)-2-Hydroxyglutarate	C(CC(=O)O)C(C(=O)O)O	20
+Carboxyspermidine	C(CC(C(=O)O)N)CNCCCN	20
+12-Hydroxydodecanoic acid	C(CCCCCC(=O)O)CCCCCO	20
+Cyanuric acid	C1(=O)NC(=O)NC(=O)N1	20
+1,2,3-Trihydroxybenzene	C1=CC(=C(C(=C1)O)O)O	20
+2,4-Dibromophenol	C1=CC(=C(C=C1Br)Br)O	20
+Dopamine	C1=CC(=C(C=C1CCN)O)O	20
+2,4-Dichlorophenol	C1=CC(=C(C=C1Cl)Cl)O	20
+3-Bromobenzaldehyde	C1=CC(=CC(=C1)Br)C=O	20
+3-Chlorobenzaldehyde	C1=CC(=CC(=C1)Cl)C=O	20
+1-(4-Hydroxyphenyl)-2-aminoethanol	C1=CC(=CC=C1C(CN)O)O	20
+4-Hydroxycinnamyl aldehyde	C1=CC(=CC=C1C=CC=O)O	20
+6-Hydroxynicotinate	C1=CC(=O)NC=C1C(=O)O	20
+trans-4-Carboxymethylenebut-2-en-4-olide	C1=CC(=O)OC1=CC(=O)O	20
+2-Chlorobenzaldehyde	C1=CC=C(C(=C1)C=O)Cl	20
+2-Hydroxyacetophenone	C1=CC=C(C=C1)C(=O)CO	20
+Mandelonitrile	C1=CC=C(C=C1)C(C#N)O	20
+(S)-2-Chloro-1-phenylethanol	C1=CC=C(C=C1)C(CCl)O	20
+(R)-2-Chloro-1-phenylethanol	C1=CC=C(C=C1)C(CCl)O	20
+2-Phenylacetamide	C1=CC=C(C=C1)CC(=O)N	20
+Phenylacetic acid	C1=CC=C(C=C1)CC(=O)O	20
+Phenethyl isothiocyanate	C1=CC=C(C=C1)CCN=C=S	20
+Adenine	C1=NC2=NC=NC(=C2N1)N	20
+L-Arabinose	C1C(C(C(C(O1)O)O)O)O	20
+D-Xylose	C1C(C(C(C(O1)O)O)O)O	20
+beta-L-Arabinose	C1C(C(C(C(O1)O)O)O)O	20
+alpha-D-Xylose	C1C(C(C(C(O1)O)O)O)O	20
+D-Ribose	C1C(C(C(C(O1)O)O)O)O	20
+D-Lyxose	C1C(C(C(C(O1)O)O)O)O	20
+1,4-beta-D-Xylan	C1C(C(C(C(O1)O)O)O)O	20
+Xylose	C1C(C(C(C(O1)O)O)O)O	20
+Arabinose	C1C(C(C(C(O1)O)O)O)O	20
+Indanone	C1CC(=O)C2=CC=CC=C21	20
+(S)-(+)-1,2,3,4-Tetrahydro-1-naphthol	C1CC(C2=CC=CC=C2C1)O	20
+Lipoate	C1CSSC1CCCCC(=O)[O-]	20
+8-Oxogeranial	CC(=CC=O)CCC=C(C)C=O	20
+3-Hydroxyacetophenone	CC(=O)C1=CC(=CC=C1)O	20
+4-Fluoroacetophenone	CC(=O)C1=CC=C(C=C1)F	20
+4-Aminoacetophenone	CC(=O)C1=CC=C(C=C1)N	20
+4'-Hydroxyacetophenone	CC(=O)C1=CC=C(C=C1)O	20
+N2-Acetyl-L-ornithine	CC(=O)NC(CCCN)C(=O)O	20
+N-Acetyl-L-methionine	CC(=O)NC(CCSC)C(=O)O	20
+N1-Acetylspermine	CC(=O)NCCCNCCCCNCCCN	20
+Acetylcholine	CC(=O)OCC[N+](C)(C)C	20
+Acetylthiocholine	CC(=O)SCC[N+](C)(C)C	20
+L-threo-3-Methylaspartate	CC(C(C(=O)O)N)C(=O)O	20
+Cumene hydroperoxide	CC(C)(C1=CC=CC=C1)OO	20
+2-Dehydropantoate	CC(C)(CO)C(=O)C(=O)O	20
+Diisopropyl fluorophosphate	CC(C)OP(=O)(OC(C)C)F	20
+4-Hydroxy-2-oxopentanoate	CC(CC(=O)C(=O)[O-])O	20
+2-Methylaspartic acid	CC(CC(=O)O)(C(=O)O)N	20
+D-Citramalate	CC(CC(=O)O)(C(=O)O)O	20
+4-Hydroxy-3-methylbenzaldehyde	CC1=C(C=CC(=C1)C=O)O	20
+2,4-Dimethylbenzaldehyde	CC1=CC(=C(C=C1)C=O)C	20
+4-Methylveratrole	CC1=CC(=C(C=C1)OC)OC	20
+2,5-Dimethyl-1,4-benzoquinone	CC1=CC(=O)C(=CC1=O)C	20
+2,6-Dimethyl-1,4-benzoquinone	CC1=CC(=O)C=C(C1=O)C	20
+4-Methylacetophenone	CC1=CC=C(C=C1)C(=O)C	20
+Toluate	CC1=CC=C(C=C1)C(=O)O	20
+(-)-Carvone	CC1=CCC(CC1=O)C(=C)C	20
+(-)-alpha-Thujone	CC1C2CC2(CC1=O)C(C)C	20
+(1S,4R)-Menthone	CC1CCC(C(=O)C1)C(C)C	20
+(-)-Menthone	CC1CCC(C(=O)C1)C(C)C	20
+3-Methyl-2-oxopentanoate	CCC(C)C(=O)C(=O)[O-]	20
+5-Propylresorcinol	CCCC1=CC(=CC(=C1)O)O	20
+N-Hexanoyl-L-homoserine lactone	CCCCCC(=O)NC1CCOC1=O	20
+2-Oxooctanoate	CCCCCCC(=O)C(=O)[O-]	20
+Dodecanoyl ethanolamide	CCCCCCCCCCCC(=O)NCCO	20
+Vinyl laurate	CCCCCCCCCCCC(=O)OC=C	20
+Dodecanoate	CCCCCCCCCCCC(=O)[O-]	20
+Ethyl 2-phenylacetate	CCOC(=O)CC1=CC=CC=C1	20
+L-Glutamic acid-gamma-ethyl ester	CCOC(=O)CCC(C(=O)O)N	20
+2,6-Dimethoxyphenol	COC1=C(C(=CC=C1)OC)O	20
+Isovanillyl alcohol	COC1=C(C=C(C=C1)CO)O	20
+3,4-Dimethoxyphenol	COC1=C(C=C(C=C1)O)OC	20
+4-Hydroxy-3-methoxy-benzenemethanol	COC1=C(C=CC(=C1)CO)O	20
+2-Chloro-4-methoxyphenol	COC1=CC(=C(C=C1)O)Cl	20
+3,5-Dimethoxyphenol	COC1=CC(=CC(=C1)O)OC	20
+S-Methyl-L-methionine	C[S+](C)CCC(C(=O)O)N	20
+Molybdate	[O-][Mo](=O)(=O)[O-]	20
+1-Carboxybiuret	C(=O)(N)NC(=O)NC(=O)O	21
+Ser-Gly	C(C(C(=O)NCC(=O)O)N)O	21
+L-Cysteinylglycine	C(C(C(=O)NCC(=O)O)N)S	21
+S-Carboxymethyl-L-cysteine	C(C(C(=O)O)N)SCC(=O)O	21
+2-Deoxy-D-erythrose 4-phosphate	C(C=O)C(COP(=O)(O)O)O	21
+2,5-Dioxopentanoate	C(CC(=O)C(=O)[O-])C=O	21
+L-gamma-Glutamyl hydroxamate	C(CC(=O)NO)C(C(=O)O)N	21
+2-Oxoglutarate	C(CC(=O)O)C(=O)C(=O)O	21
+L-2-Aminoadipate	C(CC(C(=O)O)N)CC(=O)O	21
+D-2-Aminoadipate	C(CC(C(=O)O)N)CC(=O)O	21
+3-Cyanobenzaldehyde	C1=CC(=CC(=C1)C#N)C=O	21
+Isophthaldehyde	C1=CC(=CC(=C1)C=O)C=O	21
+4-Hydroxyphenylglycolaldehyde	C1=CC(=CC=C1C(C=O)O)O	21
+4-Hydroxyphenylacetate	C1=CC(=CC=C1CC(=O)O)O	21
+L-Tyrosinol	C1=CC(=CC=C1CC(CO)N)O	21
+D-Tyrosinol	C1=CC(=CC=C1CC(CO)N)O	21
+4-Hydroxymethylbenzoic acid	C1=CC(=CC=C1CO)C(=O)O	21
+2-Phthalaldehyde	C1=CC=C(C(=C1)C=O)C=O	21
+Phenylglyoxal	C1=CC=C(C=C1)C(=O)C=O	21
+1,5-Anhydro-D-glucitol	C1C(C(C(C(O1)CO)O)O)O	21
+3-N-Morpholinopropanesulfonic acid	C1COCCN1CCCS(=O)(=O)O	21
+Phosphoenolpyruvate	C=C(C(=O)O)OP(=O)(O)O	21
+3-Methyl-cis,cis-hexadienedioate	CC(=CC(=O)O)C=CC(=O)O	21
+4-Methoxyacetophenone	CC(=O)C1=CC=C(C=C1)OC	21
+N2-Acetyl-L-lysine	CC(=O)NC(CCCCN)C(=O)O	21
+N-Acetyl-L-lysine	CC(=O)NC(CCCCN)C(=O)O	21
+D-Alanyl-D-alanine	CC(C(=O)NC(C)C(=O)O)N	21
+Ala-Ala	CC(C(=O)NC(C)C(=O)O)N	21
+D-Alanyl-D-lactate	CC(C(=O)OC(C)C(=O)O)N	21
+2,3-Dihydroxy-3-methylbutanoate	CC(C)(C(C(=O)[O-])O)O	21
+(R)-2,3-Dihydroxy-3-methylbutanoate	CC(C)(C(C(=O)[O-])O)O	21
+Isobutyrophenone	CC(C)C(=O)C1=CC=CC=C1	21
+N-(3-Hydroxybutanoyl)-L-homoserine lactone	CC(CC(=O)NC1CCOC1=O)O	21
+(-)-Borneol	CC1(C2CCC1(C(C2)O)C)C	21
+Pyridoxamine	CC1=NC=C(C(=C1O)CN)CO	21
+alpha-D-Fucose	CC1C(C(C(C(O1)O)O)O)O	21
+alpha-D-Quinovopyranose	CC1C(C(C(C(O1)O)O)O)O	21
+6-Deoxy-D-glucose	CC1C(C(C(C(O1)O)O)O)O	21
+L-Fucose	CC1C(C(C(C(O1)O)O)O)O	21
+L-Rhamnose	CC1C(C(C(C(O1)O)O)O)O	21
+4-Hydroxypropiophenone	CCC(=O)C1=CC=C(C=C1)O	21
+Propionylthiocholine	CCC(=O)SCC[N+](C)(C)C	21
+3-Ethylmalate	CCC(C(C(=O)O)O)C(=O)O	21
+4-Hydroxy-2-oxohexanoate	CCC(CC(=O)C(=O)[O-])O	21
+Ethionamide	CCC1=NC=CC(=C1)C(=S)N	21
+5-Butylresorcinol	CCCCC1=CC(=CC(=C1)O)O	21
+Butyl laurate	CCCCCCCCCCCC(=O)OCCCC	21
+Palmitate	CCCCCCCCCCCCCCCC(=O)O	21
+p-(dimethylamino)benzaldehyde	CN(C)C1=CC=C(C=C1)C=O	21
+N,N-Dimethyl-4-nitrosoaniline	CN(C)C1=CC=C(C=C1)N=O	21
+(Z)-2-((N-Methylformamido)methylene)-5-hydroxybutanolactone	CN(C=C1CC(OC1=O)O)C=O	21
+N(omega)-methyl-L-Arginine	CN=C(N)NCCCC(C(=O)O)N	21
+Epinine	CNCCC1=CC(=C(C=C1)O)O	21
+3-Chloro-4-methoxybenzyl alcohol	COC1=C(C=C(C=C1)CO)Cl	21
+Veratryl alcohol	COC1=C(C=C(C=C1)CO)OC	21
+Met-Gly	CSCCC(C(=O)NCC(=O)O)N	21
+threo-3-Hydroxy-L-aspartate	C(C(C(=O)O)O)(C(=O)O)N	22
+erythro-3-Hydroxy-L-aspartate	C(C(C(=O)O)O)(C(=O)O)N	22
+D-Talitol	C(C(C(C(C(CO)O)O)O)O)O	22
+Galactitol	C(C(C(C(C(CO)O)O)O)O)O	22
+D-Sorbitol	C(C(C(C(C(CO)O)O)O)O)O	22
+D-Allitol	C(C(C(C(C(CO)O)O)O)O)O	22
+L-Mannitol	C(C(C(C(C(CO)O)O)O)O)O	22
+L-Iditol	C(C(C(C(C(CO)O)O)O)O)O	22
+D-Mannitol	C(C(C(C(C(CO)O)O)O)O)O	22
+L-Sorbitol	C(C(C(C(C(CO)O)O)O)O)O	22
+L-Altritol	C(C(C(C(C(CO)O)O)O)O)O	22
+D-Altritol	C(C(C(C(C(CO)O)O)O)O)O	22
+D-Iditol	C(C(C(C(C(CO)O)O)O)O)O	22
+D-Apionate	C(C(CO)(C(C(=O)O)O)O)O	22
+2-Oxoadipate	C(CC(=O)C(=O)O)CC(=O)O	22
+Succinate	C(CC(=O)[O-])C(=O)[O-]	22
+L-Arginine	C(CC(C(=O)O)N)CN=C(N)N	22
+D-Arginine	C(CC(C(=O)O)N)CN=C(N)N	22
+Arginine	C(CC(C(=O)O)N)CN=C(N)N	22
+L-Citrulline	C(CC(C(=O)O)N)CNC(=O)N	22
+3,5-Dichlorobenzaldehyde	C1=C(C=C(C=C1Cl)Cl)C=O	22
+L-Histidine	C1=C(NC=N1)CC(C(=O)O)N	22
+Histidine	C1=C(NC=N1)CC(C(=O)O)N	22
+D-Histidine	C1=C(NC=N1)CC(C(=O)O)N	22
+2,3-Dihydroxybenzaldehyde	C1=CC(=C(C(=C1)O)O)C=O	22
+3,4-Dichlorobenzaldehyde	C1=CC(=C(C=C1C=O)Cl)Cl	22
+4-Carboxybenzaldehyde	C1=CC(=CC=C1C=O)C(=O)O	22
+Nicotinate	C1=CC(=CN=C1)C(=O)[O-]	22
+4-Fluoromuconolactone	C1=CC(OC1=O)(CC(=O)O)F	22
+Anthranilate	C1=CC=C(C(=C1)C(=O)O)N	22
+Benzoate	C1=CC=C(C=C1)C(=O)[O-]	22
+trans-Cinnamate	C1=CC=C(C=C1)C=CC(=O)O	22
+alpha-Naphthol	C1=CC=C2C(=C1)C=CC=C2O	22
+Hypoxanthine	C1=NC2=C(N1)C(=O)NC=N2	22
+1,5-Anhydro-D-fructose	C1C(=O)C(C(C(O1)CO)O)O	22
+L-Dihydroorotate	C1C(NC(=O)NC1=O)C(=O)O	22
+N-Succinyl-glycine	C1CC(=O)N(C1=O)CC(=O)O	22
+1-Phenyl-1,2-propanedione	CC(=O)C(=O)C1=CC=CC=C1	22
+N-(3-Oxobutanoyl)-L-homoserine lactone	CC(=O)CC(=O)NC1CCOC1=O	22
+D-Alanyl-D-serine	CC(C(=O)NC(CO)C(=O)O)N	22
+3-Hydroxy-3-methyl-2-oxobutanoate	CC(C)(C(=O)C(=O)[O-])O	22
+4-tert-Butylphenol	CC(C)(C)C1=CC=C(C=C1)O	22
+(R)-Pantoate	CC(C)(CO)C(C(=O)[O-])O	22
+N-Acetyl-L-leucine	CC(C)CC(C(=O)O)NC(=O)C	22
+13-Methyl-tetradecanoic acid	CC(C)CCCCCCCCCCCC(=O)O	22
+(-)-Fenchone	CC1(C2CCC(C2)(C1=O)C)C	22
+(-)-Camphor	CC1(C2CCC1(C(=O)C2)C)C	22
+(+)-Camphor	CC1(C2CCC1(C(=O)C2)C)C	22
+Carvacrol	CC1=C(C=C(C=C1)C(C)C)O	22
+4-Methylphenylglyoxal	CC1=CC=C(C=C1)C(=O)C=O	22
+Pyridoxal	CC1=NC=C(C(=C1O)C=O)CO	22
+Isopyridoxal	CC1=NC=C(C(=C1O)CO)C=O	22
+Isoeugenol	CC=CC1=CC(=C(C=C1)O)OC	22
+12-Methyl-tetradecanoic acid	CCC(C)CCCCCCCCCCC(=O)O	22
+Butyrylthiocholine	CCCC(=O)SCC[N+](C)(C)C	22
+4-Hydroxy-2-oxoheptanoate	CCCC(CC(=O)C(=O)[O-])O	22
+Olivetol	CCCCCC1=CC(=CC(=C1)O)O	22
+Palmitoleic acid	CCCCCCC=CCCCCCCCC(=O)O	22
+N-Octanoyl-L-homoserine lactone	CCCCCCCC(=O)NC1CCOC1=O	22
+Methyl (S)-mandelate	COC(=O)C(C1=CC=CC=C1)O	22
+3-O-Methyl-D-glucose	COC(C(C=O)O)C(C(CO)O)O	22
+Veratraldehyde	COC1=C(C=C(C=C1)C=O)OC	22
+3,4-Dimethoxyphenethylalcohol	COC1=C(C=C(C=C1)CCO)OC	22
+Eugenol	COC1=C(C=CC(=C1)CC=C)O	22
+3,5-Dimethoxybenzaldehyde	COC1=CC(=CC(=C1)C=O)OC	22
+2-Hydroxy-6-oxohexa-2,4-dienoate	C(=CC(=O)C(=O)O)C=C[O-]	23
+3-Fluoro-cis,cis-muconate	C(=CC(=O)O)C(=CC(=O)O)F	23
+Fumarate	C(=CC(=O)[O-])C(=O)[O-]	23
+Maleate	C(=CC(=O)[O-])C(=O)[O-]	23
+O-Phospho-L-serine	C(C(C(=O)O)N)OP(=O)(O)O	23
+3-Phospho-D-glycerate	C(C(C(=O)O)O)OP(=O)(O)O	23
+Glycerate 3-phosphate	C(C(C(=O)O)O)OP(=O)(O)O	23
+2-Phospho-D-glycerate	C(C(C(=O)O)OP(=O)(O)O)O	23
+2-Phosphoglycerate	C(C(C(=O)O)OP(=O)(O)O)O	23
+L-Xylo-3-hexulose	C(C(C(C(=O)C(CO)O)O)O)O	23
+L-Tagatose	C(C(C(C(C(=O)CO)O)O)O)O	23
+D-Sorbose	C(C(C(C(C(=O)CO)O)O)O)O	23
+L-Glucose	C(C(C(C(C(C=O)O)O)O)O)O	23
+5-Thio-D-glucose	C(C(C(C(C(C=O)O)O)O)S)O	23
+2-Dehydro-3-deoxy-D-arabinonate	C(C(CO)O)C(=O)C(=O)[O-]	23
+N-Formimino-L-glutamate	C(CC(=O)O)C(C(=O)O)N=CN	23
+2-Hydroxy-4-phosphonobutyric acid	C(CP(=O)(O)O)C(C(=O)O)O	23
+L-Noradrenaline	C1=CC(=C(C=C1C(CN)O)O)O	23
+Caffeic aldehyde	C1=CC(=C(C=C1C=CC=O)O)O	23
+4-Bromophenylglyoxal	C1=CC(=CC=C1C(=O)C=O)Br	23
+4-Chlorophenylglyoxal	C1=CC(=CC=C1C(=O)C=O)Cl	23
+4-Hydroxybenzoate	C1=CC(=CC=C1C(=O)O)[O-]	23
+4-Iodobenzoate	C1=CC(=CC=C1C(=O)[O-])I	23
+4-Aminobenzoate	C1=CC(=CC=C1C(=O)[O-])N	23
+4-Chloroindole	C1=CC2=C(C=CN2)C(=C1)Cl	23
+D-Phenylglycine amide	C1=CC=C(C=C1)C(C(=O)N)N	23
+Phenolic phosphate	C1=CC=C(C=C1)OP(=O)(O)O	23
+Nitrofuran	C1=COC(=C1)[N+](=O)[O-]	23
+7,8-Dichloro-1,2,3,4-tetrahydroisoquinoline	C1CNCC2=C1C=CC(=C2Cl)Cl	23
+1,2-Diselenolane-3-pentanoic acid	C1C[Se][Se]C1CCCCC(=O)O	23
+Piperonal	C1OC2=C(O1)C=C(C=C2)C=O	23
+N-Acetyl-L-asparagine	CC(=O)NC(CC(=O)N)C(=O)O	23
+Ala-Pro	CC(C(=O)N1CCCC1C(=O)O)N	23
+N-Succinyl-L-alanine	CC(C(=O)O)N1C(=O)CCC1=O	23
+7,8-Diaminononanoate	CC(C(CCCCCC(=O)[O-])N)N	23
+L-Leucylglycine	CC(C)CC(C(=O)NCC(=O)O)N	23
+Glycyl-leucine	CC(C)CC(C(=O)O)NC(=O)CN	23
+14-Methyl-pentadecanoic acid	CC(C)CCCCCCCCCCCCC(=O)O	23
+Methylsuccinate	CC(CC(=O)[O-])C(=O)[O-]	23
+alpha-Methyltryptamine	CC(CC1=CNC2=CC=CC=C21)N	23
+4-Hydroxy-3-methylacetophenone	CC1=C(C=CC(=C1)C(=O)C)O	23
+3-Methyl-4-hydroxybenzoate	CC1=C(C=CC(=C1)C(=O)O)O	23
+N,N-Diethyl-4-nitrosoaniline	CCN(CC)C1=CC=C(C=C1)N=O	23
+Phenacetin	CCOC1=CC=C(C=C1)NC(=O)C	23
+N,N,N',N'-Tetramethyl-p-phenylenediamine	CN(C)C1=CC=C(C=C1)N(C)C	23
+Coniferyl alcohol	COC1=C(C=CC(=C1)C=CCO)O	23
+Syringaldehyde	COC1=CC(=CC(=C1O)OC)C=O	23
+4-Methoxyphenylglyoxal	COC1=CC=C(C=C1)C(=O)C=O	23
+3-Methoxyphenylglyoxal	COC1=CC=CC(=C1)C(=O)C=O	23
+Methyl beta-D-galactoside	COC1C(C(C(C(O1)CO)O)O)O	23
+Methyl alpha-D-galactopyranoside	COC1C(C(C(C(O1)CO)O)O)O	23
+3-Phosphohydroxypyruvate	C(C(=O)C(=O)O)OP(=O)(O)O	24
+1-Carboxymalonamide	C(C(=O)NC(=O)N)C(=O)[O-]	24
+Gly-Gly-Gly	C(C(=O)NCC(=O)NCC(=O)O)N	24
+Glycylpeptide	C(C(=O)NCC(=O)NCC(=O)O)N	24
+S-Sulfo-L-cysteine	C(C(C(=O)O)N)SS(=O)(=O)O	24
+Glucosone	C(C(C(C(C(=O)C=O)O)O)O)O	24
+D-Glucosone	C(C(C(C(C(=O)C=O)O)O)O)O	24
+D-Erythrose 4-phosphate	C(C(C(C=O)O)O)OP(=O)(O)O	24
+2-Keto-3-deoxy-D-gluconate	C(C(C(CO)O)O)C(=O)C(=O)O	24
+alpha-D-Glucopyranosyl fluoride	C(C1C(C(C(C(O1)F)O)O)O)O	24
+D-Glucosamine	C(C1C(C(C(C(O1)O)N)O)O)O	24
+D-Galactosamine	C(C1C(C(C(C(O1)O)N)O)O)O	24
+beta-D-Glucose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+alpha-D-Glucose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+alpha-D-Galactose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+D-Galactose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+D-Glucose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+D-Mannose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+Glucose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+D-Allose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+L-Idose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+(1,4-alpha-D-Glucosyl)n	C(C1C(C(C(C(O1)O)O)O)O)O	24
+D-Altrose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+D-Talose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+Galactose	C(C1C(C(C(C(O1)O)O)O)O)O	24
+alpha-D-Fructofuranose	C(C1C(C(C(O1)(CO)O)O)O)O	24
+(2,1-beta-D-Fructosyl)n	C(C1C(C(C(O1)(CO)O)O)O)O	24
+2-Hydroxyhepta-2,4-dienedioate	C(C=CC=C(C(=O)O)O)C(=O)O	24
+L-Aspartate 4-semialdehyde	C(C=O)C(C(=O)[O-])[NH3+]	24
+Adipate	C(CCC(=O)[O-])CC(=O)[O-]	24
+16-Hydroxyhexadecanoic acid	C(CCCCCCCC(=O)O)CCCCCCCO	24
+O-Phospho-L-homoserine	C(COP(=O)(O)O)C(C(=O)O)N	24
+(S)(+)-Allantoin	C1(C(=O)NC(=O)N1)NC(=O)N	24
+myo-Inositol	C1(C(C(C(C(C1O)O)O)O)O)O	24
+D-chiro-Inositol	C1(C(C(C(C(C1O)O)O)O)O)O	24
+scyllo-Inositol	C1(C(C(C(C(C1O)O)O)O)O)O	24
+Dihydro-5-azaorotic acid	C1(NC(=O)NC(=O)N1)C(=O)O	24
+2,4,5-Trichlorophenol	C1=C(C(=CC(=C1Cl)Cl)Cl)O	24
+2,4,6-Trichlorophenol	C1=C(C=C(C(=C1Cl)O)Cl)Cl	24
+2,6-Dichlorobenzaldehyde	C1=CC(=C(C(=C1)Cl)C=O)Cl	24
+3,4-Dihydroxyphenylacetate	C1=CC(=C(C=C1CC(=O)O)O)O	24
+4-Bromobenzoate	C1=CC(=CC=C1C(=O)[O-])Br	24
+4-Chlorobenzoate	C1=CC(=CC=C1C(=O)[O-])Cl	24
+Chlorzoxazone	C1=CC2=C(C=C1Cl)NC(=O)O2	24
+2-Carboxybenzaldehyde	C1=CC=C(C(=C1)C=O)C(=O)O	24
+alpha-Oxo-benzeneacetic acid	C1=CC=C(C=C1)C(=O)C(=O)O	24
+Phenylthioacetohydroximate	C1=CC=C(C=C1)CC(=S)N[O-]	24
+L-Phenylalaninamide	C1=CC=C(C=C1)CC(C(=O)N)N	24
+Phenylalaninamide	C1=CC=C(C=C1)CC(C(=O)N)N	24
+L-Phenylalanine	C1=CC=C(C=C1)CC(C(=O)O)N	24
+D-Phenylalanine	C1=CC=C(C=C1)CC(C(=O)O)N	24
+Phenylalanine	C1=CC=C(C=C1)CC(C(=O)O)N	24
+Tryptamine	C1=CC=C2C(=C1)C(=CN2)CCN	24
+Indole-3-ethanol	C1=CC=C2C(=C1)C(=CN2)CCO	24
+Coumarin	C1=CC=C2C(=C1)C=CC(=O)O2	24
+1-Naphthaldehyde	C1=CC=C2C(=C1)C=CC=C2C=O	24
+1,2-Dihydronaphthalene-1,2-diol	C1=CC=C2C(C(C=CC2=C1)O)O	24
+2-Naphthaldehyde	C1=CC=C2C=C(C=CC2=C1)C=O	24
+D-Fructose	C1C(C(C(C(O1)(CO)O)O)O)O	24
+D-Psicose	C1C(C(C(C(O1)(CO)O)O)O)O	24
+L-Sorbose	C1C(C(C(C(O1)(CO)O)O)O)O	24
+Shikimate	C1C(C(C(C=C1C(=O)O)O)O)O	24
+Gly-Pro	C1CC(N(C1)C(=O)CN)C(=O)O	24
+(1R,4S)-1-Hydroxy-2-oxolimonene	CC(=C)C1CCC(C(=O)C1)(C)O	24
+(1S,4R)-1-Hydroxy-2-oxolimonene	CC(=C)C1CCC(C(=O)C1)(C)O	24
+Monoacetylphloroglucinol	CC(=O)C1=C(C=C(C=C1O)O)O	24
+N-Acetyl-L-glutamine	CC(=O)NC(CCC(=O)N)C(=O)O	24
+N-Acetyl-L-methionine-(R)-sulfoxide	CC(=O)NC(CCS(=O)C)C(=O)O	24
+8-Amino-7-oxononanoate	CC(C(=O)CCCCCC(=O)[O-])N	24
+2-Dehydro-3-deoxy-L-fuconate	CC(C(CC(=O)C(=O)[O-])O)O	24
+3-Isopropylmalate	CC(C)C(C(C(=O)O)O)C(=O)O	24
+2-Isopropylmalate	CC(C)C(CC(=O)O)(C(=O)O)O	24
+2-C-Methyl-D-erythritol 4-phosphate	CC(CO)(C(COP(=O)(O)O)O)O	24
+Camphorquinone	CC1(C2CCC1(C(=O)C2=O)C)C	24
+(1S)-(+)-Camphorquinone	CC1(C2CCC1(C(=O)C2=O)C)C	24
+(1R)-(-)-Camphorquinone	CC1(C2CCC1(C(=O)C2=O)C)C	24
+Monochlorodimedone	CC1(CC(=O)C(C(=O)C1)Cl)C	24
+3-Methylorcinaldehyde	CC1=CC(=C(C(=C1C=O)O)C)O	24
+2-Nitrotoluene	CC1=CC=CC=C1[N+](=O)[O-]	24
+(-)-Jasmonic acid	CCC=CCC1C(CCC1=O)CC(=O)O	24
+7,10,13-Hexadecatrienoic acid	CCC=CCC=CCC=CCCCCCC(=O)O	24
+N-(3-Oxohexanoyl)-L-homoserine lactone	CCCC(=O)CC(=O)NC1CCOC1=O	24
+5-Heptylresorcinol	CCCCCCCC1=CC(=CC(=C1)O)O	24
+Oleate	CCCCCCCCC=CCCCCCCCC(=O)O	24
+Palmitoylethanolamide	CCCCCCCCCCCCCCCC(=O)NCCO	24
+L-Phenylalanine ethyl ester	CCOC(=O)C(CC1=CC=CC=C1)N	24
+NG,NG-Dimethyl-L-arginine	CN(C)C(=NCCCC(C(=O)O)N)N	24
+p-(dimethylamino)cinnamaldehyde	CN(C)C1=CC=C(C=C1)C=CC=O	24
+L-Adrenaline	CNCC(C1=CC(=C(C=C1)O)O)O	24
+Methyl p-coumarate	COC(=O)C=CC1=CC=C(C=C1)O	24
+Isovanillic acid	COC1=C(C=C(C=C1)C(=O)O)O	24
+Coniferaldehyde	COC1=C(C=CC(=C1)C=CC=O)O	24
+5-Methoxyindole-3-carboxaldehyde	COC1=CC2=C(C=C1)NC=C2C=O	24
+Oxomalonate	C(=O)(C(=O)[O-])C(=O)[O-]	25
+N-Carbamoyl-L-aspartate	C(C(C(=O)O)NC(=O)N)C(=O)O	25
+L-Malate	C(C(C(=O)[O-])O)C(=O)[O-]	25
+D-Arabinonate	C(C(C(C(C(=O)[O-])O)O)O)O	25
+D-Ribonate	C(C(C(C(C(=O)[O-])O)O)O)O	25
+L-Galactono-1,4-lactone	C(C(C1C(C(C(=O)O1)O)O)O)O	25
+L-Gulono-1,4-lactone	C(C(C1C(C(C(=O)O1)O)O)O)O	25
+D-Glucono-1,5-lactone	C(C1C(C(C(C(=O)O1)O)O)O)O	25
+LL-2,6-Diaminoheptanedioate	C(CC(C(=O)O)N)CC(C(=O)O)N	25
+meso-2,6-Diaminoheptanedioate	C(CC(C(=O)O)N)CC(C(=O)O)N	25
+3-Hydroxyanthranilate	C1=CC(=C(C(=C1)O)N)C(=O)O	25
+Hydrocaffeic acid	C1=CC(=C(C=C1CCC(=O)O)O)O	25
+3-Aminobenzoate	C1=CC(=CC(=C1)N)C(=O)[O-]	25
+3-Hydroxycinnamate	C1=CC(=CC(=C1)O)C=CC(=O)O	25
+L-Tyrosine	C1=CC(=CC=C1CC(C(=O)O)N)O	25
+D-Tyrosine	C1=CC(=CC=C1CC(C(=O)O)N)O	25
+Tyrosine	C1=CC(=CC=C1CC(C(=O)O)N)O	25
+Phloretate	C1=CC(=CC=C1CCC(=O)[O-])O	25
+Serotonin	C1=CC2=C(C=C1O)C(=CN2)CCN	25
+Salicylate	C1=CC=C(C(=C1)C(=O)O)[O-]	25
+2-Coumarate	C1=CC=C(C(=C1)C=CC(=O)O)O	25
+Enol-Phenylpyruvate	C1=CC=C(C=C1)C=C(C(=O)O)O	25
+Phenylpyruvate	C1=CC=C(C=C1)CC(=O)C(=O)O	25
+Nitrobenzene	C1=CC=C(C=C1)[N+](=O)[O-]	25
+3-Indoleacetonitrile	C1=CC=C2C(=C1)C(=CN2)CC#N	25
+Indole-3-acetaldehyde	C1=CC=C2C(=C1)C(=CN2)CC=O	25
+Guanine	C1=NC2=C(N1)C(=O)NC(=N2)N	25
+Xanthine	C1=NC2=C(N1)C(=O)NC(=O)N2	25
+3-Dehydroshikimate	C1C(C(C(=O)C=C1C(=O)O)O)O	25
+2,3,4,5-Tetrahydrodipicolinate	C1CC(N=C(C1)C(=O)O)C(=O)O	25
+Bicyclohept-2-en-6-one	C1CCCC(CC1)C2CC(=O)CCC=C2	25
+Cyclophosphamide	C1CNP(=O)(OC1)N(CCCl)CCCl	25
+Farnesol	CC(=CCCC(=CCCC(=CCO)C)C)C	25
+1-Deoxy-D-xylulose 5-phosphate	CC(=O)C(C(COP(=O)(O)O)O)O	25
+L-Alanyl-L-lysine	CC(C(=O)NC(CCCCN)C(=O)O)N	25
+L-Alanyl-D-lysine	CC(C(=O)NC(CCCCN)C(=O)O)N	25
+Ala-Gly-Gly	CC(C(=O)NCC(=O)NCC(=O)O)N	25
+Gly-Ala-Gly	CC(C(=O)NCC(=O)O)NC(=O)CN	25
+Glycyl-glycyl-L-alanine	CC(C(=O)O)NC(=O)CNC(=O)CN	25
+Gly-Gly-Ala	CC(C(=O)O)NC(=O)CNC(=O)CN	25
+4-tert-Butylcatechol	CC(C)(C)C1=CC(=C(C=C1)O)O	25
+2,4-Dimethylphenylglyoxal	CC1=CC(=C(C=C1)C(=O)C=O)C	25
+2,3-Dimethoxy-5-methyl-1,4-benzoquinone	CC1=CC(=O)C(=C(C1=O)OC)OC	25
+Menadione	CC1=CC(=O)C2=CC=CC=C2C1=O	25
+4-Methylbenzoylformic acid	CC1=CC=C(C=C1)C(=O)C(=O)O	25
+Dethiobiotin	CC1C(NC(=O)N1)CCCCCC(=O)O	25
+5-Epiaristolochene	CC1CCCC2=CCC(CC12C)C(=C)C	25
+Linoleate	CCCCCC=CCC=CCCCCCCCC(=O)O	25
+Sphinganine	CCCCCCCCCCCCCCCC(C(CO)N)O	25
+Fructosyl propylamine	CCCNC1(C(C(C(O1)CO)O)O)CO	25
+Hydroxyatrazine	CCNC1=NC(=O)NC(=N1)NC(C)C	25
+Ecgonine methyl ester	CN1C2CCC1C(C(C2)O)C(=O)OC	25
+Methyl indole-3-acetate	COC(=O)CC1=CNC2=CC=CC=C21	25
+5-Hydroxyconiferaldehyde	COC1=CC(=CC(=C1O)O)C=CC=O	25
+Sinapyl alcohol	COC1=CC(=CC(=C1O)OC)C=CCO	25
+cis,cis-Muconate	C(=CC(=O)[O-])C=CC(=O)[O-]	26
+trans-Aconitate	C(C(=CC(=O)O)C(=O)O)C(=O)O	26
+cis-Aconitate	C(C(=CC(=O)O)C(=O)O)C(=O)O	26
+L-Cystine	C(C(C(=O)O)N)SSCC(C(=O)O)N	26
+Meso-Cystine	C(C(C(=O)O)N)SSCC(C(=O)O)N	26
+Volemitol	C(C(C(C(C(C(CO)O)O)O)O)O)O	26
+D-glycero-L-gulo-Heptitol	C(C(C(C(C(C(CO)O)O)O)O)O)O	26
+2-Fluoro-D-glucose	C(C(C(C(C(C=O)(O)F)O)O)O)O	26
+3-Fluoro-D-glucose	C(C(C(C(C(C=O)O)(O)F)O)O)O	26
+4-Fluoro-D-glucose	C(C(C(C(C(C=O)O)O)(O)F)O)O	26
+L-Ascorbate	C(C(C1C(=C(C(=O)O1)O)O)O)O	26
+L-Cystathionine	C(CSCC(C(=O)O)N)C(C(=O)O)N	26
+D-Glucuronate	C1(C(C(OC(C1O)O)C(=O)O)O)O	26
+Glucuronate	C1(C(C(OC(C1O)O)C(=O)O)O)O	26
+Pectate	C1(C(C(OC(C1O)O)C(=O)O)O)O	26
+(Alginate)n	C1(C(C(OC(C1O)O)C(=O)O)O)O	26
+Urate	C12=C(NC(=O)N1)NC(=O)NC2=O	26
+Orotate	C1=C(NC(=O)NC1=O)C(=O)[O-]	26
+3,4-Dihydroxybenzoate	C1=CC(=C(C=C1C(=O)O)O)[O-]	26
+Caffeate	C1=CC(=C(C=C1C=CC(=O)O)O)O	26
+2,5-Dihydroxybenzoate	C1=CC(=C(C=C1O)C(=O)O)[O-]	26
+4-Hydroxy-enol-phenylpyruvate	C1=CC(=CC=C1C=C(C(=O)O)O)O	26
+Hydroxyphenylpyruvate	C1=CC(=CC=C1CC(=O)C(=O)O)O	26
+2-Chlorobenzoate	C1=CC=C(C(=C1)C(=O)[O-])Cl	26
+(S)-Mandelate	C1=CC=C(C=C1)C(C(=O)[O-])O	26
+Mandelate	C1=CC=C(C=C1)C(C(=O)[O-])O	26
+S-Benzyl-L-cysteine	C1=CC=C(C=C1)CSCC(C(=O)O)N	26
+Quinoline-4-carboxaldehyde	C1=CC=C2C(=C1)C(=CC=N2)C=O	26
+3-Indoleacetaldoxime	C1=CC=C2C(=C1)C(=CN2)CC=NO	26
+Indole-3-acetaldoxime	C1=CC=C2C(=C1)C(=CN2)CC=NO	26
+Isatin	C1=CC=C2C(=C1)C(=O)C(=O)N2	26
+Quinoline-3-carboxaldehyde	C1=CC=C2C(=C1)C=C(C=N2)C=O	26
+1,2-Naphthoquinone	C1=CC=C2C(=C1)C=CC(=O)C2=O	26
+1,4-Naphthoquinone	C1=CC=C2C(=O)C=CC(=O)C2=C1	26
+2-Amino-4,7-dihydroxypteridine	C1=NC2=C(NC1=O)N=C(NC2=O)N	26
+Acenaphthen-1-ol	C1C(C2=CC=CC3=C2C1=CC=C3)O	26
+Zalcitabine	C1CC(OC1CO)N2C=CC(=NC2=O)N	26
+N6-(delta2-Isopentenyl)-adenine	CC(=CCNC1=NC=NC2=C1NC=N2)C	26
+N-Acetyl-D-glucosamine	CC(=O)NC1C(C(C(OC1O)CO)O)O	26
+N-Acetyl-D-mannosamine	CC(=O)NC1C(C(C(OC1O)CO)O)O	26
+N-Acetyl-D-galactosamine	CC(=O)NC1C(C(C(OC1O)CO)O)O	26
+N-Acetyldopamine	CC(=O)NCCC1=CC(=C(C=C1)O)O	26
+Triacetin	CC(=O)OCC(COC(=O)C)OC(=O)C	26
+L-Fuconate	CC(C(C(C(C(=O)[O-])O)O)O)O	26
+L-Alanyl-L-leucine	CC(C)CC(C(=O)O)NC(=O)C(C)N	26
+6-Oxocamphor	CC1(C2CC(=O)C1(C(=O)C2)C)C	26
+Duroquinone	CC1=C(C(=O)C(=C(C1=O)C)C)C	26
+Menadiol	CC1=C(C2=CC=CC=C2C(=C1)O)O	26
+2-Methyl-3-hydroxy-5-formylpyridine-4-carboxylate	CC1=NC=C(C(=C1O)C(=O)O)C=O	26
+6-Methyltetrahydropterin	CC1CNC2=C(N1)C(=O)NC(=N2)N	26
+N-(3-Oxooctanoyl)homoserine lactone	CCCCCC(=O)CC(=O)NC1CCOC1=O	26
+Sphingosine	CCCCCCCCCCCCCC=CC(C(CO)N)O	26
+Stearate	CCCCCCCCCCCCCCCCCC(=O)[O-]	26
+Phosphocreatine	CN(CC(=O)O)C(=NP(=O)(O)O)N	26
+Ecgonone methyl ester	CN1C2CCC1C(C(=O)C2)C(=O)OC	26
+Reduced methyl viologen	CN1C=CC(C=C1)C2C=CN(C=C2)C	26
+N-Methyl-L-tyrosine	CNC(CC1=CC=C(C=C1)O)C(=O)O	26
+Homoveratric acid	COC1=C(C=C(C=C1)CC(=O)O)OC	26
+Syringic acid	COC1=CC(=CC(=C1O)OC)C(=O)O	26
+Sinapoyl aldehyde	COC1=CC(=CC(=C1O)OC)C=CC=O	26
+7-Methoxycoumarin	COC1=CC2=C(C=C1)C=CC(=O)O2	26
+4-Methoxy-1-naphthaldehyde	COC1=CC=C(C2=CC=CC=C21)C=O	26
+4-Methoxybenzoylformic acid	COC1=CC=C(C=C1)C(=O)C(=O)O	26
+1-Nitrobiuret	C(=O)(N)NC(=O)N[N+](=O)[O-]	27
+L-Djenkolic acid	C(C(C(=O)O)N)SCSCC(C(=O)O)N	27
+O-Phospho-4-hydroxy-L-threonine	C(C(C(C(=O)O)N)O)OP(=O)(O)O	27
+Sedoheptulose	C(C(C(C(C(C(=O)CO)O)O)O)O)O	27
+D-Mannoheptose	C(C(C(C(C(C(C=O)O)O)O)O)O)O	27
+D-Ribitol 5-phosphate	C(C(C(C(COP(=O)(O)O)O)O)O)O	27
+2-Keto-3-deoxy-D-galactonate	C(C(C(CO)O)O)C(=O)C(=O)[O-]	27
+2-Dehydro-3-deoxy-L-galactonate	C(C(C(CO)O)O)C(=O)C(=O)[O-]	27
+2-Dehydro-3-deoxy-D-gluconate	C(C(C(CO)O)O)C(=O)C(=O)[O-]	27
+Dehydroascorbate	C(C(C1C(=O)C(=O)C(=O)O1)O)O	27
+5-Fluoro-alpha-D-glucopyranosyl fluoride	C(C1(C(C(C(C(O1)F)O)O)O)F)O	27
+5-Fluoro-beta-L-gulosyl fluoride	C(C1(C(C(C(C(O1)F)O)O)O)F)O	27
+N-Succinyl-L-serine	C(CC(=O)O)C(=O)NC(CO)C(=O)O	27
+O-Succinyl-L-serine	C(CC(=O)OCC(C(=O)O)N)C(=O)O	27
+L-Histidinol phosphate	C1=C(NC=N1)CC(COP(=O)(O)O)N	27
+1,8-Diaminonaphthalene	C1=CC2=C(C(=C1)N)C(=CC=C2)N	27
+DL-beta-Phenylserine	C1=CC=C(C=C1)C(C(C(=O)O)N)O	27
+L-threo-3-Phenylserine	C1=CC=C(C=C1)C(C(C(=O)O)N)O	27
+3-Hydroxybiphenyl	C1=CC=C(C=C1)C2=CC(=CC=C2)O	27
+Phenylacetylglycine	C1=CC=C(C=C1)CC(=O)NCC(=O)O	27
+3-Hydroxy-1H-quinolin-4-one	C1=CC=C2C(=C1)C(=O)C(=CN2)O	27
+Pterin	C1=CN=C2C(=N1)C(=O)NC(=N2)N	27
+Pro-Pro	C1CC(NC1)C(=O)N2CCCC2C(=O)O	27
+Isopentenyl diphosphate	CC(=C)CCOP(=O)(O)OP(=O)(O)O	27
+2-Methyl-cis,cis-muconate	CC(=CC=CC(=O)[O-])C(=O)[O-]	27
+Nerolidol	CC(=CCCC(=CCCC(C)(C=C)O)C)C	27
+Dimethylallyl diphosphate	CC(=CCOP(=O)(O)OP(=O)(O)O)C	27
+N-Acetylglucosamine	CC(=O)NC(C=O)C(C(C(CO)O)O)O	27
+N-Succinyl-L-threonine	CC(C(C(=O)O)N1C(=O)CCC1=O)O	27
+(R)-Pantothenate	CC(C)(CO)C(C(=O)NCCC(=O)O)O	27
+Val-Pro	CC(C)C(C(=O)N1CCCC1C(=O)O)N	27
+N-Succinyl-L-valine	CC(C)C(C(=O)O)N1C(=O)CCC1=O	27
+Leu-Cys	CC(C)CC(C(=O)NC(CS)C(=O)O)N	27
+Cys-Leu	CC(C)CC(C(=O)O)NC(=O)C(CS)N	27
+3,4-Dihydroxyphenyl propionic acid	CC(C1=CC(=C(C=C1)O)O)C(=O)O	27
+3-Methylgentisate	CC1=CC(=CC(=C1[O-])C(=O)O)O	27
+Vetispiradiene	CC1CCC=C(C12CCC(C2)C(=C)C)C	27
+Valencene	CC1CCC=C2C1(CC(CC2)C(=C)C)C	27
+4-epi-Eremophilene	CC1CCC=C2C1(CC(CC2)C(=C)C)C	27
+7-Ethoxycoumarin	CCOC1=CC2=C(C=C1)C=CC(=O)O2	27
+2,6-Dihydroxypseudooxynicotine	CNCCCC(=O)C1=C(NC(=O)C=C1)O	27
+Vanillate	COC1=C(C=CC(=C1)C(=O)O)[O-]	27
+Ferulate	COC1=C(C=CC(=C1)C=CC(=O)O)O	27
+Methyl syringate	COC1=CC(=CC(=C1O)OC)C(=O)OC	27
+N-Succinyl-L-methionine	CSCCC(C(=O)O)NC(=O)CCC(=O)O	27
+2,4-Dichloro-cis,cis-muconate	C(=C(C=C(C(=O)O)Cl)Cl)C(=O)O	28
+Allantoate	C(C(=O)[O-])(NC(=O)N)NC(=O)N	28
+2-Phosphoglycolate	C(C(=O)[O-])OP(=O)([O-])[O-]	28
+Ser-Gly-Gly	C(C(C(=O)NCC(=O)NCC(=O)O)N)O	28
+4-Phospho-L-aspartate	C(C(C(=O)O)N)C(=O)OP(=O)(O)O	28
+D-Tartrate	C(C(C(=O)[O-])O)(C(=O)[O-])O	28
+meso-Tartrate	C(C(C(=O)[O-])O)(C(=O)[O-])O	28
+D-Ribulose 5-phosphate	C(C(C(C(=O)CO)O)O)OP(=O)(O)O	28
+D-Xylulose 5-phosphate	C(C(C(C(=O)CO)O)O)OP(=O)(O)O	28
+L-Ribulose 5-phosphate	C(C(C(C(=O)CO)O)O)OP(=O)(O)O	28
+Isocitrate	C(C(C(C(=O)O)O)C(=O)O)C(=O)O	28
+D-Isocitrate	C(C(C(C(=O)O)O)C(=O)O)C(=O)O	28
+D-Arabinose 5-phosphate	C(C(C(C(C=O)O)O)O)OP(=O)(O)O	28
+D-Ribose 5-phosphate	C(C(C(C(C=O)O)O)O)OP(=O)(O)O	28
+Ribose 5-phosphate	C(C(C(C(C=O)O)O)O)OP(=O)(O)O	28
+3-Oxoadipate	C(CC(=O)[O-])C(=O)CC(=O)[O-]	28
+O-Succinyl-L-homoserine	C(COC(=O)CCC(=O)O)C(C(=O)O)N	28
+Tetrafluoro-1,4-benzoquinone	C1(=C(C(=O)C(=C(C1=O)F)F)F)F	28
+7-Cyano-7-deazaguanine	C1=C(C2=C(N1)N=C(NC2=O)N)C#N	28
+2,3-Dihydroxybenzoate	C1=CC(=C(C(=C1)O)[O-])C(=O)O	28
+L-Dopa	C1=CC(=C(C=C1CC(C(=O)O)N)O)O	28
+D-Dopa	C1=CC(=C(C=C1CC(C(=O)O)N)O)O	28
+5-Bromo-1-naphthaldehyde	C1=CC(=C2C=CC=C(C2=C1)Br)C=O	28
+Mono(2-hydroxyethyl) terephthalate	C1=CC(=CC=C1C(=O)O)C(=O)OCCO	28
+p-Nitrobenzaldehyde	C1=CC(=CC=C1C=O)[N+](=O)[O-]	28
+3-(4-Hydroxyphenyl)lactate	C1=CC(=CC=C1CC(C(=O)[O-])O)O	28
+Benzoyl phosphate	C1=CC=C(C=C1)C(=O)OP(=O)(O)O	28
+1-Naphthylacetic acid	C1=CC=C2C(=C1)C=CC=C2CC(=O)O	28
+Xanthopterin	C1=NC2=C(C(=O)NC(=N2)N)NC1=O	28
+Acyclovir	C1=NC2=C(N1COCCO)N=C(NC2=O)N	28
+2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine	C1C(=NC2=C(N1)N=C(NC2=O)N)CO	28
+Ser-Pro	C1CC(N(C1)C(=O)C(CO)N)C(=O)O	28
+2,5-Diaziridinyl-1,4-benzoquinone	C1CN1C2=CC(=O)C(=CC2=O)N3CC3	28
+Acetosyringone	CC(=O)C1=CC(=C(C(=C1)OC)O)OC	28
+N-Acetyl-L-phenylalanine	CC(=O)NC(CC1=CC=CC=C1)C(=O)O	28
+Ala-Ala-Gly	CC(C(=O)NC(C)C(=O)NCC(=O)O)N	28
+Glycyl-L-alanyl-L-alanine	CC(C(=O)NC(C)C(=O)O)NC(=O)CN	28
+Gly-Ala-Ala	CC(C(=O)NC(C)C(=O)O)NC(=O)CN	28
+L-Alanyl-D-glutamine	CC(C(=O)NC(CCC(=O)N)C(=O)O)N	28
+L-Alanyl-L-glutamate	CC(C(=O)NC(CCC(=O)O)C(=O)O)N	28
+L-Alanyl-D-glutamate	CC(C(=O)NC(CCC(=O)O)C(=O)O)N	28
+Ala-Gly-Ala	CC(C(=O)NCC(=O)NC(C)C(=O)O)N	28
+Leu-Pro	CC(C)CC(C(=O)N1CCCC1C(=O)O)N	28
+N-Succinyl-L-leucine	CC(C)CC(C(=O)O)N1C(=O)CCC1=O	28
+Levisoprenaline	CC(C)NCC(C1=CC(=C(C=C1)O)O)O	28
+L-alpha-Methyltyrosine	CC(CC1=CC=C(C=C1)O)(C(=O)O)N	28
+2,4,6-Trimethylphenylglyoxal	CC1=CC(=C(C(=C1)C)C(=O)C=O)C	28
+2,5-Diaziridinyl-3-(hydroxymethyl)-6-methyl-1,4-benzoquinone	CC1=CC(=O)C(=C(C1=O)N2CN2)CO	28
+2-Methyl-5-hydroxy-1,4-naphthoquinone	CC1=CC(=O)C2=C(C1=O)C=CC=C2O	28
+alpha-Cedrene	CC1CCC2C13CC=C(C(C3)C2(C)C)C	28
+N-Succinyl-L-isoleucine	CCC(C)C(C(=O)O)N1C(=O)CCC1=O	28
+Dihomo-alpha-linolenic acid	CCC=CCC=CCC=CCCCCCCCCCC(=O)O	28
+N-Butanoylmannosamine	CCCC(=O)NC1C(C(C(OC1O)CO)O)O	28
+Dihomolinoleate	CCCCCC=CC=CCCCCCCCCC(=O)[O-]	28
+Linoleoylethanolamide	CCCCCC=CCC=CCCCCCCCC(=O)NCCO	28
+N-(3-Oxodecanoyl)-L-homoserine lactone	CCCCCCCC(=O)CC(=O)NC1CCOC1=O	28
+3,4-Dimethoxycinnamic acid	COC1=C(C=C(C=C1)C=CC(=O)O)OC	28
+Methyl ferulate	COC1=C(C=CC(=C1)C=CC(=O)OC)O	28
+2-Methoxybenzoyl phosphate	COC1=CC=CC=C1C(=O)OP(=O)(O)O	28
+2-Hydroxymuconate	C(=CC(=O)O)C=C(C(=O)[O-])[O-]	29
+3-Phosphonopyruvate	C(C(=O)C(=O)[O-])P(=O)(O)[O-]	29
+Oxalosuccinate	C(C(C(=O)C(=O)O)C(=O)O)C(=O)O	29
+L-Galactonate	C(C(C(C(C(C(=O)[O-])O)O)O)O)O	29
+D-Altronate	C(C(C(C(C(C(=O)[O-])O)O)O)O)O	29
+D-Gluconate	C(C(C(C(C(C(=O)[O-])O)O)O)O)O	29
+D-Galactonate	C(C(C(C(C(C(=O)[O-])O)O)O)O)O	29
+alpha-D-Ribose 1-phosphate	C(C1C(C(C(O1)OP(=O)(O)O)O)O)O	29
+N5-Phospho-L-glutamine	C(CC(=O)NP(=O)(O)O)C(C(=O)O)N	29
+Homoisocitrate	C(CC(=O)O)C(C(C(=O)O)O)C(=O)O	29
+Arg-Gly	C(CC(C(=O)NCC(=O)O)N)CN=C(N)N	29
+Homocitrate	C(CC(CC(=O)O)(C(=O)O)O)C(=O)O	29
+5-Fluoro-alpha-L-idopyranosyluronic acid fluoride	C1(C(C(OC(C1O)(C(=O)O)F)F)O)O	29
+5-Hydroxyisourate	C12=NC(=O)NC1(C(=O)NC(=O)N2)O	29
+6-Hydroxymethylpterin	C1=C(N=C2C(=O)NC(=NC2=N1)N)CO	29
+Gly-His	C1=C(NC=N1)CC(C(=O)O)NC(=O)CN	29
+3-Chloro-L-tyrosine	C1=CC(=C(C=C1CC(C(=O)O)N)Cl)O	29
+4-Nitrocatechol	C1=CC(=C(C=C1[N+](=O)[O-])O)O	29
+3-(4-Hydroxyphenyl)pyruvate	C1=CC(=CC=C1CC(=O)C(=O)[O-])O	29
+5-Hydroxy-1,4-naphthoquinone	C1=CC2=C(C(=O)C=CC2=O)C(=C1)O	29
+2-Benzoylpyridine	C1=CC=C(C=C1)C(=O)C2=CC=CC=N2	29
+4-Benzoylpyridine	C1=CC=C(C=C1)C(=O)C2=CC=NC=C2	29
+Phenyl-1,4-benzoquinone	C1=CC=C(C=C1)C2=CC(=O)C=CC2=O	29
+4-Biphenylcarboxaldehyde	C1=CC=C(C=C1)C2=CC=C(C=C2)C=O	29
+2-Hydroxy-1,4-naphthoquinone	C1=CC=C2C(=C1)C(=CC(=O)C2=O)O	29
+Indole-3-propionic acid	C1=CC=C2C(=C1)C(=CN2)CCC(=O)O	29
+Phenanthridine	C1=CC=C2C(=C1)C=NC3=CC=CC=C23	29
+DIBOA	C1=CC=C2C(=C1)N(C(=O)C(O2)O)O	29
+Quinate	C1C(C(C(CC1(C(=O)[O-])O)O)O)O	29
+2'-Deoxycytidine	C1C(C(OC1N2C=CC(=NC2=O)N)CO)O	29
+Clavulanic acid	C1C2N(C1=O)C(C(=CCO)O2)C(=O)O	29
+N-Acetyl-L-phenylalanine methyl ester	CC(=O)NC(CC1=CC=CC=C1)C(=O)OC	29
+Coniferyl acetate	CC(=O)OCC=CC1=CC(=C(C=C1)O)OC	29
+L-Fuculose 1-phosphate	CC(C(C(C(=O)COP(=O)(O)O)O)O)O	29
+2-Amino-6-methyldipyrido[1,2-a:3',2'-d]imidazole	CC1=CC=CN2C1=NC3=C2N=C(C=C3)N	29
+2-Amino-4-hydroxy-6,7-dimethyltetrahydropteridine	CC1C(NC2=C(N1)C(=O)NC(=N2)N)C	29
+L-Pyrrolysine	CC1CC=NC1C(=O)NCCCCC(C(=O)O)N	29
+Tripropionin	CCC(=O)OCC(COC(=O)CC)OC(=O)CC	29
+alpha-Linolenate	CCC=CCC=CCC=CCCCCCCCC(=O)[O-]	29
+N-Pentanoylmannosamine	CCCCC(=O)NC1C(C(C(OC1O)CO)O)O	29
+(9Z,11E)-(13S)-13-Hydroperoxyoctadeca-9,11-dienoate	CCCCCC(C=CC=CCCCCCCCC(=O)O)OO	29
+12(13)-EpOME	CCCCCC1C(O1)CC=CCCCCCCCC(=O)O	29
+(9Z,12Z)-(11S)-11-Hydroperoxyoctadeca-9,12-dienoate	CCCCCC=CC(C=CCCCCCCCC(=O)O)OO	29
+9(S)-HPODE	CCCCCC=CC=CC(CCCCCCCC(=O)O)OO	29
+10-Hydroperoxyoctadeca-8,12-dienoic acid	CCCCCC=CCC(C=CCCCCCCC(=O)O)OO	29
+9(10)-EpOME	CCCCCC=CCC1C(O1)CCCCCCCC(=O)O	29
+Arachidonate	CCCCCC=CCC=CCC=CCC=CCCCC(=O)O	29
+N-Methyldopa	CNC(CC1=CC(=C(C=C1)O)O)C(=O)O	29
+N-Methyl-L-dopa	CNC(CC1=CC(=C(C=C1)O)O)C(=O)O	29
+N-Methyl-L-tryptophan	CNC(CC1=CNC2=CC=CC=C21)C(=O)O	29
+L-Methylphenidate	COC(=O)C(C1CCCCN1)C2=CC=CC=C2	29
+D-Methylphenidate	COC(=O)C(C1CCCCN1)C2=CC=CC=C2	29
+Scopoletin	COC1=C(C=C2C(=C1)C=CC(=O)O2)O	29
+Sinapate	COC1=CC(=CC(=C1O)OC)C=CC(=O)O	29
+3-Chloro-cis,cis-muconate	C(=CC(=O)[O-])C(=CC(=O)[O-])Cl	30
+2-Chloro-cis,cis-muconate	C(=CC(=O)[O-])C=C(C(=O)[O-])Cl	30
+Asp-Ser	C(C(C(=O)NC(CO)C(=O)O)N)C(=O)O	30
+4-Hydroxy-2-oxoglutarate	C(C(C(=O)[O-])O)C(=O)C(=O)[O-]	30
+D-Glucarate	C(C(C(C(=O)O)O)O)(C(C(=O)O)O)O	30
+D-Galactarate	C(C(C(C(=O)O)O)O)(C(C(=O)O)O)O	30
+2-Dehydro-L-idonate	C(C(C(C(C(=O)C(=O)[O-])O)O)O)O	30
+2-Dehydro-D-gluconate	C(C(C(C(C(=O)C(=O)[O-])O)O)O)O	30
+N-Succinyl-L-lysine	C(CCN)CC(C(=O)O)NC(=O)CCC(=O)O	30
+3-Bromogentisate	C1=C(C=C(C(=C1C(=O)O)[O-])Br)O	30
+6-Formylpterin	C1=C(N=C2C(=O)NC(=NC2=N1)N)C=O	30
+Carnosine	C1=C(NC=N1)CC(C(=O)O)NC(=O)CCN	30
+3-(2,3-Dihydroxyphenyl)propanoate	C1=CC(=C(C(=C1)O)O)CCC(=O)[O-]	30
+Naphthazarin	C1=CC(=C2C(=O)C=CC(=O)C2=C1O)O	30
+m-Nitrobenzaldehyde	C1=CC(=CC(=C1)[N+](=O)[O-])C=O	30
+2-Nitrobenzaldehyde	C1=CC=C(C(=C1)C=O)[N+](=O)[O-]	30
+o-Nitrobenzaldehyde	C1=CC=C(C(=C1)C=O)[N+](=O)[O-]	30
+4-Nitroso-N-phenylaniline	C1=CC=C(C=C1)NC2=CC=C(C=C2)N=O	30
+Indolebutyric acid	C1=CC=C2C(=C1)C(=CN2)CCCC(=O)O	30
+Kinetin	C1=COC(=C1)CNC2=NC=NC3=C2NC=N3	30
+3-Dehydroquinate	C1C(C(C(=O)CC1(C(=O)[O-])O)O)O	30
+Fluorene-2-carboxaldehyde	C1C2=CC=CC=C2C3=C1C=C(C=C3)C=O	30
+Pro-Hyp	C1CC(NC1)C(=O)N2CC(CC2C(=O)O)O	30
+Melatonin	CC(=O)NCCC1=CNC2=C1C=C(C=C2)OC	30
+Ala-His	CC(C(=O)NC(CC1=CN=CN1)C(=O)O)N	30
+L-Alanyl-L-histidine	CC(C(=O)NC(CC1=CN=CN1)C(=O)O)N	30
+L-Alanyl-D-arginine	CC(C(=O)NC(CCCN=C(N)N)C(=O)O)N	30
+Gly-Pro-Ala	CC(C(=O)O)NC(=O)C1CCCN1C(=O)CN	30
+L-Leucyl-L-lysine	CC(C)CC(C(=O)NC(CCCCN)C(=O)O)N	30
+Leu-Gly-Gly	CC(C)CC(C(=O)NCC(=O)NCC(=O)O)N	30
+6-beta-Iodopenicillanic acid	CC1(C(N2C(S1)C(C2=O)I)C(=O)O)C	30
+6-Aminopenicillanate	CC1(C(N2C(S1)C(C2=O)N)C(=O)O)C	30
+3-Amino-4,7-dihydroxy-8-methylcoumarin	CC1=C(C=CC2=C1OC(=O)C(=C2O)N)O	30
+Pyridoxamine phosphate	CC1=NC=C(C(=C1O)CN)COP(=O)(O)O	30
+Pyridoxine phosphate	CC1=NC=C(C(=C1O)CO)COP(=O)(O)O	30
+Solavetivol	CC1CC(C=C(C12CCC(C2)C(=C)C)C)O	30
+2-Heptyl-4-hydroxyquinoline-N-oxide	CCCCCCCC1=CC(=O)C2=CC=CC=C2N1O	30
+N-Octyl-beta-D-glucoside	CCCCCCCCOC1C(C(C(C(O1)CO)O)O)O	30
+N-Acetyl-L-phenylalanine ethyl ester	CCOC(=O)C(CC1=CC=CC=C1)NC(=O)C	30
+Methyl sinapate	COC1=CC(=CC(=C1O)OC)C=CC(=O)OC	30
+D-Mannitol 1-phosphate	C(C(C(C(C(COP(=O)(O)O)O)O)O)O)O	31
+2-O-(alpha-D-Glucopyranosyl)glycerol	C(C1C(C(C(C(O1)OC(CO)CO)O)O)O)O	31
+gamma-L-Glutamyl-L-cysteine	C(CC(=O)NC(CS)C(=O)O)C(C(=O)O)N	31
+L-Arginine phosphate	C(CC(C(=O)O)N)CN=C(N)NP(=O)(O)O	31
+Lys-Gly-Gly	C(CCN)CC(C(=O)NCC(=O)NCC(=O)O)N	31
+Homocarnosine	C1=C(NC=N1)CC(C(=O)O)NC(=O)CCCN	31
+1,2-Dichloro-4-nitrobenzene	C1=CC(=C(C=C1[N+](=O)[O-])Cl)Cl	31
+Bis(2-hydroxyethyl) terephthalate	C1=CC(=CC=C1C(=O)OCCO)C(=O)OCCO	31
+4-Nitrocinnamaldehyde	C1=CC(=CC=C1C=CC=O)[N+](=O)[O-]	31
+p-Nitrocinnamaldehyde	C1=CC(=CC=C1C=CC=O)[N+](=O)[O-]	31
+6-Fluorotryptophan	C1=CC2=C(C=C1F)NC=C2CC(C(=O)O)N	31
+trans-Stilbene oxide	C1=CC=C(C=C1)C2C(O2)C3=CC=CC=C3	31
+Phe-Gly	C1=CC=C(C=C1)CC(C(=O)NCC(=O)O)N	31
+Gly-Phe	C1=CC=C(C=C1)CC(C(=O)O)NC(=O)CN	31
+Indole-3-acetate	C1=CC=C2C(=C1)C(=CN2)CC(=O)[O-]	31
+alpha-Naphthyl phosphate	C1=CC=C2C(=C1)C=CC=C2OP(=O)(O)O	31
+beta-Naphthyl phosphate	C1=CC=C2C=C(C=CC2=C1)OP(=O)(O)O	31
+Lys-Pro	C1CC(N(C1)C(=O)C(CCCCN)N)C(=O)O	31
+Chorismate	C=C(C(=O)O)OC1C=C(C=CC1O)C(=O)O	31
+Isochorismate	C=C(C(=O)O)OC1C=CC=C(C1O)C(=O)O	31
+4-Nitroacetophenone	CC(=O)C1=CC=C(C=C1)[N+](=O)[O-]	31
+N-Acetyl-L-tyrosine	CC(=O)NC(CC1=CC=C(C=C1)O)C(=O)O	31
+Carboxymethylcellulose	CC(=O)O.C(C(C(C(C(C=O)O)O)O)O)O	31
+L-Alanyl-L-alanyl-L-alanine	CC(C(=O)NC(C)C(=O)NC(C)C(=O)O)N	31
+Ala-Ala-Ala	CC(C(=O)NC(C)C(=O)NC(C)C(=O)O)N	31
+L-Leucyl-L-leucine	CC(C)CC(C(=O)NC(CC(C)C)C(=O)O)N	31
+Leu-Leu	CC(C)CC(C(=O)NC(CC(C)C)C(=O)O)N	31
+4-Hydroxy-4-methyl-2-oxoglutarate	CC(CC(=O)C(=O)[O-])(C(=O)[O-])O	31
+L-alpha-Methyldopa	CC(CC1=CC(=C(C=C1)O)O)(C(=O)O)N	31
+5-Methyltryptophan	CC1=CC2=C(C=C1)NC=C2CC(C(=O)O)N	31
+Pyridoxal phosphate	CC1=NC=C(C(=C1O)C=O)COP(=O)(O)O	31
+N-Propanoylmannosamine	CCC(=O)NC(C=O)(C(C(C(CO)O)O)O)O	31
+6-(dimethylamino)-2-naphthaldehyde	CN(C)C1=CC2=C(C=C1)C=C(C=C2)C=O	31
+2-Amino-3-methylimidazo[4,5-f]quinoline	CN1C2=C(C3=C(C=C2)N=CC=C3)N=C1N	31
+L-1-Methyltryptophan	CN1C=C(C2=CC=CC=C21)CC(C(=O)O)N	31
+1-Methyl-D-tryptophan	CN1C=C(C2=CC=CC=C21)CC(C(=O)O)N	31
+DIMBOA	COC1=CC2=C(C=C1)N(C(=O)C(O2)O)O	31
+Diphosphate	[O-]P(=O)([O-])OP(=O)([O-])[O-]	31
+2,3-Bisphospho-D-glycerate	C(C(C(=O)O)OP(=O)(O)O)OP(=O)(O)O	32
+2,3-Bisphosphoglycerate	C(C(C(=O)O)OP(=O)(O)O)OP(=O)(O)O	32
+3-Phospho-D-glyceroyl phosphate	C(C(C(=O)OP(=O)(O)O)O)OP(=O)(O)O	32
+Glycerate 1,3-bisphosphate	C(C(C(=O)OP(=O)(O)O)O)OP(=O)(O)O	32
+D-Psicose 6-phosphate	C(C(C(C(C(=O)CO)O)O)O)OP(=O)(O)O	32
+Fructose 6-phosphate	C(C(C(C(C(=O)CO)O)O)O)OP(=O)(O)O	32
+D-Fructose 1-phosphate	C(C(C(C(C(=O)COP(=O)(O)O)O)O)O)O	32
+D-Glucosamine 6-phosphate	C(C(C(C(C(C=O)N)O)O)O)OP(=O)(O)O	32
+D-Glucose 6-phosphate	C(C(C(C(C(C=O)O)O)O)O)OP(=O)(O)O	32
+D-Allose 6-phosphate	C(C(C(C(C(C=O)O)O)O)O)OP(=O)(O)O	32
+3-Deoxy-D-manno-octulosonate	C(C(C(C(C(CO)O)O)O)O)C(=O)C(=O)O	32
+2-Deoxy-6-phospho-D-gluconate	C(C(C(C(COP(=O)(O)O)O)O)O)C(=O)O	32
+S-Ribosyl-L-homocysteine	C(CSCC1C(C(C(O1)O)O)O)C(C(=O)O)N	32
+Mitsubishine	C(C[NH3+])CN(CCC[NH3+])CCC[NH3+]	32
+Pentachlorophenol	C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O	32
+Tetrabromo-1,4-benzoquinone	C1(=C(C(=O)C(=C(C1=O)Br)Br)Br)Br	32
+Tetrachloro-1,4-benzoquinone	C1(=C(C(=O)C(=C(C1=O)Cl)Cl)Cl)Cl	32
+Porphobilinogen	C1=C(C(=C(N1)CN)CC(=O)O)CCC(=O)O	32
+(R)-p-Nitro-2-bromo-1-phenylethanol	C1=CC(=CC=C1C(CBr)O)[N+](=O)[O-]	32
+Tyr-Gly	C1=CC(=CC=C1CC(C(=O)NCC(=O)O)N)O	32
+Gly-Tyr	C1=CC(=CC=C1CC(C(=O)O)NC(=O)CN)O	32
+L-Kynurenine	C1=CC=C(C(=C1)C(=O)CC(C(=O)O)N)N	32
+2-Benzyl-3-phenyloxirane	C1=CC=C(C=C1)CC2C(O2)C3=CC=CC=C3	32
+6-Benzylaminopurine	C1=CC=C(C=C1)CNC2=NC=NC3=C2NC=N3	32
+4-Benzyloxy-indole	C1=CC=C(C=C1)COC2=CC=CC3=C2C=CN3	32
+L-Tryptophanamide	C1=CC=C2C(=C1)C(=CN2)CC(C(=O)N)N	32
+L-Tryptophan	C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N	32
+D-Tryptophan	C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N	32
+Tryptophan	C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N	32
+Indolelactate	C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)O	32
+N-Bromoacetyltryptamine	C1=CC=C2C(=C1)C(=CN2)CCNC(=O)CBr	32
+Ganciclovir	C1=NC2=C(N1COC(CO)CO)N=C(NC2=O)N	32
+N-Succinyl-L-glutamine	C1CC(=O)N(C1=O)C(CCC(=O)N)C(=O)O	32
+N-Acetyl-L-tyrosine methyl ester	CC(=O)NC(CC1=CC=C(C=C1)O)C(=O)OC	32
+4-Nitroacetanilide	CC(=O)NC1=CC=C(C=C1)[N+](=O)[O-]	32
+p-Nitrophenyl acetate	CC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	32
+Phosphatidylethanolamine	CC(=O)OCC(COP(=O)(O)OCCN)OC(=O)C	32
+D-Alanyl-D-phenylalanine	CC(C(=O)NC(CC1=CC=CC=C1)C(=O)O)N	32
+Ala-Phe	CC(C(=O)NC(CC1=CC=CC=C1)C(=O)O)N	32
+L-Alanyl-L-phenylalanine	CC(C(=O)NC(CC1=CC=CC=C1)C(=O)O)N	32
+Asp-Leu	CC(C)CC(C(=O)O)NC(=O)C(CC(=O)O)N	32
+Dibromothymoquinone	CC1=C(C(=O)C(=C(C1=O)Br)C(C)C)Br	32
+4-Methylumbelliferyl acetate	CC1=CC(=O)OC2=C1C=CC(=C2)OC(=O)C	32
+Thymidine	CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)O	32
+2-Amino-3,8-dimethylimidazo[4,5-f]quinoxaline	CC1=CN=C2C=CC3=C(C2=N1)N=C(N3C)N	32
+Tributyrin	CCCC(=O)OCC(COC(=O)CCC)OC(=O)CCC	32
+Anandamide	CCCCCC=CCC=CCC=CCC=CCCCC(=O)NCCO	32
+alpha-Naphthyl caprylate	CCCCCCCC(=O)OC1=CC=CC2=CC=CC=C21	32
+sn-1,2-Dioctanoylglycerol	CCCCCCCC(=O)OCC(CO)OC(=O)CCCCCCC	32
+2-Heptyl-3-hydroxy-quinolone	CCCCCCCC1=C(C(=O)C2=CC=CC=C2N1)O	32
+N-Pentylpantothenamide	CCCCCNC(=O)CCNC(=O)C(C(C)(C)CO)O	32
+Desipramine	CNCCCN1C2=CC=CC=C2CCC3=CC=CC=C31	32
+5-Methoxy-DL-tryptophan	COC1=CC2=C(C=C1)NC=C2CC(C(=O)O)N	32
+4-Carboxy-4-hydroxy-2-oxoadipate	C(C(=O)C(=O)O)C(CC(=O)O)(C(=O)O)O	33
+D-threo-3-Hydroxyaspartate	C(C(C(=O)[O-])O)(C(=O)[O-])[NH3+]	33
+Glucose 6-phosphate	C(C1C(C(C(C(O1)O)O)O)O)OP(=O)(O)O	33
+D-Mannose 6-phosphate	C(C1C(C(C(C(O1)O)O)O)O)OP(=O)(O)O	33
+D-Galactose 6-phosphate	C(C1C(C(C(C(O1)O)O)O)O)OP(=O)(O)O	33
+D-Glucosamine 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)N)O)O)O	33
+D-Galactosamine 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)N)O)O)O	33
+alpha-D-Glucose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O	33
+D-Mannose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O	33
+D-Glucose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O	33
+beta-D-Glucose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O	33
+L-Galactose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O	33
+D-Galactose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O	33
+alpha-D-Galactose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O	33
+alpha-D-Mannose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O	33
+beta-D-Mannose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)(O)O)O)O)O)O	33
+beta-D-Fructose 6-phosphate	C(C1C(C(C(O1)(CO)O)O)O)OP(=O)(O)O	33
+N2-Succinyl-L-glutamate	C(CC(=O)O)C(C(=O)O)NC(=O)CCC(=O)O	33
+L-Aspartyl-L-lysine	C(CCN)CC(C(=O)O)NC(=O)C(CC(=O)O)N	33
+1D-myo-Inositol 1-phosphate	C1(C(C(C(C(C1O)O)OP(=O)(O)O)O)O)O	33
+3-Chlorophenyl phosphate	C1=CC(=CC(=C1)Cl)OP(=O)([O-])[O-]	33
+Glycine-p-nitroanilide	C1=CC(=CC=C1NC(=O)CN)[N+](=O)[O-]	33
+Prephenate	C1=CC(C=CC1O)(CC(=O)C(=O)O)C(=O)O	33
+5-Fluorotryptophan	C1=CC2=C(C=C1F)C(=CN2)CC(C(=O)O)N	33
+5-Hydroxy-L-tryptophan	C1=CC2=C(C=C1O)C(=CN2)CC(C(=O)O)N	33
+Acenaphthenequinone	C1=CC2=C3C(=C1)C(=O)C(=O)C3=CC=C2	33
+Sudan Orange G	C1=CC=C(C=C1)N=NC2=C(C=C(C=C2)O)O	33
+Indolepyruvate	C1=CC=C2C(=C1)C(=CN2)CC(=O)C(=O)O	33
+Shikimate 3-phosphate	C1C(C(C(C=C1C(=O)O)OP(=O)(O)O)O)O	33
+3-Dimethylallyl-4-hydroxybenzoate	CC(=CCC1=C(C=CC(=C1)C(=O)O)[O-])C	33
+7,8-Dihydrobiopterin	CC(C(C1=NC2=C(NC1)N=C(NC2=O)N)O)O	33
+3-Isopropylgentisate	CC(C)C1=C(C(=CC(=C1)O)C(=O)O)[O-]	33
+Sulbactam	CC1(C(N2C(S1(=O)=O)CC2=O)C(=O)O)C	33
+5alpha-Androstane-3alpha,17beta-diol	CC12CCC(CC1CCC3C2CCC4(C3CCC4O)C)O	33
+5beta-Androstane-3alpha,17beta-diol	CC12CCC(CC1CCC3C2CCC4(C3CCC4O)C)O	33
+6-Methyltryptophan	CC1=CC2=C(C=C1)C(=CN2)CC(C(=O)O)N	33
+p-Nitrophenyl propionate	CCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	33
+15-HPETE	CCCCCC(C=CC=CCC=CCC=CCCCC(=O)O)OO	33
+Ac-Tyr-OEt	CCOC(=O)C(CC1=CC=C(C=C1)O)NC(=O)C	33
+Dextromethorphan	CN1CCC23CCCCC2C1CC4=C3C=C(C=C4)OC	33
+Hercynine	C[N+](C)(C)C(CC1=CN=CN1)C(=O)[O-]	33
+sn-Glycero-3-phosphocholine	C[N+](C)(C)CCOP(=O)([O-])OCC(CO)O	33
+2,3-Dichloro-5,6-dicyano-1,4-benzoquinone	C(#N)C1=C(C(=O)C(=C(C1=O)Cl)Cl)C#N	34
+5-Dehydro-4-deoxy-D-glucarate	C(C(C(C(=O)[O-])O)O)C(=O)C(=O)[O-]	34
+6-Phospho-D-glucono-1,5-lactone	C(C1C(C(C(C(=O)O1)O)O)O)OP(=O)(O)O	34
+N6-(L-1,3-Dicarboxypropyl)-L-lysine	C(CCNC(CCC(=O)O)C(=O)O)CC(C(=O)O)N	34
+5-Mercapto-2-nitrobenzoate	C1=CC(=C(C=C1S)C(=O)O)[N+](=O)[O-]	34
+1-Nitro-3-guanidinobenzene	C1=CC(=CC(=C1)[N+](=O)[O-])N=C(N)N	34
+3,4',5-Trihydroxystilbene	C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)O)O	34
+trans-Resveratrol	C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)O)O	34
+cis-Resveratrol	C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)O)O	34
+Phosphotyrosine	C1=CC(=CC=C1CC(C(=O)O)N)OP(=O)(O)O	34
+5-Benzyloxy-indole	C1=CC=C(C=C1)COC2=CC3=C(C=C2)NC=C3	34
+2,3-Dichloro-1,4-naphthoquinone	C1=CC=C2C(=C1)C(=O)C(=C(C2=O)Cl)Cl	34
+9,10-Phenanthroquinone	C1=CC=C2C(=C1)C3=CC=CC=C3C(=O)C2=O	34
+Phenanthrene-9-carboxaldehyde	C1=CC=C2C(=C1)C=C(C3=CC=CC=C23)C=O	34
+Cytarabine	C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O	34
+Cytidine	C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O	34
+Deoxyadenosine	C1C(C(OC1N2C=NC3=C(N=CN=C32)N)CO)O	34
+Chanoclavine-I	CC(=CC1C(CC2=CNC3=CC=CC1=C23)NC)CO	34
+N-Acetyl-L-tryptophanamide	CC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)N	34
+N-Acetyl-L-tryptophan	CC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)O	34
+Sepiapterin	CC(C(=O)C1=NC2=C(NC1)N=C(NC2=O)N)O	34
+Met-Ala-Ala	CC(C(=O)NC(C)C(=O)O)NC(=O)C(CCSC)N	34
+Tetrahydrobiopterin	CC(C(C1CNC2=C(N1)C(=O)NC(=N2)N)O)O	34
+5beta-Androstane-17beta-ol-3-one	CC12CCC(=O)CC1CCC3C2CCC4(C3CCC4O)C	34
+17alpha-Hydroxy-5alpha-androstan-3-one	CC12CCC(=O)CC1CCC3C2CCC4(C3CCC4O)C	34
+5beta-Androstane-3beta-ol-17-one	CC12CCC(CC1CCC3C2CCC4(C3CCC4=O)C)O	34
+5alpha-Androstane-3alpha-ol-17-one	CC12CCC(CC1CCC3C2CCC4(C3CCC4=O)C)O	34
+3alpha-Hydroxy-5beta-androstan-17-one	CC12CCC(CC1CCC3C2CCC4(C3CCC4=O)C)O	34
+Epiandrosterone	CC12CCC(CC1CCC3C2CCC4(C3CCC4=O)C)O	34
+3beta-Hydroxy-5beta-androstan-17-one	CC12CCC(CC1CCC3C2CCC4(C3CCC4=O)C)O	34
+5alpha-Androstan-3alpha-ol-17-one	CC12CCC(CC1CCC3C2CCC4(C3CCC4=O)C)O	34
+17alpha-Hydroxyestr-4-en-3-one	CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34	34
+2,5-Dimethyl-3,6-diaziridinyl-1,4-benzoquinone	CC1=C(C(=O)C(=C(C1=O)N2CC2)C)N3CC3	34
+3,3'-Dimethylbenzidine	CC1=C(C=CC(=C1)C2=CC(=C(C=C2)N)C)N	34
+ent-Cassa-12,15-diene	CC1C2CCC3C(CCCC3(C2CC=C1C=C)C)(C)C	34
+(15Z)-12-Oxophyto-10,15-dienoate	CCC=CCC1C(C=CC1=O)CCCCCCCC(=O)[O-]	34
+p-Nitrophenyl butyrate	CCCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	34
+Leukotriene A4	CCCCCC=CCC=CC=CC=CC1C(O1)CCCC(=O)O	34
+N-Heptylpantothenamide	CCCCCCCNC(=O)CCNC(=O)C(C(C)(C)CO)O	34
+2-Amino-1-methyl-6-phenylimidazo[4,5-b]pyridine	CN1C2=C(N=CC(=C2)C3=CC=CC=C3)N=C1N	34
+Ferricenium hexafluorophosphate	[CH-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+3]	34
+6-Phospho-D-gluconate	C(C(C(C(C(C(=O)O)O)O)O)O)OP(=O)(O)O	35
+(Glycerophosphate)n	C(C(COP(=O)(O)OCC(COP(=O)(O)O)O)O)O	35
+N-Succinyl-L-arginine	C(CC(C(=O)O)NC(=O)CCC(=O)O)CN=C(N)N	35
+7-Chloro-4-nitrobenzo-2-oxa-1,3-diazole	C1=C(C2=NON=C2C(=C1)Cl)[N+](=O)[O-]	35
+N-Succinyl-L-histidine	C1=C(NC=N1)CC(C(=O)O)NC(=O)CCC(=O)O	35
+Nitrofurazone	C1=C(OC(=C1)[N+](=O)[O-])C=NNC(=O)N	35
+3-Hydroxy-L-kynurenine	C1=CC(=C(C(=C1)O)N)C(=O)CC(C(=O)O)N	35
+2-Hydroxy-6-oxo-6-(4'-chlorophenyl)-hexa-2,4-dienoate	C1=CC(=CC=C1C(=CC=CC(=O)C(=O)O)O)Cl	35
+4-Nitrophenyl phosphate	C1=CC(=CC=C1[N+](=O)[O-])OP(=O)(O)O	35
+L-Formylkynurenine	C1=CC=C(C(=C1)C(=O)CC(C(=O)O)N)NC=O	35
+1-Phenylisatin	C1=CC=C(C=C1)N2C3=CC=CC=C3C(=O)C2=O	35
+Phenyl alpha-D-glucopyranoside	C1=CC=C(C=C1)OC2C(C(C(C(O2)CO)O)O)O	35
+Phenyl-beta-D-galactopyranoside	C1=CC=C(C=C1)OC2C(C(C(C(O2)CO)O)O)O	35
+Phenyl alpha-D-glucoside	C1=CC=C(C=C1)OC2C(C(C(C(O2)CO)O)O)O	35
+Deoxyguanosine	C1C(C(OC1N2C=NC3=C2N=C(NC3=O)N)CO)O	35
+1-(beta-D-Ribofuranosyl)-1,4-dihydronicotinamide	C1C=CN(C=C1C(=O)N)C2C(C(C(O2)CO)O)O	35
+(6E,10E)-Geranyllinalool	CC(=CCCC(=CCCC(=CCCC(C)(C=C)O)C)C)C	35
+Geranyl diphosphate	CC(=CCCC(=CCOP(=O)(O)OP(=O)(O)O)C)C	35
+Neryl diphosphate	CC(=CCCC(=CCOP(=O)(O)OP(=O)(O)O)C)C	35
+N-Acetyl-L-tryptophan methyl ester	CC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)OC	35
+N-Acetylglucosamine 6-phosphate	CC(=O)NC1C(C(C(OC1O)COP(=O)(O)O)O)O	35
+N-Acetyl-D-glucosamine 1-phosphate	CC(=O)NC1C(C(C(OC1OP(=O)(O)O)CO)O)O	35
+N-Acetyl-alpha-D-glucosamine 1-phosphate	CC(=O)NC1C(C(C(OC1OP(=O)(O)O)CO)O)O	35
+N-Acetyl-D-galactosamine 1-phosphate	CC(=O)NC1C(C(C(OC1OP(=O)(O)O)CO)O)O	35
+Ala-Tyr	CC(C(=O)NC(CC1=CC=C(C=C1)O)C(=O)O)N	35
+L-Alanyl-L-tyrosine	CC(C(=O)NC(CC1=CC=C(C=C1)O)C(=O)O)N	35
+Met-Ala-Ser	CC(C(=O)NC(CO)C(=O)O)NC(=O)C(CCSC)N	35
+Tyr-Ala	CC(C(=O)O)NC(=O)C(CC1=CC=C(C=C1)O)N	35
+6,7-Dihydrobiopterin	CC(C(C1CN=C2C(=N1)C(=O)NC(=N2)N)O)O	35
+L-Leucyl-L-arginine	CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)O)N	35
+Arg-Leu	CC(C)CC(C(=O)O)NC(=O)C(CCCN=C(N)N)N	35
+(R)-5-Diphosphomevalonate	CC(CCOP(=O)(O)OP(=O)(O)O)(CC(=O)O)O	35
+5alpha-Androstane-3,17-dione	CC12CCC(=O)CC1CCC3C2CCC4(C3CCC4=O)C	35
+5beta-Androstane-3,17-dione	CC12CCC(=O)CC1CCC3C2CCC4(C3CCC4=O)C	35
+4-Androsten-3alpha-ol-17-one	CC12CCC(C=C1CCC3C2CCC4(C3CCC4=O)C)O	35
+Estradiol-17beta	CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O	35
+Estradiol-17alpha	CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O	35
+Testosterone	CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34C	35
+Epitestosterone	CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34C	35
+2,3-Dimethoxy-5-methyl-6-(3-methyl-2-butenyl)-1,4-benzoquinone	CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)C	35
+4-Methylumbelliferyl phosphate	CC1=CC(=O)OC2=C1C=CC(=C2)OP(=O)(O)O	35
+Fumigaclavine B	CC1CN(C2CC3=CNC4=CC=CC(=C34)C2C1O)C	35
+Bufuralol	CCC1=CC=CC2=C1OC(=C2)C(CNC(C)(C)C)O	35
+p-Nitrophenyl valerate	CCCCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	35
+Leukotriene B4	CCCCCC=CCC(C=CC=CC=CC(CCCC(=O)O)O)O	35
+1-Myristoylglycerol 3-phosphate	CCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)O	35
+Sphingosine 1-phosphate	CCCCCCCCCCCCCC=CC(C(COP(=O)(O)O)N)O	35
+7-Ethoxyresorufin	CCOC1=CC2=C(C=C1)N=C3C=CC(=O)C=C3O2	35
+Met-Phe	CSCCC(C(=O)NC(CC1=CC=CC=C1)C(=O)O)N	35
+Phe-Met	CSCCC(C(=O)O)NC(=O)C(CC1=CC=CC=C1)N	35
+L-Idarate	C(C(C(C(=O)[O-])O)O)(C(C(=O)[O-])O)O	36
+D-Sedoheptulose 7-phosphate	C(C(C(C(C(C(=O)CO)O)O)O)O)OP(=O)(O)O	36
+D-Ribose 5-diphosphate	C(C(C(C(COP(=O)(O)OP(=O)(O)O)O)O)O)O	36
+5'-Phosphoribosylglycinamide	C(C1C(C(C(O1)NC(=O)CN)O)O)OP(=O)(O)O	36
+But-1-ene-1,2,4-tricarboxylate	C(CC(=O)[O-])C(=CC(=O)[O-])C(=O)[O-]	36
+Pseudouridine	C1=C(C(=O)NC(=O)N1)C2C(C(C(O2)CO)O)O	36
+2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate	C1=CC(C(C(=C1)C(=O)CCC(=O)O)C(=O)O)O	36
+2-Hydroxy-6-oxo-6-phenylhexa-2,4-dienoate	C1=CC=C(C=C1)C(=CC=CC(=O)C(=O)O)[O-]	36
+L-Phenylalanine benzyl ester	C1=CC=C(C=C1)CC(C(=O)OCC2=CC=CC=C2)N	36
+7-Benzyloxyquinoline	C1=CC=C(C=C1)COC2=CC3=C(C=CC=N3)C=C2	36
+7,8-Dihydroneopterin	C1C(=NC2=C(N1)N=C(NC2=O)N)C(C(CO)O)O	36
+N-Succinyl-L-phenylalanine	C1CC(=O)N(C1=O)C(CC2=CC=CC=C2)C(=O)O	36
+Arg-Pro	C1CC(N(C1)C(=O)C(CCCN=C(N)N)N)C(=O)O	36
+Pro-Phe	C1CC(NC1)C(=O)NC(CC2=CC=CC=C2)C(=O)O	36
+7-Aminocephalosporanic acid	CC(=O)OCC1=C(N2C(C(C2=O)N)SC1)C(=O)O	36
+D-Alanine-p-nitroanilide	CC(C(=O)NC1=CC=C(C=C1)[N+](=O)[O-])N	36
+Met-Pro-Ala	CC(C(=O)O)NC(=O)C1CCCN1C(=O)C(CCSC)N	36
+Biopterin	CC(C(C1=CN=C2C(=N1)C(=O)NC(=N2)N)O)O	36
+D-4'-Phosphopantothenate	CC(C)(COP(=O)(O)O)C(C(=O)NCCC(=O)O)O	36
+Val-Phe	CC(C)C(C(=O)NC(CC1=CC=CC=C1)C(=O)O)N	36
+Phytanate	CC(C)CCCC(C)CCCC(C)CCCC(C)CC(=O)[O-]	36
+Imipenem	CC(C1C2CC(=C(N2C1=O)C(=O)O)SCCN=CN)O	36
+9beta-Pimara-7,15-diene	CC1(CCCC2(C1CC=C3C2CCC(C3)(C)C=C)C)C	36
+ent-Sandaracopimaradiene	CC1(CCCC2(C1CCC3=CC(CCC32)(C)C=C)C)C	36
+Androst-4-ene-3,17-dione	CC12CCC(=O)C=C1CCC3C2CCC4(C3CCC4=O)C	36
+Estrone	CC12CCC3C(C1CCC2=O)CCC4=C3C=CC(=C4)O	36
+Androst-5-ene-3beta,17alpha-diol	CC12CCC3C(C1CCC2O)CC=C4C3(CCC(C4)O)C	36
+Boldenone	CC12CCC3C(C1CCC2O)CCC4=CC(=O)C=CC34C	36
+4-Methylumbelliferone sulfate	CC1=CC(=O)OC2=C1C=CC(=C2)OS(=O)(=O)O	36
+Hemoglobin	CC1=NC2=C(C=C1)C(=O)C=C(N2)C3=CC=CO3	36
+4-Methylumbelliferyl butyrate	CCCC(=O)OC1=CC2=C(C=C1)C(=CC(=O)O2)C	36
+p-Nitrophenyl caproate	CCCCCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	36
+o-Dianisidine	COC1=C(C=CC(=C1)C2=CC(=C(C=C2)N)OC)N	36
+3-Carboxy-cis,cis-muconate	C(=CC(=O)[O-])C(=CC(=O)[O-])C(=O)[O-]	37
+Citrate	C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O	37
+D-Ribulose 1,5-bisphosphate	C(C(C(C(=O)COP(=O)(O)O)O)O)OP(=O)(O)O	37
+2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate	C(C(C(C(COP(=O)(O)O)O)O)O)C(=O)C(=O)O	37
+Arabinobiose	C(C1C(C(C(O1)OCC2C(C(C(O2)O)O)O)O)O)O	37
+Neopterin	C1=C(N=C2C(=O)NC(=NC2=N1)N)C(C(CO)O)O	37
+Gemcitabine	C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)(F)F	37
+ent-Kaurene	CC1(CCCC2(C1CCC34C2CCC(C3)C(=C)C4)C)C	37
+syn-Stemod-13(17)-ene	CC1(CCCC2(C1CCC3C24CCC(=C)C(C3)C4)C)C	37
+3beta-Hydroxyandrost-5-en-17-one	CC12CCC3C(C1CCC2=O)CC=C4C3(CCC(C4)O)C	37
+Decylubiquinone	CCCCCCCCCCC1=C(C(=O)C(=C(C1=O)OC)OC)C	37
+1-Palmitoylglycerol 3-phosphate	CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)O	37
+7-Ethoxy-4-trifluoromethylcoumarin	CCOC1=CC2=C(C=C1)C(=CC(=O)O2)C(F)(F)F	37
+Pentaglycine	C(C(=O)NCC(=O)NCC(=O)NCC(=O)NCC(=O)O)N	38
+Reduced glutathione	C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N	38
+[Glu(-Cys)]n-Gly	C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N	38
+trans-11-octadecadienoyl)-gamma-palmitoyl)-L-alpha-phosphatidylcholine	C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N	38
+N-Succinyl-LL-2,6-diaminoheptanedioate	C(CC(C(=O)O)N)CC(C(=O)O)NC(=O)CCC(=O)O	38
+N(omega)-(L-Arginino)succinate	C(CC(C(=O)O)N)CN=C(N)NC(CC(=O)O)C(=O)O	38
+5-Nitro-1-naphthaldehyde	C1=CC(=C2C=CC=C(C2=C1)[N+](=O)[O-])C=O	38
+N-Succinyl-L-tyrosine	C1=CC(=CC=C1CC(C(=O)O)NC(=O)CCC(=O)O)O	38
+2,6-Dichloroindophenol	C1=CC(=O)C=CC1=NC2=CC(=C(C(=C2)Cl)O)Cl	38
+4,2'-Dihydroxychalcone	C1=CC=C(C(=C1)C(=O)C=CC2=CC=C(C=C2)O)O	38
+2',4'-Dihydroxychalcone	C1=CC=C(C=C1)C=CC(=O)C2=C(C=C(C=C2)O)O	38
+Phe-Gly-Gly	C1=CC=C(C=C1)CC(C(=O)NCC(=O)NCC(=O)O)N	38
+Glycyl-glycyl-L-phenylalanine	C1=CC=C(C=C1)CC(C(=O)O)NC(=O)CNC(=O)CN	38
+Gly-Gly-Phe	C1=CC=C(C=C1)CC(C(=O)O)NC(=O)CNC(=O)CN	38
+dCMP	C1C(C(OC1N2C=CC(=NC2=O)N)COP(=O)(O)O)O	38
+dUMP	C1C(C(OC1N2C=CC(=O)NC2=O)COP(=O)(O)O)O	38
+Phe-Pro	C1CC(N(C1)C(=O)C(CC2=CC=CC=C2)N)C(=O)O	38
+4-(3-Methylbut-2-enyl)-L-tryptophan	CC(=CCC1=C2C(=CC=C1)NC=C2CC(C(=O)O)N)C	38
+(E)-2-Methylgeranyl diphosphate	CC(=CCCC(=C(C)COP(=O)(O)OP(=O)(O)O)C)C	38
+2-Fluorogeranyl diphosphate	CC(=CCCC(=C(COP(=O)(O)OP(=O)(O)O)F)C)C	38
+Geranyl glucoside	CC(=CCCC(=CCOC1C(C(C(C(O1)CO)O)O)O)C)C	38
+L-Alanyl-D-aspartate	CC(C(=O)NC(CC(=O)[O-])C(=O)[O-])[NH3+]	38
+N-Formyl-Met-Ala-Ser	CC(C(=O)NC(CO)C(=O)O)NC(=O)C(CCSC)NC=O	38
+1,6-Anhydro-N-acetyl-beta-muramate	CC(C(=O)[O-])OC1C(C2OCC(C1O)O2)NC(=O)C	38
+(2S,3R)-3-Hydroxybutane-1,2,3-tricarboxylate	CC(C(CC(=O)[O-])C(=O)[O-])(C(=O)[O-])O	38
+Leu-Pro-Ala	CC(C)CC(C(=O)N1CCCC1C(=O)NC(C)C(=O)O)N	38
+Leu-Ala-Pro	CC(C)CC(C(=O)NC(C)C(=O)N1CCCC1C(=O)O)N	38
+Androst-5-ene-3,17-dione	CC12CCC3C(C1CCC2=O)CC=C4C3(CCC(=O)C4)C	38
+Retinol	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CCO)C)C	38
+9-cis-Retinol	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CCO)C)C	38
+11-cis-Retinol	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CCO)C)C	38
+13-cis-Retinol	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CCO)C)C	38
+3,3',5,5'-Tetramethylbenzidine	CC1=CC(=CC(=C1N)C)C2=CC(=C(C(=C2)C)N)C	38
+Abscisate	CC1=CC(=O)CC(C1(C=CC(=CC(=O)O)C)O)(C)C	38
+15-Keto-prostaglandin F1alpha	CCCCCC(=O)C=CC1C(CC(C1CCCCCCC(=O)O)O)O	38
+9alpha,11beta-Prostaglandin F2	CCCCCC(C=CC1C(CC(C1CC=CCCCC(=O)O)O)O)O	38
+Prostaglandin H2	CCCCCC(C=CC1C2CC(C1CC=CCCCC(=O)O)OO2)O	38
+p-Nitrophenyl octanoate	CCCCCCCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	38
+threo-10-Phosphonooxy-9-hydroxy-octadecanoic acid	CCCCCCCCC(C(CCCCCCCC(=O)O)O)OP(=O)(O)O	38
+Methyl red	CN(C)C1=CC=C(C=C1)N=NC2=CC=CC=C2C(=O)O	38
+5'-Deoxy-5'-(methylthio)adenosine	CSCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O	38
+beta-D-Allose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)([O-])[O-])O)O)O)O	39
+beta-D-Galactose 1-phosphate	C(C1C(C(C(C(O1)OP(=O)([O-])[O-])O)O)O)O	39
+S-Sulfanylglutathione	C(CC(=O)NC(CSS)C(=O)NCC(=O)O)C(C(=O)O)N	39
+2-Chloro-4-nitrophenyl phosphate	C1=CC(=C(C=C1[N+](=O)[O-])Cl)OP(=O)(O)O	39
+Daidzein	C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O)O	39
+Isoliquiritigenin	C1=CC(=CC=C1C=CC(=O)C2=C(C=C(C=C2)O)O)O	39
+Tyr-Gly-Gly	C1=CC(=CC=C1CC(C(=O)NCC(=O)NCC(=O)O)N)O	39
+Lys-Tyr	C1=CC(=CC=C1CC(C(=O)O)NC(=O)C(CCCCN)N)O	39
+Phloretin	C1=CC(=CC=C1CCC(=O)C2=C(C=C(C=C2O)O)O)O	39
+S-o-Nitrophenyl-L-cysteine	C1=CC=C(C(=C1)[N+](=O)[O-])SCC(C(=O)O)N	39
+Inosine	C1=NC2=C(C(=O)N1)N=CN2C3C(C(C(O3)CO)O)O	39
+N-Acetyl-D-neuraminate	CC(=O)NC1C(CC(OC1C(C(CO)O)O)(C(=O)O)O)O	39
+Marmesin	CC(C)(C1CC2=C(O1)C=C3C(=C2)C=CC(=O)O3)O	39
+4'-Phosphopantetheine	CC(C)(COP(=O)(O)O)C(C(=O)NCCC(=O)NCCS)O	39
+20alpha-Hydroxy-4-pregnen-3-one	CC(C1CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C)O	39
+Pregnanediol	CC(C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C)O	39
+5alpha-Pregnan-3alpha,20alpha-diol	CC(C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C)O	39
+3,4-Didehydroretinol	CC1=C(C(CC=C1)(C)C)C=CC(=CC=CC(=CCO)C)C	39
+all-trans-Retinal	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=O)C)C	39
+7-cis-Retinal	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=O)C)C	39
+9-cis-Retinal	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=O)C)C	39
+11-cis-Retinal	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=O)C)C	39
+13-cis-Retinal	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=O)C)C	39
+Rhodopsin	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=O)C)C	39
+4-Hydroxyretinol	CC1=C(C(CCC1O)(C)C)C=CC(=CC=CC(=CCO)C)C	39
+7,12-Dimethylbenzo[a]anthracene	CC1=C2C=CC3=CC=CC=C3C2=C(C4=CC=CC=C14)C	39
+15-Keto-prostaglandin E1	CCCCCC(=O)C=CC1C(CC(=O)C1CCCCCCC(=O)O)O	39
+15-Keto-prostaglandin F2alpha	CCCCCC(=O)C=CC1C(CC(C1CC=CCCCC(=O)O)O)O	39
+Prostaglandin D2	CCCCCC(C=CC1C(C(CC1=O)O)CC=CCCCC(=O)O)O	39
+Prostaglandin E2	CCCCCC(C=CC1C(CC(=O)C1CC=CCCCC(=O)O)O)O	39
+Prostaglandin G2	CCCCCC(C=CC1C2CC(C1CC=CCCCC(=O)O)OO2)OO	39
+4-Methylumbelliferyl heptanoate	CCCCCCC(=O)OC1=CC2=C(C=C1)C(=CC(=O)O2)C	39
+1-(1Z-Octadecenyl)-sn-glycero-3-phosphoethanolamine	CCCCCCCCCCCCCCCCC=COCC(COP(=O)(O)OCCN)O	39
+1-Stearoylglycerol 3-phosphate	CCCCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)O	39
+Paraoxon	CCOP(=O)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-]	39
+S-(Hydroxymethyl)glutathione	C(CC(=O)NC(CSCO)C(=O)NCC(=O)O)C(C(=O)O)N	40
+Aminoimidazole ribotide	C1=C(N(C=N1)C2C(C(C(O2)COP(=O)(O)O)O)O)N	40
+Maclurin	C1=CC(=C(C=C1C(=O)C2=C(C=C(C=C2O)O)O)O)O	40
+1-Fluoro-2,4-dinitrobenzene	C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])F	40
+Genistein	C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O)O	40
+Naringenin chalcone	C1=CC(=CC=C1C=CC(=O)C2=C(C=C(C=C2O)O)O)O	40
+Aspartic acid-beta-4-nitroanilide	C1=CC(=CC=C1NC(=O)NCCC(=O)O)[N+](=O)[O-]	40
+Diclofenac	C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl	40
+Benzyl D-glucuronate	C1=CC=C(C=C1)COC(=O)C2C(C(C(C(O2)O)O)O)O	40
+(3-Indolyl)-glycerol phosphate	C1=CC=C2C(=C1)C(=CN2)C(C(COP(=O)(O)O)O)O	40
+Guanosine	C1=NC2=C(N1C3C(C(C(O3)CO)O)O)N=C(NC2=O)N	40
+Fludarabine	C1=NC2=C(N=C(N=C2N1C3C(C(C(O3)CO)O)O)F)N	40
+Isoprimeverose	C1C(C(C(C(O1)OCC(C(C(C(C=O)O)O)O)O)O)O)O	40
+(R,S)-Norcoclaurine	C1CNC(C2=CC(=C(C=C21)O)O)CC3=CC=C(C=C3)O	40
+Progesterone	CC(=O)C1CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C	40
+3beta-Hydroxy-5beta-pregnane-20-one	CC(=O)C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C	40
+3beta-Hydroxy-5alpha-pregnane-20-one	CC(=O)C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C	40
+3alpha-Hydroxy-5beta-pregnane-20-one	CC(=O)C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C	40
+3alpha-Hydroxy-5alpha-pregnan-20-one	CC(=O)C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C	40
+5-Hydroxymarmesin	CC(C)(C1CC2=C(O1)C=C3C(=C2O)C=CC(=O)O3)O	40
+Valacyclovir	CC(C)C(C(=O)OCCOCN1C=NC2=C1N=C(NC2=O)N)N	40
+Tyr-Leu	CC(C)CC(C(=O)O)NC(=O)C(CC1=CC=C(C=C1)O)N	40
+20alpha-Hydroxy-5beta-pregnan-3-one	CC(C1CCC2C1(CCC3C2CCC4C3(CCC(=O)C4)C)C)O	40
+20alpha-Hydroxy-5alpha-pregnan-3-one	CC(C1CCC2C1(CCC3C2CCC4C3(CCC(=O)C4)C)C)O	40
+16-Ketoestrone	CC12CCC3C(C1CC(=O)C2=O)CCC4=C3C=CC(=C4)O	40
+all-trans-Dehydroretinal	CC1=C(C(CC=C1)(C)C)C=CC(=CC=CC(=CC=O)C)C	40
+3,17-Dihydroxy-9,10-secoandrosta-1,3,5(10)-triene-9-one	CC1=C(C=C(C=C1)O)CCC2C3CCC(C3(CCC2=O)C)O	40
+(5Z,13E)-11alpha-Hydroxy-9,15-dioxoprost-13-enoate	CCCCCC(=O)C=CC1C(CC(=O)C1CC=CCCCC(=O)O)O	40
+4-Methylumbelliferyl octanoate	CCCCCCCC(=O)OC1=CC2=C(C=C1)C(=CC(=O)O2)C	40
+1-Oleoyl-lysophosphatidate	CCCCCCCCC=CCCCCCCCC(=O)OCC(COP(=O)(O)O)O	40
+p-Nitrophenyl decanoate	CCCCCCCCCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	40
+Benzydamine	CN(C)CCCOC1=NN(C2=CC=CC=C21)CC3=CC=CC=C3	40
+Formononetin	COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O	40
+D-Glucose 1,6-bisphosphate	C(C(C(C(C(C=O)OP(=O)(O)O)O)O)O)OP(=O)(O)O	41
+3-Deoxy-D-manno-octulosonate 8-phosphate	C(C(C(C(C(COP(=O)(O)O)O)O)O)O)C(=O)C(=O)O	41
+S-Formylglutathione	C(CC(=O)NC(CSC=O)C(=O)NCC(=O)O)C(C(=O)O)N	41
+S-Nitrosoglutathione	C(CC(=O)NC(CSN=O)C(=O)NCC(=O)O)C(C(=O)O)N	41
+1-Chloro-2,4-dinitrobenzene	C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])Cl	41
+1-O-4-Hydroxybenzoyl-beta-D-glucose	C1=CC(=CC=C1C(=O)OC2C(C(C(C(O2)CO)O)O)O)O	41
+2,7,4'-Trihydroxyisoflavanone	C1=CC(=CC=C1C2C(OC3=C(C2=O)C=CC(=C3)O)O)O	41
+(R)-Prunasin	C1=CC=C(C=C1)C(C#N)OC2C(C(C(C(O2)CO)O)O)O	41
+Adenosine	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N	41
+Nitrofurantoin	C1C(=O)NC(=O)N1N=CC2=CC=C(O2)[N+](=O)[O-]	41
+Pregnenolone	CC(=O)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C	41
+5beta-Pregnane-3,20-dione	CC(=O)C1CCC2C1(CCC3C2CCC4C3(CCC(=O)C4)C)C	41
+5alpha-Pregnane-3,20-dione	CC(=O)C1CCC2C1(CCC3C2CCC4C3(CCC(=O)C4)C)C	41
+Mecillinam	CC1(C(N2C(S1)C(C2=O)N=CN3CCCCCC3)C(=O)O)C	41
+11-Deoxycorticosterone	CC12CCC3C(C1CCC2C(=O)CO)CCC4=CC(=O)CCC34C	41
+4-Oxoretinal	CC1=C(C(CCC1=O)(C)C)C=CC(=CC=CC(=CC=O)C)C	41
+3-Hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione	CC1=C(C=C(C=C1)O)CCC2C3CCC(=O)C3(CCC2=O)C	41
+6,8-Difluoro-4-methylumbelliferyl phosphate	CC1=CC(=O)OC2=C(C(=C(C=C12)F)OP(=O)(O)O)F	41
+dTMP	CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=O)(O)O)O	41
+Ethacrynic acid	CCC(=C)C(=O)C1=C(C(=C(C=C1)OCC(=O)O)Cl)Cl	41
+Prostamide H2	CCCCCC(C=CC1C2CC(C1CC=CCCCC(=O)NCCO)OO2)O	41
+N-Acetylsphingosine 1-phosphate	CCCCCCCCCCCCCC=CC(C(COP(=O)(O)O)NC(=O)C)O	41
+(3R,4R)-7,2'-Dihydroxy-4'-methoxyisoflavanol	COC1=CC(=C(C=C1)C2COC3=C(C2O)C=CC(=C3)O)O	41
+Biochanin A	COC1=CC=C(C=C1)C2=COC3=CC(=CC(=C3C2=O)O)O	41
+D-Fructose 2,6-bisphosphate	C(C1C(C(C(O1)(CO)OP(=O)(O)O)O)O)OP(=O)(O)O	42
+beta-D-Fructose 2,6-bisphosphate	C(C1C(C(C(O1)(CO)OP(=O)(O)O)O)O)OP(=O)(O)O	42
+D-Tagatose 1,6-bisphosphate	C(C1C(C(C(O1)(COP(=O)(O)O)O)O)O)OP(=O)(O)O	42
+Fructose 1,6-bisphosphate	C(C1C(C(C(O1)(COP(=O)(O)O)O)O)O)OP(=O)(O)O	42
+Inositol 4,5-bisphosphate	C1(C(C(C(C(C1O)OP(=O)(O)O)OP(=O)(O)O)O)O)O	42
+Norathyriol	C1=C(C=C2C(=C1O)C(=O)C3=CC(=C(C=C3O2)O)O)O	42
+2,4-Dinitrobenzaldehyde	C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])C=O	42
+Dhurrin	C1=CC(=CC=C1C(C#N)OC2C(C(C(C(O2)CO)O)O)O)O	42
+2,5,7,4'-Tetrahydroxyisoflavanone	C1=CC(=CC=C1C2C(OC3=CC(=CC(=C3C2=O)O)O)O)O	42
+2',3'-Cyclic CMP	C1=CN(C(=O)N=C1N)C2C3C(C(O2)CO)OP(=O)(O3)O	42
+Neamin	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)N)O)O)N	42
+Neamine	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)N)O)O)N	42
+5-O-(1-Carboxyvinyl)-3-phosphoshikimate	C=C(C(=O)O)OC1CC(=CC(C1O)OP(=O)(O)O)C(=O)O	42
+N4-(Acetyl-beta-D-glucosaminyl)asparagine	CC(=O)NC1C(C(C(OC1NC(=O)CC(C(=O)O)N)CO)O)O	42
+Glycyl-L-alanyl-L-tyrosine	CC(C(=O)NC(CC1=CC=C(C=C1)O)C(=O)O)NC(=O)CN	42
+Gly-Ala-Tyr	CC(C(=O)NC(CC1=CC=C(C=C1)O)C(=O)O)NC(=O)CN	42
+17alpha,20alpha-Dihydroxypregn-4-en-3-one	CC(C1(CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C)O)O	42
+Tazobactam	CC1(C(N2C(S1(=O)=O)CC2=O)C(=O)O)CN3C=CN=N3	42
+Menaquinol	CC1=C(C2=CC=CC=C2C(=C1CC=C(C)CCC=C(C)C)O)O	42
+L-Aspartic acid beta-(7-amido-4-methylcoumarin)	CC1=CC(=O)OC2=C1C=CC(=C2)NC(=O)CC(C(=O)O)N	42
+Zidovudine	CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)N=[N+]=[N-]	42
+5'-O-beta-D-Glucosylpyridoxine	CC1=NC=C(C(=C1O)CO)COC2C(C(C(C(O2)CO)O)O)O	42
+p-Nitrophenyl dodecanoate	CCCCCCCCCCCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	42
+p-Nitrophenyl laurate	CCCCCCCCCCCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	42
+Codeine	CN1CCC23C4C1CC5=C2C(=C(C=C5)OC)OC3C(C=C4)O	42
+2,7-Dihydroxy-4'-methoxyisoflavanone	COC1=CC=C(C=C1)C2C(OC3=C(C2=O)C=CC(=C3)O)O	42
+Lactitol	C(C1C(C(C(C(O1)OC(C(CO)O)C(C(CO)O)O)O)O)O)O	43
+Maltitol	C(C1C(C(C(C(O1)OC(C(CO)O)C(C(CO)O)O)O)O)O)O	43
+Maltose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O	43
+Lactose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O	43
+Cellobiose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O	43
+alpha-Lactose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O	43
+Lactulose	C(C1C(C(C(C(O1)OC2C(OC(C2O)(CO)O)CO)O)O)O)O	43
+3-Nitrophenyl phosphate	C1=CC(=CC(=C1)OP(=O)([O-])[O-])[N+](=O)[O-]	43
+L-gamma-Glutamyl-p-nitroanilide	C1=CC(=CC=C1NC(=O)CCC(C(=O)O)N)[N+](=O)[O-]	43
+4-Nitrophenyl-alpha-L-arabinofuranoside	C1=CC(=CC=C1[N+](=O)[O-])OC2C(C(C(O2)CO)O)O	43
+L-Arogenate	C1=CC(C=CC1O)(CC(C(=O)[O-])[NH3+])C(=O)[O-]	43
+L-Histidyl-L-phenylalanine	C1=CC=C(C=C1)CC(C(=O)O)NC(=O)C(CC2=CN=CN2)N	43
+Arg-Phe	C1=CC=C(C=C1)CC(C(=O)O)NC(=O)C(CCCN=C(N)N)N	43
+2-Naphthyl-beta-D-galactopyranoside	C1=CC=C2C=C(C=CC2=C1)OC3C(C(C(C(O3)CO)O)O)O	43
+Cytidine 3'-phosphate	C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)OP(=O)(O)O)O	43
+CMP	C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)O)O)O	43
+1-beta-D-Arabinofuranosylcytosine 5'-monophosphate	C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)O)O)O	43
+Uridine 3'-phosphate	C1=CN(C(=O)NC1=O)C2C(C(C(O2)CO)OP(=O)(O)O)O	43
+UMP	C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)O)O)O	43
+2-Nitrophenyl-beta-D-xylopyranoside	C1C(C(C(C(O1)OC2=CC=CC=C2[N+](=O)[O-])O)O)O	43
+2'-Deoxyadenosine 3'-phosphate	C1C(C(OC1N2C=NC3=C(N=CN=C32)N)CO)OP(=O)(O)O	43
+dAMP	C1C(C(OC1N2C=NC3=C(N=CN=C32)N)COP(=O)(O)O)O	43
+trans,trans-Farnesyl diphosphate	CC(=CCCC(=CCCC(=CCOP(=O)(O)OP(=O)(O)O)C)C)C	43
+17alpha-Hydroxyprogesterone	CC(=O)C1(CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C)O	43
+11beta,21-Dihydroxy-5beta-pregnane-3,20-dione	CC12CCC(=O)CC1CCC3C2C(CC4(C3CCC4C(=O)CO)C)O	43
+L-Glutamic acid gamma-(7-amido-4-methylcoumarin)	CC1=CC(=O)OC2=C1C=CC(=C2)NC(=O)CCC(C(=O)O)N	43
+4-Methylumbelliferyl-beta-D-xylopyranoside	CC1=CC(=O)OC2=C1C=CC(=C2)OC3C(C(C(CO3)O)O)O	43
+N-Benzoyl-L-tyrosine ethyl ester	CCOC(=O)C(CC1=CC=C(C=C1)O)NC(=O)C2=CC=CC=C2	43
+Oripavine	CN1CCC23C4C(=CC=C2C1CC5=C3C(=C(C=C5)O)O4)OC	43
+(R,S)-Norreticuline	COC1=C(C=C(C=C1)CC2C3=CC(=C(C=C3CCN2)OC)O)O	43
+Triphosphate	[O-]P(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-]	43
+Turanose	C(C1C(C(C(C(O1)OC(C(C(CO)O)O)C(=O)CO)O)O)O)O	44
+Maltulose	C(C1C(C(C(C(O1)OC(C(CO)O)C(C(=O)CO)O)O)O)O)O	44
+Kojibiose	C(C1C(C(C(C(O1)OC(C=O)C(C(C(CO)O)O)O)O)O)O)O	44
+Leucrose	C(C1C(C(C(C(O1)OC(CO)C(C(C(=O)CO)O)O)O)O)O)O	44
+Trehalulose	C(C1C(C(C(C(O1)OCC(=O)C(C(C(CO)O)O)O)O)O)O)O	44
+D-Gentiobiose	C(C1C(C(C(C(O1)OCC(C(C(C(C=O)O)O)O)O)O)O)O)O	44
+2'-Deoxyguanosine 3'-phosphate	C1C(C(OC1N2C=NC3=C2N=C(NC3=O)N)CO)OP(=O)(O)O	44
+dGMP	C1C(C(OC1N2C=NC3=C2N=C(NC3=O)N)COP(=O)(O)O)O	44
+Reduced nicotinamide nucleotide	C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)O)O)O	44
+17alpha-Hydroxypregnenolone	CC(=O)C1(CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)O	44
+Phe-Pro-Ala	CC(C(=O)O)NC(=O)C1CCCN1C(=O)C(CC2=CC=CC=C2)N	44
+delta(L-2-Aminoadipyl)-L-cysteinyl-D-valine	CC(C)C(C(=O)O)NC(=O)C(CS)NC(=O)CCCC(C(=O)O)N	44
+Valganciclovir	CC(C)C(C(=O)OCC(CO)OCN1C=NC2=C1N=C(NC2=O)N)N	44
+p-Tosyl-L-arginine methyl ester	CC1=CC=C(C=C1)S(=O)(=O)NC(CCCN=C(N)N)C(=O)OC	44
+Tibolone	CC1CC2=C(CCC(=O)C2)C3C1C4CCC(C4(CC3)C)(C#C)O	44
+Tricaprilin	CCCCCCCC(=O)OCC(COC(=O)CCCCCCC)OC(=O)CCCCCCC	44
+4-Methylumbelliferyl laurate	CCCCCCCCCCCC(=O)OC1=CC2=C(C=C1)C(=CC(=O)O2)C	44
+p-Nitrophenyl myristate	CCCCCCCCCCCCCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	44
+Thebaine	CN1CCC23C4C(=CC=C2C1CC5=C3C(=C(C=C5)OC)O4)OC	44
+(S)-Reticuline	CN1CCC2=CC(=C(C=C2C1CC3=CC(=C(C=C3)OC)O)O)OC	44
+(R)-Reticuline	CN1CCC2=CC(=C(C=C2C1CC3=CC(=C(C=C3)OC)O)O)OC	44
+Sinapoylcholine	C[N+](C)(C)CCOC(=O)C=CC1=CC(=C(C(=C1)OC)O)OC	44
+3-Dehydro-L-gulonate 6-phosphate	C(C(C(C(=O)C(C(=O)[O-])O)O)O)OP(=O)([O-])[O-]	45
+Sedoheptulose 1,7-bisphosphate	C(C(C(C(C(C(=O)COP(=O)(O)O)O)O)O)O)OP(=O)(O)O	45
+Nigerose	C(C1C(C(C(C(O1)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O	45
+Laminaribiose	C(C1C(C(C(C(O1)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O	45
+2-O-beta-D-Glucopyranosyl-beta-D-glucopyranose	C(C1C(C(C(C(O1)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)O	45
+Sucrose	C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O	45
+alpha,alpha-Trehalose	C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)O	45
+Isomaltose	C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)O)O)O)O)O)O)O)O	45
+Melibiose	C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)O)O)O)O)O)O)O)O	45
+Palatinose	C(C1C(C(C(C(O1)OCC2C(C(C(O2)(CO)O)O)O)O)O)O)O	45
+S-Glycolylglutathione	C(CC(=O)O)C(C(=O)NC(CSC(=O)CO)C(=O)NCC(=O)O)N	45
+Arg-Gly-Asp	C(CC(C(=O)NCC(=O)NC(CC(=O)O)C(=O)O)N)CN=C(N)N	45
+Pseudouridine 5'-phosphate	C1=C(C(=O)NC(=O)N1)C2C(C(C(O2)COP(=O)(O)O)O)O	45
+Kaempferol	C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O	45
+Arginine-4-nitroanilide	C1=CC(=CC=C1NC(=O)C(CCCN=C(N)N)N)[N+](=O)[O-]	45
+Phe-Phe	C1=CC=C(C=C1)CC(C(=O)NC(CC2=CC=CC=C2)C(=O)O)N	45
+L-Phenylalanyl-L-phenylalanine	C1=CC=C(C=C1)CC(C(=O)NC(CC2=CC=CC=C2)C(=O)O)N	45
+p-Nitrophenyl-beta-D-xylopyranoside	C1C(C(C(C(O1)OC2=CC=C(C=C2)[N+](=O)[O-])O)O)O	45
+4-Nitrophenyl-alpha-L-arabinopyranoside	C1C(C(C(C(O1)OC2=CC=C(C=C2)[N+](=O)[O-])O)O)O	45
+4-Nitrophenyl alpha-D-xyloside	C1C(C(C(C(O1)OC2=CC=C(C=C2)[N+](=O)[O-])O)O)O	45
+N-Acetylglucosamine malate	CC(=O)NC12C(C(C(OC1(OC(=O)C=CC(=O)O2)O)CO)O)O	45
+Tyr-Ala-Ala	CC(C(=O)NC(C)C(=O)O)NC(=O)C(CC1=CC=C(C=C1)O)N	45
+Vitamin D3	CC(C)CCCC(C)C1CCC2C1(CCCC2=CC=C3CC(CCC3=C)O)C	45
+21-Dehydrocorticosterone	CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4C(=O)C=O)C)O	45
+1-Arachidonoyl-sn-glycerol 3-phosphate	CCCCCC=CCC=CCC=CCC=CCCCC(=O)OCC(COP(=O)(O)O)O	45
+Capecitabine	CCCCCOC(=O)NC1=NC(=O)N(C=C1F)C2C(C(C(O2)C)O)O	45
+1-O-Vanilloyl-beta-D-glucose	COC1=C(C=CC(=C1)C(=O)OC2C(C(C(C(O2)CO)O)O)O)O	45
+Nitroglycerin	C(C(CO[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-]	46
+5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole	C1=C(N(C=N1)C2C(C(C(O2)COP(=O)(O)O)O)O)NC(=O)O	46
+Cyanidin	C1=CC(=C(C=C1C2=[O+]C3=CC(=CC(=C3C=C2O)O)O)O)O	46
+1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate	C1=NC(=C(N1C2C(C(C(O2)COP(=O)(O)O)O)O)N)C(=O)O	46
+2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine diphosphate	C1C(=NC2=C(N1)N=C(NC2=O)N)COP(=O)(O)OP(=O)(O)O	46
+4-Coumaroylshikimate	C1C(C(C(C=C1C(=O)O)O)O)OC(=O)C=CC2=CC=C(C=C2)O	46
+(R,S)-Stylopine	C1CN2CC3=C(CC2C4=CC5=C(C=C41)OCO5)C=CC6=C3OCO6	46
+Asparenomycin A	CC(=C1C2CC(=C(N2C1=O)C(=O)O)S(=O)C=CNC(=O)C)CO	46
+N-Acetyl-3-nitro-L-tyrosine methyl ester	CC(=O)NC(CC1=CC(=C(C=C1)O)[N+](=O)[O-])C(=O)OC	46
+S-Lactoylglutathione	CC(C(=O)SCC(C(=O)NCC(=O)O)NC(=O)CCC(C(=O)O)N)O	46
+(R)-S-Lactoylglutathione	CC(C(=O)SCC(C(=O)NCC(=O)O)NC(=O)CCC(C(=O)O)N)O	46
+L-Leucyl-L-leucyl-L-leucine	CC(C)CC(C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)O)N	46
+5beta-Cholestane-3alpha-ol	CC(C)CCCC(C)C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C	46
+3alpha-Hydroxy-5beta-cholanate	CC(CCC(=O)O)C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C	46
+Estrone 3-sulfate	CC12CCC3C(C1CCC2=O)CCC4=C3C=CC(=C4)OS(=O)(=O)O	46
+p65	CC1=C(C(=NC(=N1)N)N)OCCCOC2=CC(=C(C=C2Cl)Cl)Cl	46
+6,7-Dimethyl-8-(1-D-ribityl)lumazine	CC1=C(N(C2=NC(=O)NC(=O)C2=N1)CC(C(C(CO)O)O)O)C	46
+p-Nitrophenyl-alpha-L-fucoside	CC1C(C(C(C(O1)OC2=CC=C(C=C2)[N+](=O)[O-])O)O)O	46
+p-Nitrophenyl-alpha-L-rhamnopyranoside	CC1C(C(C(C(O1)OC2=CC=C(C=C2)[N+](=O)[O-])O)O)O	46
+p-Nitrophenyl hexadecanoate	CCCCCCCCCCCCCCCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	46
+p-Nitrophenyl palmitate	CCCCCCCCCCCCCCCC(=O)OC1=CC=C(C=C1)[N+](=O)[O-]	46
+Aflatoxin B1	COC1=C2C3=C(C(=O)CC3)C(=O)OC2=C4C5C=COC5OC4=C1	46
+5-Amino-6-(5'-phosphoribitylamino)uracil	C(C(C(C(COP(=O)(O)O)O)O)O)NC1=C(C(=O)NC(=O)N1)N	47
+Cellobionic acid	C(C1C(C(C(C(O1)OC(C(CO)O)C(C(C(=O)O)O)O)O)O)O)O	47
+Lactobionic acid	C(C1C(C(C(C(O1)OC(C(CO)O)C(C(C(=O)O)O)O)O)O)O)O	47
+D-Ribose 5-triphosphate	C(C1C(C(C(O1)O)O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O	47
+5-Phospho-alpha-D-ribose 1-diphosphate	C(C1C(C(C(O1)OP(=O)(O)OP(=O)(O)O)O)O)OP(=O)(O)O	47
+Glutathionylspermidine	C(CCNCCCNC(=O)CNC(=O)C(CS)NC(=O)CCC(C(=O)O)N)CN	47
+Taxifolin	C1=CC(=C(C=C1C2C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O	47
+Tyr-Ser-Ser	C1=CC(=CC=C1CC(C(=O)NC(CO)C(=O)NC(CO)C(=O)O)N)O	47
+p-Nitrophenyl-alpha-D-glucoside	C1=CC(=CC=C1[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)O	47
+p-Nitrophenyl-beta-D-galactoside	C1=CC(=CC=C1[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)O	47
+p-Nitrophenyl-beta-D-glucoside	C1=CC(=CC=C1[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)O	47
+p-Nitrophenyl-alpha-D-galactoside	C1=CC(=CC=C1[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)O	47
+p-Nitrophenyl-beta-D-mannopyranoside	C1=CC(=CC=C1[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)O	47
+p-Nitrophenyl-beta-D-mannoside	C1=CC(=CC=C1[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)O	47
+1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate	C1=CC=C(C(=C1)C(=O)O)NCC(=O)C(C(COP(=O)(O)O)O)O	47
+Dihydropteroate	C1C(=NC2=C(N1)N=C(NC2=O)N)CNC3=CC=C(C=C3)C(=O)O	47
+dCDP	C1C(C(OC1N2C=CC(=NC2=O)N)COP(=O)(O)OP(=O)(O)O)O	47
+2'-Deoxyuridine 3',5'-bisphosphate	C1C(C(OC1N2C=CC(=O)NC2=O)COP(=O)(O)O)OP(=O)(O)O	47
+dUDP	C1C(C(OC1N2C=CC(=O)NC2=O)COP(=O)(O)OP(=O)(O)O)O	47
+3',5'-Cyclic AMP	C1C2C(C(C(O2)N3C=NC4=C(N=CN=C43)N)O)OP(=O)(O1)O	47
+3-Hydroxy-5,9,17-trioxo-4,5:9,10-disecoandrosta-1(10),2-dien-4-oate	CC(=CC=C(C(=O)O)O)C(=O)CCC1C2CCC(=O)C2(CCC1=O)C	47
+Lacto-N-biose	CC(=O)NC1C(C(C(OC1O)CO)O)OC2C(C(C(C(O2)CO)O)O)O	47
+4-O-beta-D-Mannopyranosyl-N-acetyl-D-glucosamine	CC(=O)NC1C(C(C(OC1O)CO)OC2C(C(C(C(O2)CO)O)O)O)O	47
+(Ac)2-L-Lys-D-Ala-D-Ala	CC(C(=O)NC(C)C(=O)O)NC(=O)C(CCCCNC(=O)C)NC(=O)C	47
+Tyr-Pro-Ala	CC(C(=O)O)NC(=O)C1CCCN1C(=O)C(CC2=CC=C(C=C2)O)N	47
+(R)-4'-Phosphopantothenoyl-L-cysteine	CC(C)(COP(=O)(O)O)C(C(=O)NCCC(=O)NC(CS)C(=O)O)O	47
+His-Pro-Leu	CC(C)CC(C(=O)O)NC(=O)C1CCCN1C(=O)C(CC2=CN=CN2)N	47
+Cholesterol	CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C	47
+Faropenem sodium	CC(C1C2N(C1=O)C(=C(S2)C3CCCO3)C(=O)[O-])O.[Na+]	47
+Penicillin G	CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C	47
+Cortisol	CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O	47
+17alpha,21-Dihydroxy-5beta-pregnane-3,11,20-trione	CC12CCC(=O)CC1CCC3C2C(=O)CC4(C3CCC4(C(=O)CO)O)C	47
+3beta-Hydroxyandrost-5-en-17-one 3-sulfate	CC12CCC3C(C1CCC2=O)CC=C4C3(CCC(C4)OS(=O)(=O)O)C	47
+4-Methylumbelliferyl-beta-D-glucoside	CC1=CC(=O)OC2=C1C=CC(=C2)OC3C(C(C(C(O3)CO)O)O)O	47
+4-Methylumbelliferyl-beta-D-galactoside	CC1=CC(=O)OC2=C1C=CC(=C2)OC3C(C(C(C(O3)CO)O)O)O	47
+BRL42715	CN1C=C(N=N1)C=C2C3N(C2=O)C(=CS3)C(=O)[O-].[Na+]	47
+Pavine	COC1=C(C=C2C3CC4=CC(=C(C=C4C(N3)CC2=C1)OC)OC)OC	47
+Met-Gly-Met-Met	CSCCC(C(=O)NCC(=O)NC(CCSC)C(=O)NC(CCSC)C(=O)O)N	47
+Phenazine methosulfate	C[N+]1=C2C=CC=CC2=NC3=CC=CC=C31.COS(=O)(=O)[O-]	47
+S-Adenosylmethioninamine	C[S+](CCCN)CC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O	47
+Quercetin	C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O	48
+Morin	C1=CC(=C(C=C1O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O	48
+Benzo[a]pyrene-7,8-diol	C1=CC2=C3C(=C1)C=CC4=C3C(=CC5=C4C=CC(=C5O)O)C=C2	48
+N-(5-Phospho-D-ribosyl)anthranilate	C1=CC=C(C(=C1)C(=O)O)NC2C(C(C(O2)COP(=O)(O)O)O)O	48
+Phe-Tyr	C1=CC=C(C=C1)CC(C(=O)NC(CC2=CC=C(C=C2)O)C(=O)O)N	48
+Tyr-Phe	C1=CC=C(C=C1)CC(C(=O)O)NC(=O)C(CC2=CC=C(C=C2)O)N	48
+IMP	C1=NC2=C(C(=O)N1)N=CN2C3C(C(C(O3)COP(=O)(O)O)O)O	48
+2',3'-Cyclic GMP	C1=NC2=C(N1C3C4C(C(O3)CO)OP(=O)(O4)O)N=C(NC2=O)N	48
+3',5'-Cyclic GMP	C1C2C(C(C(O2)N3C=NC4=C3N=C(NC4=O)N)O)OP(=O)(O1)O	48
+N-Succinyl-(S)-phenylglycine	C1CC(=O)C2=C(C=CC(=C2)C1=O)C3=CC=C(C=C3)NCC(=O)O	48
+Arg-Pro-Pro	C1CC(N(C1)C(=O)C2CCCN2C(=O)C(CCCN=C(N)N)N)C(=O)O	48
+Resmethrin	CC(=CC1C(C1(C)C)C(=O)OCC2=COC(=C2)CC3=CC=CC=C3)C	48
+Squalene	CC(=CCCC(=CCCC(=CCCC=C(C)CCC=C(C)CCC=C(C)C)C)C)C	48
+Cholesta-5,7-dien-3beta-ol	CC(C)CCCC(C)C1CCC2C1(CCC3C2=CC=C4C3(CCC(C4)O)C)C	48
+1alpha-Hydroxyvitamin D3	CC(C)CCCC(C)C1CCC2C1(CCCC2=CC=C3CC(CC(C3=C)O)O)C	48
+Zymosterol	CC(CCC=C(C)C)C1CCC2C1(CCC3=C2CCC4C3(CCC(C4)O)C)C	48
+Calcidiol	CC(CCCC(C)(C)O)C1CCC2C1(CCCC2=CC=C3CC(CCC3=C)O)C	48
+5beta-cholane-3alpha,7alpha,12alpha,24-tetrol	CC(CCCO)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C	48
+Penicillin N	CC1(C(N2C(S1)C(C2=O)NC(=O)CCCC(C(=O)O)N)C(=O)O)C	48
+Penicillin V	CC1(C(N2C(S1)C(C2=O)NC(=O)COC3=CC=CC=C3)C(=O)O)C	48
+Benzylpenicilloic acid	CC1(C(NC(S1)C(C(=O)O)NC(=O)CC2=CC=CC=C2)C(=O)O)C	48
+Cortisone	CC12CCC(=O)C=C1CCC3C2C(=O)CC4(C3CCC4(C(=O)CO)O)C	48
+21-Dehydrocortisol	CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)C=O)O)C)O	48
+Cephradine	CC1=C(N2C(C(C2=O)NC(=O)C(C3=CCC=CC3)N)SC1)C(=O)O	48
+Sphingosyl-phosphocholine	CCCCCCCCCCCCCC=CC(C(COP(=O)(O)OCC[N+](C)(C)C)N)O	48
+4-Methylumbelliferyl palmitate	CCCCCCCCCCCCCCCC(=O)OC1=CC2=C(C=C1)C(=CC(=O)O2)C	48
+(S)-Norprotosinomenine	COC1=C(C=C(C=C1)CC2C3=CC(=C(C=C3CC[NH2+]2)O)OC)O	48
+1-O-Feruloyl-beta-D-glucose	COC1=C(C=CC(=C1)C=CC(=O)OC2C(C(C(C(O2)CO)O)O)O)O	48
+Syringaldazine	COC1=CC(=CC(=C1O)OC)C=NN=CC2=CC(=C(C(=C2)OC)O)OC	48
+S-(Hercyn-2-yl)-L-cysteine S-oxide	C[N+](C)(C)C(CC1=CN=C(N1)S(=O)CC(C(=O)O)N)C(=O)O	48
+Hexacyanoferrate(II)	[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[Fe+2]	48
+Hexacyanoferrate(III)	[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[Fe+3]	48
+2,5-Diamino-6-hydroxy-4-(5'-phosphoribosylamino)-pyrimidine	C(C1C(C(C(O1)NC2=C(C(=O)NC(=N2)N)N)O)O)OP(=O)(O)O	49
+5-Amino-6-(5'-phosphoribosylamino)uracil	C(C1C(C(C(O1)NC2=C(C(=O)NC(=O)N2)N)O)O)OP(=O)(O)O	49
+4-Chloro-3,5-dinitrobenzoic acid	C1=C(C=C(C(=C1[N+](=O)[O-])Cl)[N+](=O)[O-])C(=O)O	49
+TRIBOA glucoside	C1=CC2=C(C=C1O)OC(C(=O)N2O)OC3C(C(C(C(O3)CO)O)O)O	49
+o-Nitrophenyl-alpha-D-glucopyranoside	C1=CC=C(C(=C1)[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)O	49
+o-Nitrophenyl-beta-D-galactoside	C1=CC=C(C(=C1)[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)O	49
+L-Phenylalanine-p-nitroanilide	C1=CC=C(C=C1)CC(C(=O)NC2=CC=C(C=C2)[N+](=O)[O-])N	49
+Carbobenzoxy-Gly-Phe	C1=CC=C(C=C1)CC(C(=O)O)NC(=O)CNC(=O)OCC2=CC=CC=C2	49
+1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide	C1=NC(=C(N1C2C(C(C(O2)COP(=O)(O)O)O)O)NC=O)C(=O)N	49
+2',3'-Cyclic AMP	C1=NC(=C2C(=N1)N(C=N2)C3C4C(C(O3)CO)OP(=O)(O4)O)N	49
+Guanosine 3'-phosphate	C1=NC2=C(N1C3C(C(C(O3)CO)OP(=O)(O)O)O)N=C(NC2=O)N	49
+GMP	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)O)O)O)N=C(NC2=O)N	49
+Vitamin D2	CC(C)C(C)C=CC(C)C1CCC2C1(CCCC2=CC=C3CC(CCC3=C)O)C	49
+Campestanol	CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C	49
+7alpha-Hydroxycholest-4-en-3-one	CC(C)CCCC(C)C1CCC2C1(CCC3C2C(CC4=CC(=O)CCC34C)O)C	49
+3alpha,7alpha-Dihydroxy-5beta-cholestane	CC(C)CCCC(C)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C	49
+Minovincinine	CC(C12CCCN3C1C4(CC3)C5=CC=CC=C5NC4=C(C2)C(=O)OC)O	49
+Chenodeoxycholate	CC(CCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C	49
+Ursodiol	CC(CCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C	49
+Dolichyl phosphate	CC(CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C)CCOP(=O)(O)O	49
+Epicillin	CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CCC=CC3)N)C(=O)O)C	49
+21-Dehydrocortisone	CC12CCC(=O)C=C1CCC3C2C(=O)CC4(C3CCC4(C(=O)C=O)O)C	49
+Cephalexin	CC1=C(N2C(C(C2=O)NC(=O)C(C3=CC=CC=C3)N)SC1)C(=O)O	49
+1-O-Hexadecyl-lyso-sn-glycero-3-phosphocholine	CCCCCCCCCCCCCCCCOCC(COP(=O)([O-])OCC[N+](C)(C)C)O	49
+Phenazine ethosulfate	CC[N+]1=C2C=CC=CC2=NC3=CC=CC=C31.CCOS(=O)(=O)[O-]	49
+Isorhamnetin	COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O	49
+Rhamnetin	COC1=CC(=C2C(=C1)OC(=C(C2=O)O)C3=CC(=C(C=C3)O)O)O	49
+GlcN-Ins	C(C1C(C(C(C(O1)OC2C(C(C(C(C2O)O)O)O)O)[NH3+])O)O)O	50
+Nicotinate D-ribonucleotide	C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)O)O)O)C(=O)O	50
+Arg-Gly-Phe	C1=CC=C(C=C1)CC(C(=O)O)NC(=O)CNC(=O)C(CCCN=C(N)N)N	50
+DIBOA glucoside	C1=CC=C2C(=C1)N(C(=O)C(O2)OC3C(C(C(C(O3)CO)O)O)O)O	50
+Adenosine 2'-phosphate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)OP(=O)(O)O)N	50
+Adenosine 3'-phosphate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)OP(=O)(O)O)O)N	50
+Adenosine 5'-phosphoramidate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(N)O)O)O)N	50
+AMP	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)O)O)O)N	50
+Deacetylcephalosporin C	C1C(=C(N2C(S1)C(C2=O)NC(=O)CCCC(C(=O)O)N)C(=O)O)CO	50
+Xylotriose	C1C(C(C(C(O1)OC2COC(C(C2O)O)OC3COC(C(C3O)O)O)O)O)O	50
+Loracarbef	C1CC(=C(N2C1C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)Cl	50
+Sinigrin	C=CCC(=NOS(=O)(=O)[O-])SC1C(C(C(C(O1)CO)O)O)O.[K+]	50
+(7R)-7-(4-Carboxybutanamido)cephalosporanate	CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CCCC(=O)O)SC1)C(=O)O	50
+Campesterol	CC(C)C(C)CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C	50
+24(S)-Hydroxycholesterol	CC(C)C(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)O	50
+7alpha-Hydroxy-5beta-cholestan-3-one	CC(C)CCCC(C)C1CCC2C1(CCC3C2C(CC4C3(CCC(=O)C4)C)O)C	50
+3-Oxo-5beta-cholanate	CC(CCC(=O)[O-])C1CCC2C1(CCC3C2CCC4C3(CCC(=O)C4)C)C	50
+Ampicillin	CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C	50
+Isomalbrancheamide B	CC1(C2CC34CCCN3CC2(CC5=C1NC6=C5C=C(C=C6)Cl)NC4=O)C	50
+Malbrancheamide B	CC1(C2CC34CCCN3CC2(CC5=C1NC6=C5C=CC(=C6)Cl)NC4=O)C	50
+Premalbrancheamide	CC1(C2CC34CCC[NH+]3CC2(CC5=C1NC6=CC=CC=C56)NC4=O)C	50
+dTDP	CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=O)(O)OP(=O)(O)O)O	50
+Ceftizoxime	CON=C(C1=CSC(=N1)N)C(=O)NC2C3N(C2=O)C(=CCS3)C(=O)O	50
+Bacillithiol	C(C1C(C(C(C(O1)OC(CC(=O)O)C(=O)O)NC(=O)C(CS)N)O)O)O	51
+S-Succinylglutathione	C(CC(=O)NC(CSC(=O)CCC(=O)O)C(=O)NCC(=O)O)C(C(=O)O)N	51
+D-myo-Inositol 1,4,5-trisphosphate	C1(C(C(C(C(C1OP(=O)(O)O)O)OP(=O)(O)O)OP(=O)(O)O)O)O	51
+Inositol 2,4,5-trisphosphate	C1(C(C(C(C(C1OP(=O)(O)O)O)OP(=O)(O)O)OP(=O)(O)O)O)O	51
+Myricetin	C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O	51
+Orotidine 5'-phosphate	C1=C(N(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)O)O)O)C(=O)O	51
+p-Nitrophenyl-beta-D-glucuronide	C1=CC(=CC=C1[N+](=O)[O-])OC2C(C(C(C(O2)C(=O)O)O)O)O	51
+(+)-anti-BPDE	C1=CC2=C3C(=C1)C=CC4=C3C(=CC5=C4C6C(O6)C(C5O)O)C=C2	51
+(-)-anti-BPDE	C1=CC2=C3C(=C1)C=CC4=C3C(=CC5=C4C6C(O6)C(C5O)O)C=C2	51
+S-Inosyl-L-homocysteine	C1=NC2=C(C(=O)N1)N=CN2C3C(C(C(O3)CSCCC(C(=O)O)N)O)O	51
+Chlorogenate	C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)O	51
+trans-5-O-(4-Coumaroyl)-D-quinate	C1C(C(C(CC1(C(=O)[O-])O)OC(=O)C=CC2=CC=C(C=C2)O)O)O	51
+Xanthohumol	CC(=CCC1=C(C(=C(C=C1O)OC)C(=O)C=CC2=CC=C(C=C2)O)O)C	51
+Geranylgeranyl diphosphate	CC(=CCCC(=CCCC(=CCCC(=CCOP(=O)(O)OP(=O)(O)O)C)C)C)C	51
+p-Nitrophenyl-N-acetyl-beta-D-glucosaminide	CC(=O)NC1C(C(C(OC1OC2=CC=C(C=C2)[N+](=O)[O-])CO)O)O	51
+Cephalothin	CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CC3=CC=CS3)SC1)C(=O)O	51
+HRE-664	CC(C1C2N(C1=O)C(=C(S2)OC3=CC=C(C=C3)C(=O)N)C(=O)O)O	51
+Fortimicin	CC(C1CCC(C(O1)OC2C(C(C(C(C2O)N(C)C(=O)CN)OC)O)N)N)N	51
+Fortimicin A	CC(C1CCC(C(O1)OC2C(C(C(C(C2O)N(C)C(=O)CN)OC)O)N)N)N	51
+Calcitriol	CC(CCCC(C)(C)O)C1CCC2C1(CCCC2=CC=C3CC(CC(C3=C)O)O)C	51
+Loganate	CC1C(CC2C1C(OC=C2C(=O)[O-])OC3C(C(C(C(O3)CO)O)O)O)O	51
+Myristoyllysophosphatidylcholine	CCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)O	51
+CDP	C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)O)O)O	52
+UDP	C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)O)O)O	52
+Cefaclor	C1C(=C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)Cl	52
+dADP	C1C(C(OC1N2C=NC3=C(N=CN=C32)N)COP(=O)(O)OP(=O)(O)O)O	52
+5-(Aziridin-1-yl)-2,4-dinitrobenzamide	C1CN1C2=C(C=C(C(=C2)C(=O)N)[N+](=O)[O-])[N+](=O)[O-]	52
+1-alpha-Hydroxyvitamin D2	CC(C)C(C)C=CC(C)C1CCC2C1(CCCC2=CC=C3CC(CC(C3=C)O)O)C	52
+7alpha,12alpha-Dihydroxycholest-4-en-3-one	CC(C)CCCC(C)C1CCC2C1(C(CC3C2C(CC4=CC(=O)CCC34C)O)O)C	52
+3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestane	CC(C)CCCC(C)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C	52
+19-Hydroxytabersonine	CC(C12CC(=C3C4(C1N(CC4)CC=C2)C5=CC=CC=C5N3)C(=O)OC)O	52
+3alpha,7alpha,12alpha-Trihydroxy-5beta-cholanate	CC(CCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C	52
+3alpha,12alpha-Dihydroxy-5beta-cholanate	CC(CCC(=O)[O-])C1CCC2C1(C(CC3C2CCC4C3(CCC(C4)O)C)O)C	52
+Fenpropathrin	CC1(C(C1(C)C)C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C	52
+trans-Permethrin	CC1(C(C1C(=O)OCC2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Cl)Cl)C	52
+cis-Permethrin	CC1(C(C1C(=O)OCC2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Cl)Cl)C	52
+Methicillin	CC1(C(N2C(S1)C(C2=O)NC(=O)C3=C(C=CC=C3OC)OC)C(=O)O)C	52
+2,4,6-Trinitrotoluene	CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]	52
+Cefadroxil	CC1=C(N2C(C(C2=O)NC(=O)C(C3=CC=C(C=C3)O)N)SC1)C(=O)O	52
+Thiamine diphosphate	CC1=C(SC=[N+]1CC2=CN=C(N=C2N)C)CCOP(=O)(O)OP(=O)(O)O	52
+24-Methylene lophenol	CC1C(CCC2(C1CC=C3C2CCC4(C3CCC4C(C)CCC(=C)C(C)C)C)C)O	52
+Meropenem	CC1C2C(C(=O)N2C(=C1SC3CC(NC3)C(=O)N(C)C)C(=O)O)C(C)O	52
+1-(1Z-Octadecenyl)-sn-glycero-3-phosphocholine	CCCCCCCCCCCCCCCCC=COCC(COP(=O)([O-])OCC[N+](C)(C)C)O	52
+DIMBOA glucoside	COC1=CC2=C(C=C1)N(C(=O)C(O2)OC3C(C(C(C(O3)CO)O)O)O)O	52
+Nicotinamide nucleotide	C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)[O-])O)O)C(=O)N	53
+2-Nitro-5-[(Phenylacetyl)amino]benzoic acid	C1=CC=C(C=C1)CC(=O)NC2=CC(=C(C=C2)[N+](=O)[O-])C(=O)O	53
+S-Adenosyl-L-homocysteine	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CSCCC(C(=O)O)N)O)O)N	53
+dGDP	C1C(C(OC1N2C=NC3=C2N=C(NC3=O)N)COP(=O)(O)OP(=O)(O)O)O	53
+ddCTP	C1CC(OC1COP(=O)(O)OP(=O)(O)OP(=O)(O)O)N2C=CC(=NC2=O)N	53
+N,N'-Diacetylchitobiose	CC(=O)NC1C(C(C(OC1O)CO)OC2C(C(C(C(O2)CO)O)O)NC(=O)C)O	53
+N-Formyl-Met-Leu-Phe	CC(C)CC(C(=O)NC(CC1=CC=CC=C1)C(=O)O)NC(=O)C(CCSC)NC=O	53
+7alpha,12alpha-Dihydroxy-5beta-cholestan-3-one	CC(C)CCCC(C)C1CCC2C1(C(CC3C2C(CC4C3(CCC(=O)C4)C)O)O)C	53
+Cholesteryl acetate	CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)OC(=O)C)C)C	53
+Glycolithocholate	CC(CCC(=O)NCC(=O)O)C1CCC2C1(CCC3C2CCC4C3(CCC(C4)O)C)C	53
+3alpha,7alpha,12alpha,26-Tetrahydroxy-5beta-cholestane	CC(CCCC(C)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C)CO	53
+Amoxicillin	CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=C(C=C3)O)N)C(=O)O)C	53
+Amoxycillin	CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=C(C=C3)O)N)C(=O)O)C	53
+Ticarcillin	CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CSC=C3)C(=O)O)C(=O)O)C	53
+Gentamicin C1a	CC1(COC(C(C1NC)O)OC2C(CC(C(C2O)OC3C(CCC(O3)CN)N)N)N)O	53
+Gentamicin C	CC1(COC(C(C1NC)O)OC2C(CC(C(C2O)OC3C(CCC(O3)CN)N)N)N)O	53
+Sulindac	CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O	53
+Biapenem	CC1C2C(C(=O)N2C(=C1SC3CN4C=NC=[N+]4C3)C(=O)[O-])C(C)O	53
+Lovastatin	CCC(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O)C	53
+Maltose 6'-phosphate	C(C1C(C(C(C(O1)O)O)O)OC2C(C(C(C(O2)COP(=O)(O)O)O)O)O)O	54
+Sucrose 6-phosphate	C(C1C(C(C(O1)(CO)OC2C(C(C(C(O2)COP(=O)(O)O)O)O)O)O)O)O	54
+Arabinotriose	C(C1C(C(C(O1)OCC2C(C(C(O2)OCC3C(C(C(O3)O)O)O)O)O)O)O)O	54
+Cefdinir	C=CC1=C(N2C(C(C2=O)NC(=O)C(=NO)C3=CSC(=N3)N)SC1)C(=O)O	54
+Cephalosporin C	CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CCCC(C(=O)O)N)SC1)C(=O)O	54
+Cephapirin	CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O	54
+N-Acetylmuramate 6-phosphate	CC(C(=O)[O-])OC1C(C(OC(C1O)COP(=O)([O-])[O-])O)NC(=O)C	54
+Horhammericine	CC(C12CC(=C3C4(C1N(CC4)CC5C2O5)C6=CC=CC=C6N3)C(=O)OC)O	54
+3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-al	CC(CCCC(C)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C)C=O	54
+Sisomicin	CC1(COC(C(C1NC)O)OC2C(CC(C(C2O)OC3C(CC=C(O3)CN)N)N)N)O	54
+Riboflavin	CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(CO)O)O)O	54
+Doripenem	CC1C2C(C(=O)N2C(=C1SC3CC(NC3)CNS(=O)(=O)N)C(=O)O)C(C)O	54
+sn-1,2-Dioleoylglycerol	CCCCCCCCC=CCCCCCCCC(=O)OCC(CO)OC(=O)CCCCCCCC=CCCCCCCCC	54
+alpha-D-Ribose 1-methylphosphonate 5-triphosphate	CP(=O)(O)OC1C(C(C(O1)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O	54
+Trehalose 2-sulfate	C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)OS(=O)(=O)O)O)O)O)O	55
+Delphinidin	C1=C(C=C(C(=C1O)O)O)C2=[O+]C3=CC(=CC(=C3C=C2O)O)O.[Cl-]	55
+Resveratroloside	C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)O)OC3C(C(C(C(O3)CO)O)O)O	55
+Piceid	C1=CC(=CC=C1C=CC2=CC(=CC(=C2)OC3C(C(C(C(O3)CO)O)O)O)O)O	55
+CDPethanolamine	C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCCN)O)O	55
+Dibekacin	C1CC(C(OC1CN)OC2C(CC(C(C2O)OC3C(C(C(C(O3)CO)O)N)O)N)N)N	55
+Carbenicillin	CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)C(=O)O)C(=O)O)C	55
+Cefprozil	CC=CC1=C(N2C(C(C2=O)NC(=O)C(C3=CC=C(C=C3)O)N)SC1)C(=O)O	55
+7-Methylguanosine 5'-phosphate	CN1C=[N+](C2=C1C(=O)NC(=N2)N)C3C(C(C(O3)COP(=O)(O)O)O)O	55
+N6-Methyl-AMP	CNC1=C2C(=NC=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])[O-])O)O	55
+Cefoxitin	COC1(C2N(C1=O)C(=C(CS2)COC(=O)N)C(=O)O)NC(=O)CC3=CC=CS3	55
+PQQ	C1=C(C2=C(C(=O)C(=O)C3=C2NC(=C3)C(=O)O)N=C1C(=O)O)C(=O)O	56
+Sinefungin	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CC(CCC(C(=O)O)N)N)O)O)N	56
+dCTP	C1C(C(OC1N2C=CC(=NC2=O)N)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O	56
+dUTP	C1C(C(OC1N2C=CC(=O)NC2=O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O	56
+Cephaloglycin	CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)C(C3=CC=CC=C3)N)SC1)C(=O)O	56
+Glycochenodeoxycholic acid	CC(CCC(=O)NCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C	56
+Glycochenodeoxycholate	CC(CCC(=O)NCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C	56
+Cycloartenol	CC(CCC=C(C)C)C1CCC2(C1(CCC34C2CCC5C3(C4)CCC(C5(C)C)O)C)C	56
+Phylloquinone	CC1=C(C(=O)C2=CC=CC=C2C1=O)CC=C(C)CCCC(C)CCCC(C)CCCC(C)C	56
+ddTTP	CC1=CN(C(=O)NC1=O)C2CCC(O2)COP(=O)(O)OP(=O)(O)OP(=O)(O)O	56
+Daphnoretin	COC1=C(C=C2C(=C1)C=C(C(=O)O2)OC3=CC4=C(C=C3)C=CC(=O)O4)O	56
+Se-Adenosyl-L-selenomethionine	C[Se+](CCC(C(=O)O)N)CC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O	56
+IDP	C1=NC2=C(C(=O)N1)N=CN2C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O	57
+Deltamethrin	CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C	57
+Cypermethrin	CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Cl)Cl)C	57
+trans-Cypermethrin	CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Cl)Cl)C	57
+cis-Cypermethrin	CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Cl)Cl)C	57
+Temocillin	CC1(C(N2C(S1)C(C2=O)(NC(=O)C(C3=CSC=C3)C(=O)O)OC)C(=O)O)C	57
+3-(4,5-Dimethylthiazolyl)-2,5-diphenyltetrazolium bromide	CC1=C(SC(=N1)[N+]2=NC(=NN2C3=CC=CC=C3)C4=CC=CC=C4)C.[Br-]	57
+Cefazolin	CC1=NN=C(S1)SCC2=C(N3C(C(C3=O)NC(=O)CN4C=NN=N4)SC2)C(=O)O	57
+Cephazoline	CC1=NN=C(S1)SCC2=C(N3C(C(C3=O)NC(=O)CN4C=NN=N4)SC2)C(=O)O	57
+Cefmetazole	CN1C(=NN=N1)SCC2=C(N3C(C(C3=O)(NC(=O)CSCC#N)OC)SC2)C(=O)O	57
+Cefuroxime	CON=C(C1=CC=CO1)C(=O)NC2C3N(C2=O)C(=C(CS3)COC(=O)N)C(=O)O	57
+o-Nitrophenyl beta-D-galactopyranoside 6-phosphate	C1=CC=C(C(=C1)[N+](=O)[O-])OC2C(C(C(C(O2)COP(=O)(O)O)O)O)O	58
+GDP	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)N=C(NC2=O)N	58
+ddATP	C1CC(OC1COP(=O)(O)OP(=O)(O)OP(=O)(O)O)N2C=NC3=C(N=CN=C32)N	58
+Mycothiol	CC(=O)NC(CS)C(=O)NC1C(C(C(OC1OC2C(C(C(C(C2O)O)O)O)O)CO)O)O	58
+Hip-His-Leu	CC(C)CC(C(=O)O)NC(=O)C(CC1=CN=CN1)NC(=O)CNC(=O)C2=CC=CC=C2	58
+Bifenthrin	CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl	58
+2,4,7,9-Tetrahydroxy-6-methyl-8-(2-methylbut-3-en-2-yl)-1-oxo-1H-phenalen-3-ol	CC1=CC(=O)C2=C(C(=C(C3=C2C1=C(C(=C3[O-])C(C)(C)C=C)O)O)O)O	58
+Netilmicin	CCNC1CC(C(C(C1OC2C(C(C(CO2)(C)O)NC)O)O)OC3C(CC=C(O3)CN)N)N	58
+S-Adenosyl-L-methionine	C[S+](CCC(C(=O)[O-])N)CC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O	58
+Adenosine 2',5'-bisphosphate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)O)O)OP(=O)(O)O)N	59
+Adenosine 3',5'-bisphosphate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)O)OP(=O)(O)O)O)N	59
+ADP	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)N	59
+3,4-Dinitrophenyl-beta-D-xylopyranoside	C1C(C(C(C(O1)OC2=CC(=C(C=C2)[N+](=O)[O-])[N+](=O)[O-])O)O)O	59
+dITP	C1C(C(OC1N2C=NC3=C2N=CNC3=O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O	59
+Cyclobranol	CC(CCC(=C(C)C)C)C1CCC2(C1(CCC34C2CCC5C3(C4)CCC(C5(C)C)O)C)C	59
+Sulbenicillin	CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)S(=O)(=O)O)C(=O)O)C	59
+Gentamicin B	CC1(COC(C(C1NC)O)OC2C(CC(C(C2O)OC3C(C(C(C(O3)CN)O)O)O)N)N)O	59
+Novobiocic acid	CC1=C(C=CC2=C1OC(=O)C(=C2O)NC(=O)C3=CC(=C(C=C3)O)CC=C(C)C)O	59
+5-Methyl-dCTP	CC1=CN(C(=O)N=C1N)C2CC(C(O2)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O	59
+dTTP	CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O	59
+IC-asc-C9	CC1C(CC(C(O1)OC(C)CCCCCCC(=O)[O-])O)OC(=O)C2=CNC3=CC=CC=C32	59
+Daidzin	C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)OC4C(C(C(C(O4)CO)O)O)O)O	60
+Bis-4-nitrophenyl phosphate	C1=CC(=CC=C1[N+](=O)[O-])OP(=O)(O)OC2=CC=C(C=C2)[N+](=O)[O-]	60
+Adenylylsulfate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OS(=O)(=O)O)O)O)N	60
+Tobramycin	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CO)O)N)O)O)OC3C(CC(C(O3)CN)O)N)N	60
+4-Nitrophenyl-beta-D-xylobioside	C1C(C(C(C(O1)OC2COC(C(C2O)O)OC3=CC=C(C=C3)[N+](=O)[O-])O)O)O	60
+His-Pro-Tyr	C1CC(N(C1)C(=O)C(CC2=CN=CN2)N)C(=O)NC(CC3=CC=C(C=C3)O)C(=O)O	60
+N-Acetyl-Ser-Asp-Lys-Pro	CC(=O)NC(CO)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)O	60
+Chondroitin 4-sulfate	CC(=O)NC1C(C(C(OC1O)OS(=O)(=O)O)O)OC2C(C(C(C(O2)C(=O)O)O)O)O	60
+Cefotaxime	CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)C(=NOC)C3=CSC(=N3)N)SC1)C(=O)O	60
+Esfenvalerate	CC(C)C(C1=CC=C(C=C1)Cl)C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3	60
+Fenvalerate	CC(C)C(C1=CC=C(C=C1)Cl)C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3	60
+(24S)-Hydroxycholesterol 24-sulfate	CC(C)C(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)OS(=O)(=O)O	60
+(24S)-Hydroxycholesterol 3-sulfate	CC(C)C(CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)OS(=O)(=O)O)C)C)O	60
+Benzyloxycarbonyl-Gly-Pro-Leu-Gly	CC(C)CC(C(=O)NCC(=O)O)NC(=O)C1CCCN1C(=O)CNC(=O)OCC2=CC=CC=C2	60
+Oxacillin	CC1=C(C(=NO1)C2=CC=CC=C2)C(=O)NC3C4N(C3=O)C(C(S4)(C)C)C(=O)O	60
+Aztreonam	CC1C(C(=O)N1S(=O)(=O)O)NC(=O)C(=NOC(C)(C)C(=O)O)C2=CSC(=N2)N	60
+Cefcapene	CCC=C(C1=CSC(=N1)N)C(=O)NC2C3N(C2=O)C(=C(CS3)COC(=O)N)C(=O)O	60
+Malachite green	CN(C)C1=CC=C(C=C1)C(=C2C=CC(=[N+](C)C)C=C2)C3=CC=CC=C3.[Cl-]	60
+2,4-Dinitrophenyl-beta-D-glucopyranoside	C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])OC2C(C(C(C(O2)CO)O)O)O	61
+Genistein 7-O-beta-D-glucoside	C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)OC4C(C(C(C(O4)CO)O)O)O)O	61
+Genistein 7-O-glucoside	C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)OC4C(C(C(C(O4)CO)O)O)O)O	61
+CTP	C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O	61
+UTP	C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O	61
+dATP	C1C(C(OC1N2C=NC3=C(N=CN=C32)N)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O	61
+Cefixime	C=CC1=C(N2C(C(C2=O)NC(=O)C(=NOCC(=O)O)C3=CSC(=N3)N)SC1)C(=O)O	61
+Dabsyl-L-methionine (R)-sulfoxide	CN(C)C1=CC=C(C=C1)N=NC2=CC=C(C=C2)S(=O)(=O)NC(CCS(=O)C)C(=O)O	61
+Maltotriose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)O)CO)CO)O)O)O)O	62
+Amylose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)O)CO)CO)O)O)O)O	62
+Cellotriose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)O)CO)CO)O)O)O)O	62
+(R)-Amygdalin	C1=CC=C(C=C1)C(C#N)OC2C(C(C(C(O2)COC3C(C(C(C(O3)CO)O)O)O)O)O)O	62
+dGTP	C1C(C(OC1N2C=NC3=C2N=C(NC3=O)N)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O	62
+Naringenin 7-O-beta-D-glucoside	C1C(OC2=CC(=CC(=C2C1=O)O)OC3C(C(C(C(O3)CO)O)O)O)C4=CC=C(C=C4)O	62
+Cloxacillin	CC1=C(C(=NO1)C2=CC=CC=C2Cl)C(=O)NC3C4N(C3=O)C(C(S4)(C)C)C(=O)O	62
+Arabinogalactan	CC1C(C(C(C(O1)CO)O)OC2C(C(C(C(O2)COC3C(C(C(CO3)O)OC)O)O)OC)O)O	62
+Cefamandole	CN1C(=NN=N1)SCC2=C(N3C(C(C3=O)NC(=O)C(C4=CC=CC=C4)O)SC2)C(=O)O	62
+Carumonam	C1=C(N=C(S1)N)C(=NOCC(=O)O)C(=O)NC2C(N(C2=O)S(=O)(=O)O)COC(=O)N	63
+7-O-beta-D-Glucosyl-5,7,4'-trihydroxyflavone	C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O	63
+N-Benzoyl-D-arginine-4-nitroanilide	C1=CC=C(C=C1)C(=O)NC(CCCN=C(N)N)C(=O)NC2=CC=C(C=C2)[N+](=O)[O-]	63
+Bz-Arg-p-nitroanilide	C1=CC=C(C=C1)C(=O)NC(CCCN=C(N)N)C(=O)NC2=CC=C(C=C2)[N+](=O)[O-]	63
+Cephaloridine	C1C(=C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CS3)C(=O)[O-])C[N+]4=CC=CC=C4	63
+Cephaloridin	C1C(=C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CS3)C(=O)[O-])C[N+]4=CC=CC=C4	63
+Dihydroneopterin triphosphate	C1C(=NC2=C(N1)N=C(NC2=O)N)C(C(COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O	63
+7,8-Dihydroneopterin 3'-triphosphate	C1C(=NC2=C(N1)N=C(NC2=O)N)C(C(COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O	63
+Kanamycin A	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N	63
+Kanamycin	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N	63
+Kanamycin B	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CO)O)N)O)O)OC3C(C(C(C(O3)CN)O)O)N)N	63
+5,6,7,8-Tetrahydrofolate	C1C(NC2=C(N1)N=C(NC2=O)N)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O	63
+Dansyl-Ala-Arg	CC(C(=O)NC(CCCN=C(N)N)C(=O)O)NS(=O)(=O)C1=CC=CC2=C1C=CC=C2N(C)C	63
+Cyhalothrin	CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(C(F)(F)F)Cl)C	63
+Riboflavin-5-phosphate	CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(COP(=O)(O)O)O)O)O	63
+Aklavinone	CCC1(CC(C2=C(C3=C(C=C2C1C(=O)OC)C(=O)C4=C(C3=O)C(=CC=C4)O)O)O)O	63
+Dihydrofolate	C1C(=NC2=C(N1)N=C(NC2=O)N)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O	64
+2-hydroxy-dATP	C1C(C(OC1N2C=NC3=C(NC(=O)N=C32)N)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O	64
+3-Dehydroecdysone	CC(C1CCC2(C1(CCC3C2=CC(=O)C4C3(CC(C(=O)C4)O)C)C)O)C(CCC(C)(C)O)O	64
+Azlocillin	CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)NC(=O)N4CCNC4=O)C(=O)O)C	64
+Thiamine triphosphate	CC1=C(SC=[N+]1CC2=CN=C(N=C2N)C)CCOP(=O)(O)OP(=O)(O)OP(=O)(O)[O-]	64
+Reduced FMN	CC1=CC2=C(C=C1C)N(C3=C(N2)C(=O)NC(=O)N3)CC(C(C(COP(=O)(O)O)O)O)O	64
+epsilon-Rhodomycinone	CCC1(CC(C2=C(C1C(=O)OC)C(=C3C(=C2O)C(=O)C4=C(C3=O)C=CC=C4O)O)O)O	64
+1-Palmitoyl-2-(5-oxovaleroyl)-sn-glycero-3-phosphatidylcholine	CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCC=O	64
+5-Methyltetrahydrofolate	CN1C(CNC2=C1C(=O)NC(=N2)N)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O	64
+Panose	C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC(C(CO)O)C(C(C=O)O)O)O)O)O)O)O)O)O	65
+Folate	C1=CC(=CC=C1C(=O)NC(CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=O)NC(=N3)N	65
+CGP-31523A	C1C(=C(N2C(S1)C(C2=O)NC(=O)C(C3=CSC(=N3)N)NC=O)C(=O)O)CSC4=CN=NS4	65
+Xylotetraose	C1C(C(C(C(O1)OC2COC(C(C2O)O)OC3COC(C(C3O)O)OC4COC(C(C4O)O)O)O)O)O	65
+Eriodictyol 7-O-beta-D-glucoside	C1C(OC2=CC(=CC(=C2C1=O)O)OC3C(C(C(C(O3)CO)O)O)O)C4=CC(=C(C=C4)O)O	65
+Z-Phe-Leu-Ala-OH	CC(C)CC(C(=O)NC(C)C(=O)O)NC(=O)C(CC1=CC=CC=C1)NC(=O)OCC2=CC=CC=C2	65
+Cholesteryl myristate	CCCCCCCCCCCCCC(=O)OC1CCC2(C3CCC4(C(C3CC=C2C1)CCC4C(C)CCCC(C)C)C)C	65
+3-O-Methylfluorescein phosphate	COC1=CC2=C(C=C1)C3(C4=C(O2)C=C(C=C4)OP(=O)(O)O)C5=CC=CC=C5C(=O)O3	65
+Pullulan	COCC1C(C(C(C(O1)COCC2C(OC(C(C2O)O)COCC3C(OC(C(C3O)O)O)CO)CO)O)O)O	65
+Laminarin	C(C1C(C(C(C(O1)O)O)OC2C(C(C(C(O2)CO)O)OC3C(C(C(C(O3)CO)O)O)O)O)O)O	66
+1-Kestose	C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)COC3(C(C(C(O3)CO)O)O)CO)O)O)O)O	66
+Galactomannan	C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)O)O)O)OC3C(C(C(C(O3)CO)O)O)O)O)O)O)O	66
+Isomaltotriose	C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OCC3C(C(C(C(O3)O)O)O)O)O)O)O)O)O)O)O	66
+Gentiotriose	C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OCC3C(C(C(C(O3)O)O)O)O)O)O)O)O)O)O)O	66
+Levan	C(C1C(C(C(O1)(CO)OCC2C(C(C(O2)(CO)OCC3C(C(C(O3)(CO)O)O)O)O)O)O)O)O	66
+Luteolin 7-O-beta-D-glucoside	C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O	66
+Kaempferol 3-O-beta-D-galactoside	C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O	66
+N6-(1,2-Dicarboxyethyl)-AMP	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)O)O)O)NC(CC(=O)O)C(=O)O	66
+ITP	C1=NC2=C(C(=O)N1)N=CN2C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O	66
+5,10-Methylenetetrahydrofolate	C1C2CN(CN2C3=C(N1)N=C(NC3=O)N)C4=CC=C(C=C4)C(=O)NC(CCC(=O)O)C(=O)O	66
+2'-(4-Methylumbelliferyl)-alpha-D-N-acetylneuraminic acid	CC1=CC(=O)OC2=C1C=CC(=C2)OC3(CC(C(C(O3)C(C(CO)O)O)NC(=O)C)O)C(=O)O	66
+Cefotiam	CN(C)CCN1C(=NN=N1)SCC2=C(N3C(C(C3=O)NC(=O)CC4=CSC(=N4)N)SC2)C(=O)O	66
+Cyanidin 3-O-beta-D-glucoside	C1=CC(=C(C=C1C2=[O+]C3=CC(=CC(=C3C=C2OC4C(C(C(C(O4)CO)O)O)O)O)O)O)O	67
+GTP	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N=C(NC2=O)N	67
+XTP	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)NC(=O)NC2=O	67
+8-oxo-dGTP	C1C(C(OC1N2C3=C(C(=O)NC(=N3)N)NC2=O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O	67
+Dermatan sulfate	CC(=O)NC1C(C(C(OC1O)CO)OS(=O)(=O)[O-])OC2C(C(C(C(O2)C(=O)[O-])O)O)O	67
+dTDP-beta-L-daunosamine	CC1C(C(CC(O1)OP(=O)(O)OP(=O)(O)OCC2C(CC(O2)N3C=C(C(=O)NC3=O)C)O)N)O	67
+dTDP-2-deoxy-beta-L-fucose	CC1C(C(CC(O1)OP(=O)(O)OP(=O)(O)OCC2C(CC(O2)N3C=C(C(=O)NC3=O)C)O)O)O	67
+Cholesteryl palmitate	CCCCCCCCCCCCCCCC(=O)OC1CCC2(C3CCC4(C(C3CC=C2C1)CCC4C(C)CCCC(C)C)C)C	67
+Dithionitrobenzoic acid	C1=CC(=C(C=C1SSC2=CC(=C(C=C2)[N+](=O)[O-])C(=O)O)C(=O)O)[N+](=O)[O-]	68
+5,5'-Dithiobis(2-nitrobenzoic acid)	C1=CC(=C(C=C1SSC2=CC(=C(C=C2)[N+](=O)[O-])C(=O)O)C(=O)O)[N+](=O)[O-]	68
+10-Formyl-5,8-dideazafolate	C1=CC(=CC=C1C(=O)NC(CCC(=O)O)C(=O)O)N(CC2=CC3=C(C=C2)N=C(NC3=O)N)C=O	68
+ATP	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N	68
+5-Formyltetrahydrofolate	C1C(N(C2=C(N1)N=C(NC2=O)N)C=O)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O	68
+10-Formyltetrahydrofolate	C1C(NC2=C(N1)N=C(NC2=O)N)CN(C=O)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O	68
+Pustulan	CC(=O)OC1C(C(C(OC1OCC2C(C(C(C(O2)O)O)O)O)COC3C(C(C(C(O3)CO)O)O)O)O)O	68
+Fimasartan	CCCCC1=NC(=C(C(=O)N1CC2=CC=C(C=C2)C3=CC=CC=C3C4=NNN=N4)CC(=S)N(C)C)C	68
+Quercetin 4'-O-glucoside	C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)OC4C(C(C(C(O4)CO)O)O)O	69
+Quercetin 3-O-glucoside	C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O	69
+Quercetin 3-O-beta-D-galactoside	C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O	69
+Quercetin 7-O-beta-D-glucoside	C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)OC4C(C(C(C(O4)CO)O)O)O)O)O)O)O	69
+CDP-L-glutamine	C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)OP(=O)(NC(=O)CCC(C(=O)O)N)O)O)O	69
+3'-Phosphoadenylyl sulfate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OS(=O)(=O)O)OP(=O)(O)O)O)N	69
+N-Succinyl-Ala-Ala-Ala-p-nitroanilide	CC(C(=O)NC(C)C(=O)NC(C)C(=O)NC1=CC=C(C=C1)[N+](=O)[O-])NC(=O)CCC(=O)O	69
+D-Val-Leu-Lys-p-nitroanilide	CC(C)CC(C(=O)NC(CCCCN)C(=O)NC1=CC=C(C=C1)[N+](=O)[O-])NC(=O)C(C(C)C)N	69
+2-Deoxyecdysone 22-phosphate	CC(C1CCC2(C1(CCC3C2=CC(=O)C4C3(CCC(C4)O)C)C)O)C(CCC(C)(C)O)OP(=O)(O)O	69
+Cholesteryl stearate	CCCCCCCCCCCCCCCCCC(=O)OC1CCC2(C3CCC4(C(C3CC=C2C1)CCC4C(C)CCCC(C)C)C)C	69
+Cefepime	C[N+]1(CCCC1)CC2=C(N3C(C(C3=O)NC(=O)C(=NOC)C4=CSC(=N4)N)SC2)C(=O)[O-]	69
+Delphinidin 3-O-glucoside	C1=C(C=C(C(=C1O)O)O)C2=[O+]C3=CC(=CC(=C3C=C2OC4C(C(C(C(O4)CO)O)O)O)O)O	70
+N-Carbobenzoxy-L-tyrosine p-nitrophenyl ester	C1=CC=C(C=C1)COC(=O)NC(CC2=CC=C(C=C2)O)C(=O)OC3=CC=C(C=C3)[N+](=O)[O-]	70
+Phenolphthalein diphosphate	C1=CC=C2C(=C1)C(=O)OC2(C3=CC=C(C=C3)OP(=O)(O)O)C4=CC=C(C=C4)OP(=O)(O)O	70
+5,10-Methenyltetrahydrofolate	C1C2CN(C=[N+]2C3=C(N1)N=C(NC3=O)N)C4=CC=C(C=C4)C(=O)NC(CCC(=O)O)C(=O)O	70
+Talampicillin	CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)OC4C5=CC=CC=C5C(=O)O4)C	70
+Isepamicin	CC1(COC(C(C1NC)O)OC2C(CC(C(C2O)OC3C(C(C(C(O3)CN)O)O)O)N)NC(=O)C(CN)O)O	70
+dTDP-4-amino-4,6-dideoxy-D-glucose	CC1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(CC(O2)N3C=C(C(=O)NC3=O)C)O)O)O)N	70
+2,2'-Azino-bis(3-ethylbenzthiazoline-6-sulfonic acid)	CCN1C2=C(C=C(C=C2)S(=O)(=O)O)SC1=NN=C3N(C4=C(S3)C=C(C=C4)S(=O)(=O)O)CC	70
+Arabinotetraose	C(C1C(C(C(O1)OCC2C(C(C(O2)OCC3C(C(C(O3)OCC4C(C(C(O4)O)O)O)O)O)O)O)O)O)O	71
+Remdesivir triphosphate	C1=C2C(=NC=NN2C(=C1)C3(C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)C#N)N	71
+Ribostamycin sulfate	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)N)OC3C(C(C(O3)CO)O)O)O)N.OS(=O)(=O)O	71
+Butirosin	C1C(C(C(C(C1NC(=O)C(CCN)O)O)OC2C(C(C(O2)CO)O)O)OC3C(C(C(C(O3)CN)O)O)N)N	71
+Butirosin A	C1C(C(C(C(C1NC(=O)C(CCN)O)O)OC2C(C(C(O2)CO)O)O)OC3C(C(C(C(O3)CN)O)O)N)N	71
+dTDP-D-glucose	CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O	71
+dTDP-4-dehydro-6-deoxy-D-glucose	CC1C(=O)C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(CC(O2)N3C=C(C(=O)NC3=O)C)O)O)O	71
+dTDP-4-dehydro-beta-L-rhamnose	CC1C(=O)C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(CC(O2)N3C=C(C(=O)NC3=O)C)O)O)O	71
+GM3	CC1CCC2C1CC3(C4CC2(C3(C(=C4)C(C)C)C(=O)O)C=O)COC5CC6C(C(O5)C)OC(O6)(C)C	71
+Cholesteryl linoleate	CCCCCC=CCC=CCCCCCCCC(=O)OC1CCC2(C3CCC4(C(C3CC=C2C1)CCC4C(C)CCCC(C)C)C)C	71
+8-oxo-GTP	C(C1C(C(C(O1)N2C3=C(C(=O)NC(=N3)N)NC2=O)O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O	72
+(1,4-alpha-D-Galacturonosyl)n	C1(C(C(OC(C1O)OC2C(C(C(OC2C(=O)O)OC3C(C(C(OC3C(=O)O)O)O)O)O)O)C(=O)O)O)O	72
+Z-Gly-Pro-Leu-Gly-Pro	CC(C)CC(C(=O)NCC(=O)N1CCCC1C(=O)O)NC(=O)C2CCCN2C(=O)CNC(=O)OCC3=CC=CC=C3	72
+Phosphatidylserine	CCCCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCC(C(=O)O)N)OC(=O)CCCCCCCCCCCCCCCCC	72
+Cyanidin 3-O-glucoside	C1=CC(=C(C=C1C2=[O+]C3=CC(=CC(=C3C=C2OC4C(C(C(C(O4)CO)O)O)O)O)O)O)O.[Cl-]	73
+UDPglucosamine	C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)N)O)O	73
+UDPgalactose	C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O	73
+UDPglucose	C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O	73
+UDP-D-galactose	C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O	73
+UDP-D-glucose	C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O	73
+UDP-galactose	C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O	73
+2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol	CC(CO)(C(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=CC(=NC2=O)N)O)O)O)OP(=O)(O)O	73
+beta-Carotene	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C	73
+Idarubicin	CC1C(C(CC(O1)OC2CC(CC3=C2C(=C4C(=C3O)C(=O)C5=CC=CC=C5C4=O)O)(C(=O)C)O)N)O	73
+Piperacillin	CCN1CCN(C(=O)C1=O)C(=O)NC(C2=CC=CC=C2)C(=O)NC3C4N(C3=O)C(C(S4)(C)C)C(=O)O	73
+Glutathione amide disulfide	C(CC(=O)NC(CSSCC(C(=O)NCC(=O)N)NC(=O)CCC(C(=O)O)N)C(=O)NCC(=O)N)C(C(=O)O)N	74
+Iodonitrotetrazolium	C1=CC=C(C=C1)C2=NN([N+](=N2)C3=CC=C(C=C3)[N+](=O)[O-])C4=CC=C(C=C4)I.[Cl-]	74
+N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide	C1=NC(=C(N1C2C(C(C(O2)COP(=O)(O)O)O)O)NC=NCC(=O)C(C(COP(=O)(O)O)O)O)C(=O)N	74
+beta-Casomorphin	C1CC(N(C1)C(=O)C(CC2=CC=C(C=C2)O)N)C(=O)NC(CC3=CC=CC=C3)C(=O)N4CCCC4C(=O)N	74
+Methyl (5S,7S,8S,9S,10S,13R,14R,16S)-7,16-dihydroxy-4,4,8,10,12,13,16-heptamethyl-3,6,15,17-tetraoxo-1,2,3,4,5,6,7,8,9,10,13,15,16,17-tetradecahydro-14H-cyclopenta[a]phenanthrene-14-carboxylate	CC1=CC2C3(CCC(=O)C(C3C(=O)C(C2(C4(C1(C(=O)C(C4=O)(C)O)C)C(=O)OC)C)O)(C)C)C	74
+7-Ethyl-10-[4-(1-piperidino)-1-amino]-carbonyloxycamptothecin	CCC1=C2C(=C(C=C1)OC(=O)NN3CCCCC3)C=C4CN5C(=CC6=C(C5=O)COC(=O)C6(CC)O)C4=N2	74
+Ceftriaxone	CN1C(=NC(=O)C(=O)N1)SCC2=C(N3C(C(C3=O)NC(=O)C(=NOC)C4=CSC(=N4)N)SC2)C(=O)O	74
+Moxalactam	CN1C(=NN=N1)SCC2=C(N3C(C(C3=O)(NC(=O)C(C4=CC=C(C=C4)O)C(=O)O)OC)OC2)C(=O)O	74
+5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide	C1=NC(=C(N1C2C(C(C(O2)COP(=O)(O)O)O)O)NC=NC3C(C(C(O3)COP(=O)(O)O)O)O)C(=O)N	75
+Amikacin	C1C(C(C(C(C1NC(=O)C(CCN)O)OC2C(C(C(C(O2)CO)O)N)O)O)OC3C(C(C(C(O3)CN)O)O)O)N	75
+UDP-N-acetylgalactosamine	CC(=O)NC1C(C(C(OC1OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)CO)O)O	75
+UDP-N-acetyl-D-glucosamine	CC(=O)NC1C(C(C(OC1OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)CO)O)O	75
+UDP-N-acetyl-D-mannosamine	CC(=O)NC1C(C(C(OC1OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)CO)O)O	75
+UDP-N-acetyl-D-galactosamine	CC(=O)NC1C(C(C(OC1OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)CO)O)O	75
+Leu-enkephalinamide	CC(C)CC(C(=O)N)NC(=O)C(CC1=CC=CC=C1)NC(=O)CNC(=O)CNC(=O)C(CC2=CC=C(C=C2)O)N	75
+Leu-enkephalin	CC(C)CC(C(=O)O)NC(=O)C(CC1=CC=CC=C1)NC(=O)CNC(=O)CNC(=O)C(CC2=CC=C(C=C2)O)N	75
+20-Hydroxyecdysone 22-phosphate	CC12CCC3C(=CC(=O)C4C3(CC(C(C4)O)O)C)C1(CCC2C(C)(C(CCC(C)(C)O)OP(=O)(O)O)O)O	75
+Cefotetan	CN1C(=NN=N1)SCC2=C(N3C(C(C3=O)(NC(=O)C4SC(=C(C(=O)N)C(=O)O)S4)OC)SC2)C(=O)O	75
+Cefpirome	CON=C(C1=CSC(=N1)N)C(=O)NC2C3N(C2=O)C(=C(CS3)C[N+]4=CC=CC5=C4CCC5)C(=O)[O-]	75
+Phe-Met-Arg-Phe-NH2	CSCCC(C(=O)NC(CCCN=C(N)N)C(=O)NC(CC1=CC=CC=C1)C(=O)N)NC(=O)C(CC2=CC=CC=C2)N	75
+Mo-Molybdopterin	C(C1C(=C(C2C(O1)NC3=C(N2)C(=O)NC(=N3)N)[S-])[S-])OP(=O)([O-])[O-].O=[Mo+2]=O	76
+ADPribose	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)O)O)O)O)O)N	76
+Guanosine 3',5'-bis(diphosphate)	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)OP(=O)(O)OP(=O)(O)O)O)N=C(NC2=O)N	76
+O-Acetyl-ADP-ribose	CC(=O)OC1C(C(OC1O)COP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=NC4=C(N=CN=C43)N)O)O)O	76
+beta-Cryptoxanthin	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CC(CC2(C)C)O)C)C)C	76
+GDP-beta-L-fucose	CC1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=NC4=C3N=C(NC4=O)N)O)O)O)O)O	76
+UDPglucuronate	C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)C(=O)O)O)O)O)O)O	77
+Trioleoylglycerol	CCCCCCCCC=CCCCCCCCC(=O)OCC(COC(=O)CCCCCCCC=CCCCCCCCC)OC(=O)CCCCCCCC=CCCCCCCCC	77
+myo-Inositol hexakisphosphate	C1(C(C(C(C(C1OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O	78
+Plantacyanin	C1=CC=C2C(=C1)C3=CC=CC=C3N2C4=CC=C(C=C4)C5=CC=C(C=C5)N6C7=CC=CC=C7C8=CC=CC=C86	78
+Guanylyl-3',5'-cytidine	C1=CN(C(=O)N=C1N)C2C(C(C(O2)COP(=O)(O)OC3C(OC(C3O)N4C=NC5=C4N=C(NC5=O)N)CO)O)O	78
+Ecdysone 22-phosphate	CC(C1CCC2(C1(CCC3C2=CC(=O)C4C3(CC(C(C4)O)O)C)C)O)C(CCC(C)(C)O)OP(=O)([O-])[O-]	78
+Reactive Red 22	COC1=C(C=C(C=C1)S(=O)(=O)CCOS(=O)(=O)O)N=NC2=C(C3=C(C=C2)C(=CC=C3)S(=O)(=O)O)O	78
+Cyanidin 3-O-(6-O-malonyl-beta-D-glucoside)	C1=CC(=C(C=C1C2=[O+]C3=CC(=CC(=C3C=C2OC4C(C(C(C(O4)COC(=O)CC(=O)O)O)O)O)O)O)O)O	79
+GDP-L-galactose	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)N=C(NC2=O)N	79
+GDP-D-glucose	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)N=C(NC2=O)N	79
+GDP-D-mannose	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)N=C(NC2=O)N	79
+GDPmannose	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)N=C(NC2=O)N	79
+GDP-alpha-D-mannose	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)N=C(NC2=O)N	79
+GDP-alpha-D-Glucose	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)N=C(NC2=O)N	79
+8-hydroxy-dGTP	C1C(C(OC1N2C3=C(C(=O)NC(=N3)N)NC2=O)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O	79
+Neoagarotetraose	C1C2C(C(O1)C(C(O2)OC3C(C(OC(C3O)OC4C5COC4C(C(O5)OC6C(C(OC(C6O)O)CO)O)O)CO)O)O)O	79
+CMP-N-acetylneuraminate	CC(=O)NC1C(CC(OC1C(C(CO)O)O)(C(=O)O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=NC3=O)N)O)O)O	79
+Daunorubicin	CC1C(C(CC(O1)OC2CC(CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)C)O)N)O	79
+ADP alpha-D-glucoside	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)N	80
+CENTA	C1C(=C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CS3)C(=O)O)CSC4=CC(=C(C=C4)[N+](=O)[O-])C(=O)O	80
+Neomycin B	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)N)OC3C(C(C(O3)CO)OC4C(C(C(C(O4)CN)O)O)N)O)O)N	80
+Paromomycin	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CO)O)O)N)OC3C(C(C(O3)CO)OC4C(C(C(C(O4)CN)O)O)N)O)O)N	80
+Paramomycin	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CO)O)O)N)OC3C(C(C(O3)CO)OC4C(C(C(C(O4)CN)O)O)N)O)O)N	80
+4-Methylumbelliferyl-beta-D-N,N'-diacetylchitobioside	CC1=CC(=O)OC2=C1C=CC(=C2)OC3C(C(C(C(O3)CO)OC4C(C(C(C(O4)CO)O)O)NC(=O)C)O)NC(=O)C	80
+Adriamycin	CC1C(C(CC(O1)OC2CC(CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O	80
+Maltotetraose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)O)CO)CO)CO)O)O)O)O	81
+Cellotetraose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)O)CO)CO)CO)O)O)O)O	81
+Glucomannan	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)O)CO)CO)CO)O)O)O)O	81
+Xylopentaose	C1C(C(C(C(O1)OC2COC(C(C2O)O)OC3COC(C(C3O)O)OC4COC(C(C4O)O)OC(CO)C(C(C=O)O)O)O)O)O	81
+Irinotecan	CCC1=C2CN3C(=CC4=C(C3=O)COC(=O)C4(CC)O)C2=NC5=C1C=C(C=C5)OC(=O)N6CCC(CC6)N7CCCCC7	81
+Ceftazidime	CC(C)(C(=O)O)ON=C(C1=CSC(=N1)N)C(=O)NC2C3N(C2=O)C(=C(CS3)C[N+]4=CC=CC=C4)C(=O)[O-]	82
+Pyridine-2-azo-4-dimethylaniline cephalosporin	CN(C)C1=CC=C(C=C1)N=NC2=CC=CC=[N+]2CC3=C(N4C(C(C4=O)NC(=O)CC5=CC=CS5)SC3)C(=O)[O-]	82
+8-hydroxy-dATP	C1=NC(=C2C(=N1)N(C(=O)N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O)O)N	83
+Succinyl-Ala-Ala-Pro-Met-p-nitroanilide	CC(C(=O)NC(C)C(=O)N1CCCC1C(=O)NC(CCSC)C(=O)NC2=CC=C(C=C2)[N+](=O)[O-])NC(=O)CCC(=O)O	84
+Dephospho-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O)C(C(=O)NCCC(=O)NCCS)O	84
+3'-Dephospho-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O)C(C(=O)NCCC(=O)NCCS)O	84
+Rhodosaminyl-aklavinone	CCC1(CC(C2=C(C3=C(C=C2C1C(=O)OC)C(=O)C4=C(C3=O)C(=CC=C4)O)O)OC5CC(C(C(O5)C)O)N(C)C)O	84
+Guanosine 3'-diphosphate 5'-triphosphate	C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)OP(=O)(O)OP(=O)(O)O)O)N=C(NC2=O)N	85
+Cefsulodin	C1C(=C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)S(=O)(=O)O)C(=O)[O-])C[N+]4=CC=C(C=C4)C(=O)N	85
+Agarose	C1C2C(C(O1)C(C(O2)O)O)OC3C(C(C(C(O3)CO)O)OC4C(C5C(C(O4)CO5)OC6C(C(C(C(O6)CO)O)O)O)O)O	85
+Lacto-N-tetraose	CC(=O)NC1C(C(C(OC1OC2C(C(OC(C2O)OC3C(OC(C(C3O)O)O)CO)CO)O)CO)O)OC4C(C(C(C(O4)CO)O)O)O	85
+UDP-N-acetylmuramate	CC(C(=O)O)OC1C(C(OC(C1O)CO)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)NC(=O)C	85
+Mezlocillin sodium	CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)NC(=O)N4CCN(C4=O)S(=O)(=O)C)C(=O)[O-])C.[Na+]	85
+Dalpatein 7-O-beta-D-apiofuranosyl-(1->6)-beta-D-glucopyranoside	COC1=CC2=C(C=C1C3=COC4=CC(=C(C=C4C3=O)OC)OC5C(C(C(C(O5)COC6C(C(CO6)(CO)O)O)O)O)O)OCO2	85
+UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine	CC(=O)NC1C(C(C(OC1OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)CO)O)OC(=C)C(=O)O	86
+Cefoperazone	CCN1CCN(C(=O)C1=O)C(=O)NC(C2=CC=C(C=C2)O)C(=O)NC3C4N(C3=O)C(=C(CS4)CSC5=NN=NN5C)C(=O)O	86
+Laminaritetraose	C(C1C(C(C(C(O1)O)O)OC2C(C(C(C(O2)CO)O)OC3C(C(C(C(O3)CO)O)OC4C(C(C(C(O4)CO)O)O)O)O)O)O)O	87
+Isomaltotetraose	C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OCC3C(C(C(C(O3)OCC4C(C(C(C(O4)O)O)O)O)O)O)O)O)O)O)O)O)O)O	87
+5-PP-InsP5	C1(C(C(C(C(C1OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O	87
+Diphospho-myo-inositol pentakisphosphate	C1(C(C(C(C(C1OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O	87
+Nitrocefin	C1C(=C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CS3)C(=O)O)C=CC4=C(C=C(C=C4)[N+](=O)[O-])[N+](=O)[O-]	87
+Cyanidin 3,7-di-O-beta-D-glucoside	C1=CC(=C(C=C1C2=[O+]C3=CC(=CC(=C3C=C2OC4C(C(C(C(O4)CO)O)O)O)O)OC5C(C(C(C(O5)CO)O)O)O)O)O	88
+MSmB	CC1=C(N2C(=C(C(=O)N2C1=O)C)CSCC(C(=O)NC3C(C(C(OC3OC4C(C(C(C(C4O)O)O)O)O)CO)O)O)NC(=O)C)C	88
+Protoporphyrinogen IX	CC1=C2CC3=C(C(=C(N3)CC4=C(C(=C(N4)CC5=C(C(=C(N5)CC(=C1CCC(=O)O)N2)CCC(=O)O)C)C=C)C)C=C)C	88
+p-Nitrophenyl-beta-D-cellotrioside	C1=CC(=CC=C1[N+](=O)[O-])OC2C(C(C(C(O2)CO)OC3C(C(C(C(O3)CO)OC4C(C(C(C(O4)CO)O)O)O)O)O)O)O	89
+Tetrahydropteroyl di-L-glutamate	C1C(NC2=C(N1)N=C(NC2=O)N)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)NC(CCC(=O)[O-])C(=O)[O-])C(=O)[O-]	89
+NADH	C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O	89
+Quercetin-3,4'-diglucoside	C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)OC5C(C(C(C(O5)CO)O)O)O	90
+Cyanin	C1=CC(=C(C=C1C2=C(C=C3C(=CC(=CC3=[O+]2)O)OC4C(C(C(C(O4)CO)O)O)O)OC5C(C(C(C(O5)CO)O)O)O)O)O	90
+UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine	CCCCCCCCCCCC(CC(=O)OC1C(C(OC(C1O)CO)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)N)O	90
+Bilirubin	CC1=C(NC(=C1CCC(=O)O)CC2=C(C(=C(N2)C=C3C(=C(C(=O)N3)C)C=C)C)CCC(=O)O)C=C4C(=C(C(=O)N4)C=C)C	91
+Succinyl-Ala-Ala-Pro-Phe-p-nitroanilide	CC(C(=O)NC(C)C(=O)N1CCCC1C(=O)NC(CC2=CC=CC=C2)C(=O)NC3=CC=C(C=C3)[N+](=O)[O-])NC(=O)CCC(=O)O	92
+Nicotinamide hypoxanthine dinucleotide	C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C4N=CNC5=O)O)O)O)O)C(=O)N	93
+Coenzyme A	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCS)O	93
+Leu-enkephalin-Arg	CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)O)NC(=O)C(CC1=CC=CC=C1)NC(=O)CNC(=O)CNC(=O)C(CC2=CC=C(C=C2)O)N	94
+UDP-N-acetylmuramoyl-L-alanine	CC(C(=O)O)NC(=O)C(C)OC1C(C(OC(C1O)CO)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)NC(=O)C	95
+Nicotinamide guanine dinucleotide	C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C4N=C(NC5=O)N)O)O)O)O)C(=O)N	96
+3-Acetylpyridine-adenine dinucleotide	CC(=O)C1=C[N+](=CC=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O	96
+Benzoyl-Phe-Val-Arg-p-nitroanilide	CC(C)C(C(=O)NC(=O)C(CCCN=C(N)N)NC1=CC=C(C=C1)[N+](=O)[O-])NC(=O)C(CC2=CC=CC=C2)NC(=O)C3=CC=CC=C3	96
+NAD+	C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N	98
+Lividomycin A	C1C(C(C(C(C1N)OC2C(CC(C(O2)CO)O)N)OC3C(C(C(O3)CO)OC4C(C(C(C(O4)CN)OC5C(C(C(C(O5)CO)O)O)O)O)N)O)O)N	98
+NADPH	C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O	98
+alpha-NADPH	C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O	98
+Benzoyl-Pro-Phe-Arg-p-nitroanilide	C1CC(N(C1)C(=O)C2=CC=CC=C2)C(=O)NC(CC3=CC=CC=C3)C(=O)NC(=O)C(CCCN=C(N)N)NC4=CC=C(C=C4)[N+](=O)[O-]	98
+Undecaprenyl phosphate	CC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCCC(=CCOP(=O)(O)O)C)C)C)C)C)C)C)C)C)C)C	98
+Coproporphyrinogen III	CC1=C2CC3=C(C(=C(N3)CC4=C(C(=C(N4)CC5=C(C(=C(N5)CC(=C1CCC(=O)O)N2)C)CCC(=O)O)C)CCC(=O)O)CCC(=O)O)C	98
+Acetyl-CoA	CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	99
+Digoxin	CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O	99
+Cellopentaose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)O)CO)CO)CO)CO)O)O)O)O	100
+Adenylyl-molybdopterin	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OCC4C(=C(C5C(O4)NC6=C(N5)C(=O)NC(=N6)N)S)S)O)O)N	100
+Propanoyl-CoA	CCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	100
+Maltopentaose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC(C(CO)O)C(C(C=O)O)O)CO)CO)CO)O)O)O)O	101
+Acryloyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C=C)O	101
+3-Hydroxypropanoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CCO)O	101
+Butanoyl-CoA	CCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	101
+Ferrileghemoglobin	CC1=C(C2=CC3=NC(=CC4=C(C(=C([N-]4)C=C5C(=C(C(=N5)C=C1[N-]2)C=C)C)C=C)C)C(=C3CCC(=O)C)C)CCC(=O)C.[Fe+5]	102
+Crotonoyl-CoA	CC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	102
+Pentanoyl-CoA	CCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	102
+n-Valeryl-CoA	CCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	102
+UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine	CCCCCCCCCCCC(CC(=O)OC1C(C(OC(C1O)CO)OP(=O)([O-])OP(=O)([O-])OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)NC(=O)C)O	102
+3'-NADPH	C1C=CN(C=C1C(=O)N)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O.[Na]	103
+Reduced coenzyme F420	CC(C(=O)NC(CCC(=O)NC(CCC(=O)O)C(=O)O)C(=O)O)OP(=O)(O)OCC(C(C(CN1C2=C(CC3=C1NC(=O)NC3=O)C=CC(=C2)O)O)O)O	103
+2-Methylpropanoyl-CoA	CC(C)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	103
+Hexanoyl-CoA	CCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	103
+Amylopectin	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OCC3C(C(C(C(O3)OC4C(OC(C(C4O)O)O)CO)O)O)OC5C(C(C(C(O5)CO)O)O)O)CO)O)O)O)O	104
+NADP+	C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)OP(=O)(O)O)O)O)O)C(=O)N	104
+P1,P3-Bis(5'-adenosyl) triphosphate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)N5C=NC6=C(N=CN=C65)N)O)O)O)O)N	104
+Oxalyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C(=O)O)O	104
+3-Methylbutanoyl-CoA	CC(C)CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	104
+3-Hydroxybutanoyl-CoA	CC(CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O)O	104
+(S)-3-Hydroxyisobutyryl-CoA	CC(CO)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	104
+Heme	CC1=C(C2=CC3=C(C(=C([N-]3)C=C4C(=C(C(=N4)C=C5C(=C(C(=N5)C=C1[N-]2)C)C=C)C)C=C)C)CCC(=O)O)CCC(=O)O.[Fe+2]	104
+Lacto-N-fucopentaose I	CC1C(C(C(C(O1)OC2C(C(C(OC2OC3C(C(OC(C3O)CO)OC4C(C(OC(C4O)OC(C(CO)O)C(C(C=O)O)O)CO)O)NC(=O)C)CO)O)O)O)O)O	104
+2-Hydroxybutyryl-CoA	CCC(C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O)O	104
+(S)-2-Methylbutanoyl-CoA	CCC(C)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	104
+trans-3-Hexenoyl-CoA	CCC=CCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	104
+cis-3-Hexenoyl-CoA	CCC=CCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	104
+trans-Hex-2-enoyl-CoA	CCCC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	104
+Heptanoyl-CoA	CCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	104
+Acetoacetyl-CoA	CC(=O)CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	105
+Malonyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC(=O)O)O	105
+5,10-Methylenetetrahydromethanopterin	CC1C2C(N(CN2C3=C(N1)N=C(NC3=O)N)C4=CC=C(C=C4)CC(C(C(COC5C(C(C(O5)COP(=O)(O)OC(CCC(=O)O)C(=O)O)O)O)O)O)O)C	105
+Octanoyl-CoA	CCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	105
+Tetra-N-acetylchitotetraose	CC(=O)NC1C(C(C(OC1OC(CO)C(C(C(C=O)NC(=O)C)OC2C(C(C(C(O2)CO)O)O)NC(=O)C)OC3C(C(C(C(O3)CO)O)O)NC(=O)C)CO)O)O	106
+3,4-Dehydroadipyl-CoA semialdehyde	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC=CCC=O)O	106
+Succinyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CCC(=O)O)O	106
+Ubiquinol	CC1=C(C(=C(C(=C1O)OC)OC)O)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C	106
+trans-3-Octenoyl-CoA	CCCCC=CCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	106
+cis-3-Octenoyl-CoA	CCCCC=CCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	106
+Octenoyl-CoA	CCCCCC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	106
+trans-Oct-2-enoyl-CoA	CCCCCC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	106
+Isomaltopentaose	C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OCC3C(C(C(C(O3)OCC4C(C(C(C(O4)OCC(C(C(C(C=O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O	107
+Glutaryl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CCCC(=O)O)O	107
+Ubiquinone	CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C	107
+4-Methylumbelliferyl-beta-D-N,N',N''-triacetylchitotrioside	CC1=CC(=O)OC2=C1C=CC(=C2)OC3C(C(C(C(O3)CO)OC4C(C(C(C(O4)CO)OC5C(C(C(C(O5)CO)O)O)NC(=O)C)O)NC(=O)C)O)NC(=O)C	107
+(2E,5Z)-Octadienoyl-CoA	CCC=CCC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	107
+Decanoyl-CoA	CCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	107
+Laminaripentaose	C(C1C(C(C(C(O1)O)O)OC2C(C(C(C(O2)CO)O)OC3C(C(C(C(O3)CO)O)OC4C(C(C(C(O4)CO)O)OC5C(C(C(C(O5)CO)O)O)O)O)O)O)O)O	108
+2-Methylacetoacetyl-CoA	CC(C(=O)C)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	108
+(R)-2-Methyl-3-oxopropanoyl-CoA	CC(C(=O)O)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	108
+2-Methylmalonyl-CoA	CC(C(=O)O)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	108
+(S)-2-Methyl-3-oxopropanoyl-CoA	CC(C(=O)O)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	108
+Methylglutaryl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CCCC(=O)OC)O	108
+FAD	CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(COP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)N5C=NC6=C(N=CN=C65)N)O)O)O)O)O	108
+trans-3-Decenoyl-CoA	CCCCCCC=CCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	108
+trans-Dec-2-enoyl-CoA	CCCCCCCC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	108
+Tetrahydropteroyl tri-L-glutamate	C1C(NC2=C(N1)N=C(NC2=O)N)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)NC(CCC(=O)NC(CCC(=O)[O-])C(=O)[O-])C(=O)[O-])C(=O)[O-]	109
+Benzoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C4=CC=CC=C4)O	109
+L-Malyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC(C(=O)O)O)O	109
+6-Carboxyhexanoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CCCCCC(=O)O)O	109
+FADH2	CC1=CC2=C(C=C1C)N(C3=C(N2)C(=O)NC(=O)N3)CC(C(C(COP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)N5C=NC6=C(N=CN=C65)N)O)O)O)O)O	109
+(S)-Ethylmalonyl-CoA	CCC(C(=O)O)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	109
+3-Oxooctanoyl-CoA	CCCCCC(=O)CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	109
+Lauroyl-CoA	CCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	109
+Anthraniloyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C4=CC=CC=C4N)O	110
+2-Hydroxybenzoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C4=CC=CC=C4O)O	110
+Phenylacetyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC4=CC=CC=C4)O	110
+Hemin	CC1=C(C2=CC3=C(C(=C([N-]3)C=C4C(=C(C(=N4)C=C5C(=C(C(=N5)C=C1[N-]2)C)C=C)C)C=C)C)CCC(=O)O)CCC(=O)O.[Cl-].[Fe+3]	110
+Dodecenoyl-CoA	CCCCCCCCCC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	110
+2-trans-Dodecenoyl-CoA	CCCCCCCCCC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	110
+Bocillin FL	[B-]1(N2C(=CC(=C2C=C3[N+]1=C(C=C3)CCC(=O)NC4=CC=C(C=C4)OCC(=O)NC5C6N(C5=O)C(C(S6)(C)C)C(=O)[O-])C)C)(F)F.[Na+]	110
+5-Diphospho-1D-myo-inositol 1,3,4,6-tetrakisphosphate	C1(C(C(C(C(C1OP(=O)([O-])[O-])OP(=O)([O-])[O-])OP(=O)([O-])OP(=O)([O-])[O-])OP(=O)([O-])[O-])OP(=O)([O-])[O-])O	111
+N-Methylanthraniloyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C4=CC=CC=C4NC)O	111
+Phenylpropionyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CCC4=CC=CC=C4)O	111
+Z-Arg-Leu-Arg-Gly-Gly-AMC	CC1=CC(=O)OC2=C1C=CC(=C2)NC(=O)CNC(=O)CNC(=O)C(CCCN=C(N)N)NC(=O)C(CC(C)C)NC(=O)C(CCCN=C(N)N)NC(=O)OCC3=CC=CC=C3	111
+Myristoyl-CoA	CCCCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	111
+Cyanidin 3-O-(6-O-p-coumaroyl)glucoside-5-O-glucoside	C1=CC(=CC=C1C=CC(=O)OCC2C(C(C(C(O2)OC3=C([O+]=C4C=C(C=C(C4=C3)OC5C(C(C(C(O5)CO)O)O)O)O)C6=CC(=C(C=C6)O)O)O)O)O)O	112
+UDP-N-acetylmuramoyl-L-alanyl-D-glutamate	CC(C(=O)NC(CCC(=O)O)C(=O)O)NC(=O)C(C)OC1C(C(OC(C1O)CO)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)NC(=O)C	112
+L-erythro-3-Methylmalyl-CoA	CC(C(C(=O)O)O)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	112
+3-Hydroxybenzoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C4=CC(=CC=C4)O)O	112
+4-Fluorobenzoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C4=CC=C(C=C4)F)O	112
+4-Hydroxybenzoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C4=CC=C(C=C4)O)O	112
+Cinnamoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C=CC4=CC=CC=C4)O	112
+3-Oxoadipyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC(=O)CCC(=O)O)O	112
+trans-3-Tetradecenoyl-CoA	CCCCCCCCCCC=CCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	112
+trans-Tetradec-2-enoyl-CoA	CCCCCCCCCCCC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	112
+4-Chlorobenzoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C4=CC=C(C=C4)Cl)O	113
+3-Hydroxy-3-methylglutaryl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC(C)(CC(=O)O)O)O	113
+4-Hydroxyphenylacetyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC4=CC=C(C=C4)O)O	113
+(2E,5Z)-Tetradecadienoyl-CoA	CCCCCCCCC=CCC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	113
+Palmitoyl-CoA	CCCCCCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	113
+Palmitoleoyl-CoA	CCCCCCC=CCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	114
+trans-Hexadec-2-enoyl-CoA	CCCCCCCCCCCCCC=CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	114
+2,5-Dihydroxybenzoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C4=C(C=CC(=C4)O)O)O	115
+4-Coumaroyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C=CC4=CC=C(C=C4)O)O	115
+Stearoyl-CoA	CCCCCCCCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	115
+3,5-Dihydroxyphenylacetyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CC4=CC(=CC(=C4)O)O)O	116
+5-Hexenoyl-CoA	CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CCCC=C)O	116
+Oleoyl-CoA	CCCCCCCCC=CCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	116
+3-Indolepropionyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)CCC4=CNC5=CC=CC=C54)O	117
+Torvoside A	CC1C2C(CC3C2(CCC4C3CC(C5C4(CCC(C5)O)C)OC6C(C(C(C(O6)C)O)OC7C(C(C(C(O7)C)O)O)O)O)C)OC1(CCC(C)COC8C(C(C(C(O8)CO)O)O)O)O	117
+2-Methylbut-2-enoyl-CoA	CC=C(C)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O	117
+Linoleoyl-CoA	CCCCCC=CCC=CCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	117
+3-Oxopalmitoyl-CoA	CCCCCCCCCCCCCC(=O)CC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	117
+Eicosanoyl-CoA	CCCCCCCCCCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	117
+alpha-Cyclodextrin	C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(O2)C(C7O)O)CO)CO)CO)CO)CO)O)O)O	118
+Caffeoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C=CC4=CC(=C(C=C4)O)O)O	118
+alpha-Linolenoyl-CoA	CCC=CCC=CCC=CCCCCCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	118
+Maltohexaose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)O)CO)CO)CO)CO)CO)O)O)O)O	119
+Reactive blue 5	C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=C(C=C3NC4=CC(=C(C=C4)S(=O)(=O)O)NC5=NC(=NC(=N5)NC6=CC(=CC=C6)S(=O)(=O)O)Cl)S(=O)(=O)O)N	119
+Laminarihexaose	C(C1C(C(C(C(O1)OC2C(C(OC(C2O)OC3C(C(OC(C3O)OC4C(C(OC(C4O)OC5C(C(OC(C5O)OC(C(C=O)O)C(C(CO)O)O)CO)O)CO)O)CO)O)CO)O)O)O)O)O	120
+Cellohexaose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC(C(CO)O)C(C(C=O)O)O)CO)CO)CO)CO)O)O)O)O	120
+(R)-2-Hydroxyisocaproyl-CoA	CC(C)CC(C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O)O	120
+3-cis-Decenoyl-CoA	CCCCCCC=CCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O	120
+Magnesium protoporphyrin	[H+].[H+].CC1=C(C2=CC3=C(C(=C([N-]3)C=C4C(=C(C(=N4)C=C5C(=C(C(=N5)C=C1[N-]2)C)C=C)C)C=C)C)CCC(=O)[O-])CCC(=O)[O-].[Mg+2]	120
+Arachidonyl-CoA	CCCCCC=CCC=CCC=CCC=CCCCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O	121
+Diadenosine pentaphosphate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)OP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)N5C=NC6=C(N=CN=C65)N)O)O)O)O)N	122
+Bis(5'-adenosyl) pentaphosphate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)OP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)N5C=NC6=C(N=CN=C65)N)O)O)O)O)N	122
+Sinapoyl-CoA	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSC(=O)C=CC4=CC(=C(C(=C4)OC)O)OC)O	123
+4'''-Demalonylsalvianin	C1=CC(=CC=C1C2=C(C=C3C(=CC(=CC3=[O+]2)O)OC4C(C(C(C(O4)COC(=O)CC(=O)O)O)O)O)OC5C(C(C(C(O5)COC(=O)C=CC6=CC(=C(C=C6)O)O)O)O)O)O	124
+Uroporphyrinogen III	C1C2=C(C(=C(N2)CC3=C(C(=C(N3)CC4=C(C(=C(N4)CC5=C(C(=C1N5)CCC(=O)O)CC(=O)O)CC(=O)O)CCC(=O)O)CC(=O)O)CCC(=O)O)CC(=O)O)CCC(=O)O	124
+4-Methylbenzoyl-CoA	CC1=CC=C(C=C1)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC2C(C(C(O2)N3C=NC4=C(N=CN=C43)N)O)OP(=O)([O-])[O-])O	124
+Pristinamycin IA	CCC1C(=O)N2CCCC2C(=O)N(C(C(=O)N3CCC(=O)CC3C(=O)NC(C(=O)OC(C(C(=O)N1)NC(=O)C4=C(C=CC=N4)O)C)C5=CC=CC=C5)CC6=CC=C(C=C6)N(C)C)C	124
+Hydroxymethylbilane	C1=C(C(=C(N1)CC2=C(C(=C(N2)CC3=C(C(=C(N3)CC4=C(C(=C(N4)CO)CC(=O)O)CCC(=O)O)CC(=O)O)CCC(=O)O)CC(=O)O)CCC(=O)O)CC(=O)O)CCC(=O)O	125
+P1,P4-Bis(5'-adenosyl) tetraphosphate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])OP(=O)([O-])OCC4C(C(C(O4)N5C=NC6=C(N=CN=C65)N)O)O)O)O)N	125
+3-Hydroxyphenylacetyl-CoA	CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CC4=CC(=CC=C4)O)O	125
+Angiotensin III	CCC(C)C(C(=O)NC(CC1=CN=CN1)C(=O)N2CCCC2C(=O)NC(CC3=CC=CC=C3)C(=O)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(C(C)C)NC(=O)C(CCCN=C(N)N)N	125
+Keratan sulfate	CC(=O)NC1C(CC(OC1OC2C(C(OC(C2O)OC3C(OC(C(C3O)NC(=O)C)OC4C(C(OC(C4O)O)COS(=O)(=O)O)O)COS(=O)(=O)O)COS(=O)(=O)O)O)COS(=O)(=O)O)O	126
+Arg-Pro-Gly-Phe-Ser-Pro-Phe-Arg	C1CC(N(C1)C(=O)C(CCCN=C(N)N)N)C(=O)NCC(=O)NC(CC2=CC=CC=C2)C(=O)NC(CO)C(=O)N3CCCC3C(=O)NC(CC4=CC=CC=C4)C(=O)NC(CCCN=C(N)N)C(=O)O	127
+Penta-N-acetylchitopentaose	CC(=O)NC1C(C(C(OC1OC2C(OC(C(C2O)NC(=O)C)OC3C(OC(C(C3O)NC(=O)C)OC4C(OC(C(C4O)NC(=O)C)OC(C(CO)O)C(C(C=O)NC(=O)C)O)CO)CO)CO)CO)O)O	127
+Isomaltohexaose	C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OCC3C(C(C(C(O3)OCC4C(C(C(C(O4)OCC5C(C(C(C(O5)OCC(C(C(C(C=O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O)O	128
+3,4-Dihydroxyphenylacetyl-CoA	CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)CC4=CC(=C(C=C4)O)O)O	128
+Precorrin 8X	CC1C2=NC(CC3=NC(=C(C4=NC(C5C(C(C1=N5)(C)CCC(=O)O)CC(=O)O)(C(C4CCC(=O)O)(C)CC(=O)O)C)C)C(C3CCC(=O)O)(C)CC(=O)O)(C(=C2CCC(=O)O)C)C	128
+Tetrahydropteroyl tetra-L-glutamate	C1C(NC2=C(N1)N=C(NC2=O)N)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)NC(CCC(=O)NC(CCC(=O)NC(CCC(=O)[O-])C(=O)[O-])C(=O)[O-])C(=O)[O-])C(=O)[O-]	129
+CoA-glutathione	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSSCC(C(=O)NCC(=O)O)NC(=O)CCC(C(=O)O)N)O	129
+Diadenosine hexaphosphate	C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)OP(=O)(O)OP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)N5C=NC6=C(N=CN=C65)N)O)O)O)O)N	131
+Feruloyl-CoA	CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])C(C(=O)NCCC(=O)NCCSC(=O)C=CC4=CC(=C(C=C4)O)OC)O	131
+XXXG	C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)O)CO)COC6C(C(C(CO6)O)O)O)COC7C(C(C(CO7)O)O)O)O)O)O)O)O)O	132
+UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate	CC(C(=O)NC(CCC(=O)NC(CCCC(C(=O)O)N)C(=O)O)C(=O)O)NC(=O)C(C)OC1C(C(OC(C1O)CO)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)NC(=O)C	134
+Neurotensin (1-8)	CC(C)CC(C(=O)NC(CC1=CC=C(C=C1)O)C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)N)C(=O)NC(CCCCN)C(=O)N2CCCC2C(=O)NC(CCCN=C(N)N)C(=O)O)NC(=O)C3CCC(=O)N3	134
+Chlorophyll	CCC1=C(C2=NC1=CC3=C(C4=C(C(C(=C4[N-]3)C5=NC(=CC6=NC(=C2)C(=C6C)C=C)C(C5CCC(=O)OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C)C)C(=O)OC)[O-])C)C.[Mg+2]	134
+Nitroblue tetrazolium	COC1=C(C=CC(=C1)C2=CC(=C(C=C2)N3N=C(N=[N+]3C4=CC=C(C=C4)[N+](=O)[O-])C5=CC=CC=C5)OC)N6N=C(N=[N+]6C7=CC=C(C=C7)[N+](=O)[O-])C8=CC=CC=C8	134
+beta-Cyclodextrin	C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O	137
+Maltoheptaose	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)O)CO)CO)CO)CO)CO)CO)O)O)O)O	138
+Arg-Pro-Pro-Gly-Phe-Thr-Pro-Phe-Arg	CC(C(C(=O)N1CCCC1C(=O)NC(CC2=CC=CC=C2)C(=O)NC(CCCN=C(N)N)C(=O)O)NC(=O)C(CC3=CC=CC=C3)NC(=O)CNC(=O)C4CCCN4C(=O)C5CCCN5C(=O)C(CCCN=C(N)N)N)O	138
+Bradykinin	C1CC(N(C1)C(=O)C2CCCN2C(=O)C(CCCN=C(N)N)N)C(=O)NCC(=O)NC(CC3=CC=CC=C3)C(=O)NC(CO)C(=O)N4CCCC4C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCN=C(N)N)C(=O)O	139
+Arg-Pro-Pro-Gly-Phe-Ser-Pro-Phe-Arg	C1CC(N(C1)C(=O)C2CCCN2C(=O)C(CCCN=C(N)N)N)C(=O)NCC(=O)NC(CC3=CC=CC=C3)C(=O)NC(CO)C(=O)N4CCCC4C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCN=C(N)N)C(=O)O	139
+Nickel-sirohydrochlorin	CC1(C(C2=CC3=NC(=CC4=C(C(=C([N-]4)C=C5C(C(C(=N5)C=C1[N-]2)CCC(=O)O)(C)CC(=O)O)CC(=O)O)CCC(=O)O)C(=C3CC(=O)O)CCC(=O)O)CCC(=O)O)CC(=O)O.[Ni+2]	140
+Quinupristin	CCC1C(=O)N2CCCC2C(=O)N(C(C(=O)N3CC(C(=O)CC3C(=O)NC(C(=O)OC(C(C(=O)N1)NC(=O)C4=C(C=CC=N4)O)C)C5=CC=CC=C5)CSC6CN7CCC6CC7)CC8=CC=C(C=C8)N(C)C)C	140
+Angiotensin II	CCC(C)C(C(=O)NC(CC1=CN=CN1)C(=O)N2CCCC2C(=O)NC(CC3=CC=CC=C3)C(=O)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(C(C)C)NC(=O)C(CCCN=C(N)N)NC(=O)C(CC(=O)O)N	141
+Arg-Pro-Hyp-Gly-Phe-Ser-Pro-Phe-Arg	C1CC(N(C1)C(=O)C(CCCN=C(N)N)N)C(=O)N2CC(CC2C(=O)NCC(=O)NC(CC3=CC=CC=C3)C(=O)NC(CO)C(=O)N4CCCC4C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCN=C(N)N)C(=O)O)O	142
+Cobyrinate	CC1=C2C(C(C([N-]2)C3(C(C(C(=N3)C(=C4C(C(C(=N4)C=C5C(C(C1=N5)CCC(=O)O)(C)C)CCC(=O)O)(C)CC(=O)O)C)CCC(=O)O)(C)CC(=O)O)C)CC(=O)O)(C)CCC(=O)O.[Co+3]	144
+UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)	CC(C(=O)NC(CCC(=O)NC(CCCCN)C(=O)NC(C)C(=O)NC(C)C(=O)O)C(=O)O)NC(=O)C(C)OC1C(C(OC(C1O)CO)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)NC(=O)C	146
+UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine	CC(C(=O)NC(CCC(=O)NC(CCCCN)C(=O)NC(C)C(=O)NC(C)C(=O)O)C(=O)O)NC(=O)C(C)OC1C(C(OC(C1O)CO)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)NC(=O)C	146
+Isomaltoheptaose	C(C1C(C(C(C(O1)OCC(C(C(C(C=O)OC2C(C(C(C(O2)CO)O)O)OC3C(C(C(C(O3)CO)O)O)O)OC4C(C(C(C(O4)CO)O)O)O)OC5C(C(C(C(O5)CO)O)O)O)OC6C(C(C(C(O6)CO)O)O)O)O)O)O)O	149
+Tetrahydropteroyl penta-L-glutamate	C1C(NC2=C(N1)N=C(NC2=O)N)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)NC(CCC(=O)NC(CCC(=O)NC(CCC(=O)NC(CCC(=O)[O-])C(=O)[O-])C(=O)[O-])C(=O)[O-])C(=O)[O-])C(=O)[O-]	149
+Laminariheptaose	C(C1C(C(C(C(O1)O)O)OC2C(C(C(C(O2)CO)O)OC3C(C(C(C(O3)CO)O)OC4C(C(C(C(O4)CO)O)OC5C(C(C(C(O5)CO)O)OC6C(C(C(C(O6)CO)O)OC7C(C(C(C(O7)CO)O)O)O)O)O)O)O)O)O)O	150
+gamma-Cyclodextrin	C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(O2)C(C9O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O	156
+Reactive black 5	C1=CC(=CC=C1N=NC2=C(C3=C(C(=C(C=C3C=C2S(=O)(=O)[O-])S(=O)(=O)[O-])N=NC4=CC=C(C=C4)S(=O)(=O)CCOS(=O)(=O)[O-])N)O)S(=O)(=O)CCOS(=O)(=O)[O-].[Na+].[Na+].[Na+].[Na+]	161
+Substance P	CC(C)CC(C(=O)NC(CCSC)C(=O)N)NC(=O)CNC(=O)C(CC1=CC=CC=C1)NC(=O)C(CC2=CC=CC=C2)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)N)NC(=O)C3CCCN3C(=O)C(CCCCN)NC(=O)C4CCCN4C(=O)C(CCCN=C(N)N)N	169
+Dynorphin A (1-11)	CCC(C)C(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NC(CCCCN)C(=O)O)NC(=O)C(CCCN=C(N)N)NC(=O)C(CCCN=C(N)N)NC(=O)C(CC(C)C)NC(=O)C(CC2=CC=CC=C2)NC(=O)CNC(=O)CNC(=O)C(CC3=CC=C(C=C3)O)N	173
+XLLG	C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)O)CO)COC6C(C(C(CO6)O)O)OC7C(C(C(C(O7)CO)O)O)O)COC8C(C(C(CO8)O)O)OC9C(C(C(C(O9)CO)O)O)O)O)O)O)O)O)O	174
+Angiotensin I	CCC(C)C(C(=O)NC(CC1=CN=CN1)C(=O)N2CCCC2C(=O)NC(CC3=CC=CC=C3)C(=O)NC(CC4=CN=CN4)C(=O)NC(CC(C)C)C(=O)O)NC(=O)C(CC5=CC=C(C=C5)O)NC(=O)C(C(C)C)NC(=O)C(CCCN=C(N)N)NC(=O)C(CC(=O)O)N	175
+CoA-disulfide	CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCSSCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC4C(C(C(O4)N5C=NC6=C(N=CN=C65)N)O)OP(=O)(O)O)O)O	186
+Chitosan	COC(=O)NC1C(C(C(OC1OC2C(OC(C(C2O)N)OC3C(OC(C(C3O)N)O)CO)CO)CO)OC4C(C(C(C(O4)CO)OC5C(C(C(C(O5)CO)OC6C(C(C(C(O6)CO)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)OC9C(C(C(C(O9)CO)O)O)N)O)N)O)N)O)N)O)N)O)N)O	191
+Apelin-13	CC(C)CC(C(=O)NC(CO)C(=O)NC(CC1=CN=CN1)C(=O)NC(CCCCN)C(=O)NCC(=O)N2CCCC2C(=O)NC(CCSC)C(=O)N3CCCC3C(=O)NC(CC4=CC=CC=C4)C(=O)O)NC(=O)C(CCCN=C(N)N)NC(=O)C5CCCN5C(=O)C(CCCN=C(N)N)NC(=O)C(CCC(=O)N)N	192
+1,4-beta-D-Mannan	C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O	195
+Adenosyl cobinamide phosphate	CC1=C2C(C(C([N-]2)C3(C(C(C(=N3)C(=C4C(C(C(=N4)C=C5C(C(C1=N5)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)(C)CCC(=O)NCC(C)OP(=O)(O)O.[CH2-]C1C(C(C(O1)N2C=NC3=C(N=CN=C32)N)O)O.[Co]	199
+Cob(II)alamin	CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co]	199
+Cob(I)alamin	CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co]	199
+Dynorphin A (1-13)	CCC(C)C(C(=O)NC(CCCN=C(N)N)C(=O)N1CCCC1C(=O)NC(CCCCN)C(=O)NC(CC(C)C)C(=O)NC(CCCCN)C(=O)O)NC(=O)C(CCCN=C(N)N)NC(=O)C(CCCN=C(N)N)NC(=O)C(CC(C)C)NC(=O)C(CC2=CC=CC=C2)NC(=O)CNC(=O)CNC(=O)C(CC3=CC=C(C=C3)O)N	202
+Di[3-deoxy-D-manno-octulosonyl]-lipid IV(A)	CCCCCCCCCCCC(CC(=O)NC1C(C(C(OC1OP(=O)(O)O)COC2C(C(C(C(O2)COC3(CC(C(C(O3)C(CO)O)O)OC4(CC(C(C(O4)C(CO)O)O)O)C(=O)O)C(=O)O)OP(=O)(O)O)OC(=O)CC(CCCCCCCCCCC)O)NC(=O)CC(CCCCCCCCCCC)O)O)OC(=O)CC(CCCCCCCCCCC)O)O	203
+Dynorphin B (1-13)	CC(C)CC(C(=O)NC(CCCN=C(N)N)C(=O)NC(CCCN=C(N)N)C(=O)NC(CCC(=O)N)C(=O)NC(CC1=CC=CC=C1)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(C(C)C)C(=O)NC(C(C)O)C(=O)O)NC(=O)C(CC2=CC=CC=C2)NC(=O)CNC(=O)CNC(=O)C(CC3=CC=C(C=C3)O)N	207
+MCA-AVLQSGFR-Lys(Dnp)-Lys-NH2	CC(C)CC(C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NCC(=O)NC(CC1=CC=CC=C1)C(=O)NC(CCCN=C(N)N)C(=O)NC(CCCCNC2=C(C=C(C=C2)[N+](=O)[O-])[N+](=O)[O-])C(=O)NC(CCCCN)C(=O)N)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)CC3=CC(=O)OC4=C3C=CC(=C4)OC	214
+Neurotensin	CCC(C)C(C(=O)NC(CC(C)C)C(=O)O)NC(=O)C(CC1=CC=C(C=C1)O)NC(=O)C2CCCN2C(=O)C(CCCN=C(N)N)NC(=O)C(CCCN=C(N)N)NC(=O)C3CCCN3C(=O)C(CCCCN)NC(=O)C(CC(=O)N)NC(=O)C(CCC(=O)O)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CC(C)C)NC(=O)C5CCC(=O)N5	219
+Casein	CC(C)CC(C(=NC(CCC(=N)O)C(=NC(CC(=O)O)C(=NC(CCCCN)C(=O)O)O)O)O)N=C(C(CCC(=O)O)N=C(C(CC(=O)O)N=C(C(CCC(=O)O)N=C(C(C(C)O)N=C(C(CCC(=N)O)N=C(C(CCC(=N)O)N=C(C(CCC(=N)O)N=C(C(CCC(=O)O)N=C(C(CCC(=O)O)N=C(C(COP(=O)(O)O)N=C(C(CCC(=N)O)N=C(C(CC1=CC=CC=C1)N)O)O)O)O)O)O)O)O)O)O)O)O	270
+Dabcyl-KTSAVLQSGFRKME-Edans	CC(C)CC(C(=O)NC(CCC(=O)N)C(=O)NC(CO)C(=O)NCC(=O)NC(CC1=CC=CC=C1)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CCSC)C(=O)NC(CCC(=O)O)C(=O)NCCNC2=CC=CC3=C2C=CC=C3S(=O)(=O)O)NC(=O)C(C(C)C)NC(=O)C(C)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CCCCN)NC(=O)C4=CC=C(C=C4)N=NC5=CC=C(C=C5)N(C)C.C(=O)(C(F)(F)F)O	286
+Amidorphin	CC(C)CC(C(=O)N)NC(=O)C(C(C)C)NC(=O)C(CCC(=O)O)NC(=O)CNC(=O)CNC(=O)C(CC(=O)N)NC(=O)C(C)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(CCC(=O)O)NC(=O)C(C(C)C)NC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C1CCCN1C(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CC(C)C)NC(=O)C(CCC(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CCSC)NC(=O)C(CCCCN)NC(=O)C(CCCCN)NC(=O)C(CCSC)NC(=O)C(CC3=CC=CC=C3)NC(=O)CNC(=O)CNC(=O)C(CC4=CC=C(C=C4)O)N	381
+Peptide E	CC(C)CC(C(=O)O)NC(=O)C(CC1=CC=CC=C1)NC(=O)CNC(=O)CNC(=O)C(CC2=CC=C(C=C2)O)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCCCN)NC(=O)C(CCC(=O)N)NC(=O)C(CC3=CC=C(C=C3)O)NC(=O)C(CC(=O)O)NC(=O)C(CCSC)NC(=O)C(CC4=CNC5=CC=CC=C54)NC(=O)C(CC6=CNC7=CC=CC=C76)NC(=O)C(CCC(=O)O)NC(=O)C8CCCN8C(=O)C(CCCNC(=N)N)NC(=O)CNC(=O)C(C(C)C)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCSC)NC(=O)C(CC9=CC=CC=C9)NC(=O)CNC(=O)CNC(=O)C(CC1=CC=C(C=C1)O)N	411
+Big endothelin-1	CCC(C)C(C(=O)NC(C(C)CC)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(C(C)C)C(=O)NC(CC(=O)N)C(=O)NC(C(C)O)C(=O)N3CCCC3C(=O)NC(CCC(=O)O)C(=O)NC(CC4=CN=CN4)C(=O)NC(C(C)C)C(=O)NC(C(C)C)C(=O)N5CCCC5C(=O)NC(CC6=CC=C(C=C6)O)C(=O)NCC(=O)NC(CC(C)C)C(=O)NCC(=O)NC(CO)C(=O)N7CCCC7C(=O)NC(CCCNC(=N)N)C(=O)NC(CO)C(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC8=CN=CN8)NC(=O)C9CSSCC(C(=O)NC(C(=O)NC1CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N9)CC2=CC=CC=C2)CC2=CC=C(C=C2)O)C(C)C)NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CO)CO)CC(C)C)CCSC)CC(=O)O)CCCCN)CCC(=O)O)CO)N	555
