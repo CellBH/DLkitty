@@ -80,52 +80,38 @@ function (l::SubstrateGNN)(g::GNNGraph, ps, st)
     return y, st
 end
 
-
-function DLkittyModel(; hdim=20, num_unique_ngrams)
-    return @compact(;
-        substrate_net = SubstrateGNN(hdim),
-        protein_net = AttentionCNN(num_unique_ngrams; hdim),
-        merge_net = Dense((2*hdim + 2)=>hdim, relu),  # TODO: this should maybe be deeper (and others shallower?)
-        output_layer = DistOutputLayer{LogNormal}(hdim),
-    ) do (substrate_graphs, protein_1hots_seqs, temperature, ph)
-        # This sum is a DeepSet operation
-        @show len(substrate_graphs)
-        substrate_h = sum(substrate_graphs) do g
-            substrate_net(g)
-        end
-        @show size(substrate_h)
-
-        # This sum is also a DeepSet operation
-        protein_h = sum(protein_1hots_seqs) do seq
-            protein_net((substrate_h, seq))
-        end
-        @show size(protein_h)
-
-        # TODO: other misc features, than tempurature and ph
-        # TODO consider just putting in the number of substrates and proteins as a features (esp as sume subtrates are Missing)
-        # TODO consider putting in just the total length of the proteins
-        h2 = merge_net([substrate_h; protein_h; temperature; ph])
-        y = output_layer(h2)
-        @return y
-    end
+struct DLkittyModel{S,P,M,O} <: LuxCore.AbstractLuxContainerLayer{(:substrate_net, :protein_net, :merge_net, :output_layer)}
+    # TODO add other fields we need for preprocessing here?
+    substrate_net::S
+    protein_net::P
+    merge_net::M
+    output_layer::O
 end
 
+function DLkittyModel(; hdim=20, num_unique_ngrams)
+    return DLkittyModel(
+        SubstrateGNN(hdim),
+        AttentionCNN(num_unique_ngrams; hdim),
+        Dense((2*hdim + 2)=>hdim, relu),  # TODO: this should maybe be deeper (and others shallower?)
+        DistOutputLayer{LogNormal}(hdim),
+    )
+end
 
-function  predict_kcat_dist((;model, ps, st), all_ngrams, datum)
-    ngram_len = length(first(all_ngrams))
-
-    substrate_graphs = map(skipmissing(datum.SubstrateSMILES)) do smiles
-        mol = mol_from_smiles(smiles)   
-        gnn_graph(mol)
+function (m::DLkittyModel)((substrate_graphs, protein_1hots_seqs, temperature, ph), ps, st)
+    # This sum is a DeepSet operation
+    substrate_h, _ = sum(substrate_graphs) do g
+        m.substrate_net(g, ps.substrate_net, st.substrate_net)
     end
 
-    protein_1hots_seqs = map(skipmissing(datum.ProteinSequences)) do seq
-        onehotbatch(ngrams(seq, ngram_len), all_ngrams, UNKNOWN_NGRAM)
+    # This sum is also a DeepSet operation
+    protein_h, _ = sum(protein_1hots_seqs) do seq
+        m.protein_net((substrate_h, seq), ps.protein_net, st.protein_net)
     end
 
-    # TODO: strongly consider z-normalzing temperature and pH
-    temperature = datum.Temperature
-    ph = datum.pH
-    y, _ = model((substrate_graphs, protein_1hots_seqs, temperature, ph), ps, st)
-    return y
+    # TODO: other misc features, than tempurature and ph
+    # TODO consider just putting in the number of substrates and proteins as a features (esp as sume subtrates are Missing)
+    # TODO consider putting in just the total length of the proteins
+    h2, _ = m.merge_net([substrate_h; protein_h; temperature; ph], ps.merge_net, st.merge_net)
+    y, _ = m.output_layer(h2, ps.output_layer, st.output_layer)
+    return y, st
 end

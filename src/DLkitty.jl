@@ -6,6 +6,8 @@ using JSONTables
 using Distributions
 using Lux
 using LuxCore
+using Lux.Training
+using Optimisers
 using Random
 using Statistics
 using OneHotArrays
@@ -14,10 +16,11 @@ using GNNGraphs
 using Tables
 using ChainRulesCore
 using GNNLux
+using Printf
 
 export kcat_table_train_and_valid, is_usable, resample
 export mol_from_smiles, gnn_graph
-export TrainedModel, DLkittyModel, predict_kcat_dist
+export TrainedModel, DLkittyModel, predict_kcat_dist, train
 
 include("data.jl")
 include("neural_net_output.jl")
@@ -25,6 +28,7 @@ include("neural_net_model.jl")
 include("resampling.jl")
 include("substrate.jl")
 include("trained_model.jl")
+include("execute.jl")
 
 function __init__()
     init_data()

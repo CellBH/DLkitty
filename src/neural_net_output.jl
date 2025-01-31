@@ -65,3 +65,12 @@ loss1(d::DistributionLoss, dist::Distribution, y::Number) = d.sample_weight * ab
 function loss1(d::DistributionLoss, dist::Distribution, y::NamedTuple{(:mean, :std)})
     return d.mean_std_weight * (abs2(mean(dist) - y.mean) + abs2(std(dist) - y.std))
 end
+
+# for either: (redispatch)
+function loss1(d::DistributionLoss, dist::Distribution, datum)
+    if ismissing(datum.StandardDeviation)
+        return loss1(d, dist, datum.Value)
+    else
+        return loss1(d, dist, (;mean=datum.Value, std=datum.StandardDeviation))
+    end
+end

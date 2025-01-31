@@ -27,18 +27,3 @@ end
     end
 
 end
-
-
-@testset "full" begin
-    df = kcat_table_train_and_valid()
-    ngram_len = 3
-    all_ngrams = DLkitty.all_sequence_ngrams(df, ngram_len)
-
-    model = DLkittyModel(; num_unique_ngrams=length(all_ngrams))
-    trained_model = TrainedModel(model)  # actually untrained
-
-    datum = first(Tables.namedtupleiterator(df))
-    
-    predict_kcat_dist(trained_model, all_ngrams, datum)
-
-end

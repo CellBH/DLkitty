@@ -13,6 +13,7 @@ using Graphs
 using OneHotArrays
 using Statistics
 using GNNLux
+using Lux.Training
 
 @testset "DLkitty.jl" begin
     @testset "data.jl" include("data.jl")
@@ -20,4 +21,5 @@ using GNNLux
     @testset "neural_net_model.jl" include("neural_net_model.jl")
     @testset "resampling.jl" include("resampling.jl")
     @testset "substrate.jl" include("substrate.jl")
+    @testset "execute.jl" include("execute.jl")
 end

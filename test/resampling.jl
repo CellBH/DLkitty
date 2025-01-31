@@ -4,7 +4,7 @@
         (; id=2, Temperature=2, pH=2, Value=2.0)
     ])
 
-    new_df = resample(df; nsamples=100)
+    new_df = resample(df; n_samples=100)
 
     @test df.id == [1,2]  # unchanged
     @test nrow(new_df) == 200
@@ -21,7 +21,7 @@ end
         (; id=4, Temperature=missing, pH=missing, Value=2.0),
     ])
 
-    new_df = resample(df; nsamples=100)
+    new_df = resample(df; n_samples=100)
     @test nrow(new_df) == 400
     @test count(==(1), new_df.id) == 100
     @test count(==(2), new_df.id) == 100

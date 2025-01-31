@@ -14,3 +14,11 @@ function TrainedModel(
     return TrainedModel{M, P, S}(model, ps, st)
 end
 TrainedModel(args...; rng=Xoshiro(0)) = TrainedModel(rng, args...)
+function TrainedModel(model; rng=Xoshiro(0))
+    return TrainedModel(rng, model, Lux.setup(rng, model)...)
+end
+
+function Lux.Training.TrainState(m::TrainedModel, opt)
+    (;model, ps, st) = m
+    return Training.TrainState(model, ps, st, opt)
+end
