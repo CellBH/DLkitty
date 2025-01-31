@@ -34,7 +34,8 @@ function train(df, opt=Adam(0.003f0); n_samples=1000, n_epochs=10)
     model = DLkittyModel(; num_unique_ngrams=length(all_ngrams))
     tm = TrainedModel(model)
 
-    resampled_df = resample(df; n_samples)
+    usable_df = filter(is_usable, df)
+    resampled_df = resample(usable_df; n_samples)
     tstate = Training.TrainState(tm, opt)
     for epoch in 1:n_epochs
         epoch_loss = 0.0
