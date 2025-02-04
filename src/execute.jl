@@ -40,9 +40,13 @@ function train(df, opt=Adam(0.003f0); n_samples=1000, n_epochs=10)
     for epoch in 1:n_epochs
         epoch_loss = 0.0
         for datum in Tables.namedtupleiterator(resampled_df)
+            input = prep_input(datum, all_ngrams)
+            println()
+            println(datum)
+            output = datum  # it has the fields we need already
             _, step_loss, _, tstate = Training.single_train_step!(
-                AutoZygote(), DLkitty.DistributionLoss(),
-                (DLkitty.prep_input(datum, all_ngrams), datum,),
+                AutoZygote(), DistributionLoss(),
+                (input, output),
                 tstate
             )
             epoch_loss += step_loss
@@ -50,5 +54,4 @@ function train(df, opt=Adam(0.003f0); n_samples=1000, n_epochs=10)
         average_loss = epoch_loss/nrow(resampled_df)
         @printf "Epoch: %3d \t Loss: %.5g\n" epoch average_loss
     end
-
 end

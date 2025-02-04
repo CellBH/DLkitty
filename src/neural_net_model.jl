@@ -99,13 +99,15 @@ end
 
 function (m::DLkittyModel)((substrate_graphs, protein_1hots_seqs, temperature, ph), ps, st)
     # This sum is a DeepSet operation
-    substrate_h, _ = sum(substrate_graphs) do g
-        m.substrate_net(g, ps.substrate_net, st.substrate_net)
+    substrate_h = sum(substrate_graphs) do g
+        # drop state (its empty anyway)
+        first(m.substrate_net(g, ps.substrate_net, st.substrate_net))
     end
 
     # This sum is also a DeepSet operation
-    protein_h, _ = sum(protein_1hots_seqs) do seq
-        m.protein_net((substrate_h, seq), ps.protein_net, st.protein_net)
+    protein_h = sum(protein_1hots_seqs) do seq
+        # drop state (its empty anyway)
+        first(m.protein_net((substrate_h, seq), ps.protein_net, st.protein_net))
     end
 
     # TODO: other misc features, than tempurature and ph

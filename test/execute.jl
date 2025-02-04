@@ -14,7 +14,8 @@
 end
 
 
-@testset "train" begin
+
+@testset "full train" begin
     df = kcat_table_train_and_valid()
     trained_model = train(df; n_samples=3, n_epochs=2)
 end
