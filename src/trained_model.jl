@@ -18,7 +18,10 @@ function TrainedModel(model; rng=Xoshiro(0))
     return TrainedModel(rng, model, Lux.setup(rng, model)...)
 end
 
-function Lux.Training.TrainState(m::TrainedModel, opt)
-    (;model, ps, st) = m
+function Lux.Training.TrainState((;model, ps, st)::TrainedModel, opt)
     return Training.TrainState(model, ps, st, opt)
+end
+
+function TrainedModel(ts::Training.TrainState; rng=Xoshiro(0))
+    return TrainedModel(rng, ts.model, ts.parameters, ts.states)
 end

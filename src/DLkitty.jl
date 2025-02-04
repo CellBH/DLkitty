@@ -18,11 +18,12 @@ using ChainRulesCore
 using GNNLux
 using Printf
 
-export kcat_table_train_and_valid, is_usable, resample
+export kcat_table_train_and_valid, is_usable, resample, load_all_sequence_ngrams
 export mol_from_smiles, gnn_graph
-export TrainedModel, DLkittyModel, predict_kcat_dist, train
+export TrainedModel, DLkittyModel, predict_kcat_dist, train, load
 
 include("data.jl")
+include("ngrams.jl")
 include("neural_net_output.jl")
 include("neural_net_model.jl")
 include("resampling.jl")

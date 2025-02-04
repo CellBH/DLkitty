@@ -1,4 +1,4 @@
-@testset "rdkit wrappers" begin
+@testset "rdkit wrappers basic" begin
     smiles = "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C3C=CC(=C4)O"
     mol = mol_from_smiles(smiles)
 
@@ -12,6 +12,7 @@
     @test size(adj) == (n_atoms, n_atoms)
 end
 
+
 @testset "gnn_graph" begin
     smiles = "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C3C=CC(=C4)O"
     mol = mol_from_smiles(smiles)
@@ -23,6 +24,16 @@ end
     @test Set(graph.ndata.atomic_num) == Set((1,6,8))
     @test Set(graph.edata.bond_type) == Set((1, 12))  #single, aromatic
 end
+
+
+@testset "hydrogen ion" begin
+    # this breaks stuff due to being so simple
+    mol = mol_from_smiles("[H+]")
+    Descriptors = pyimport("rdkit.Chem.Descriptors")
+    @test pyconvert(Float64, Descriptors.MolWt(mol)) ≈ 1.008
+    graph = gnn_graph(mol)
+end
+
 
 @testset "GNN" begin
     smileses = [

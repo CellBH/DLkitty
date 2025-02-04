@@ -1,8 +1,8 @@
 function mol_from_smiles(smiles)
     Chem = @pyconst pyimport("rdkit.Chem")
-    mol = Chem.rdmolfiles.MolFromSmiles(smiles)
-    # we always want to include hydrogen, because thats what DLKcat does
-    return Chem.rdmolops.AddHs(mol)
+    parser_params = Chem.rdmolfiles.SmilesParserParams()
+    parser_params.removeHs = false
+    return Chem.rdmolfiles.MolFromSmiles(smiles)
 end
 
 function get_adjacency_matrix(mol)

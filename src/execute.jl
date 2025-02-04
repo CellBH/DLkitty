@@ -24,12 +24,16 @@ function  predict_kcat_dist((;model, ps, st), all_ngrams, datum)
 end
 
 
-function train(df, opt=Adam(0.003f0); n_samples=1000, n_epochs=10)
+function train(
+    df,
+    all_ngrams,
+    opt=Adam(0.003f0);
+    n_samples=1000,
+    n_epochs=10
+)
     # Increasing n_samples and n_epochs do very similar thing
     # as either way things get duplicated, but n_samples means also correct missing data
     # however n_epochs uses less memory, because we do create the samples eagerly.
-    ngram_len = 3
-    all_ngrams = DLkitty.all_sequence_ngrams(df, ngram_len)
 
     model = DLkittyModel(; num_unique_ngrams=length(all_ngrams))
     tm = TrainedModel(model)
@@ -40,9 +44,12 @@ function train(df, opt=Adam(0.003f0); n_samples=1000, n_epochs=10)
     for epoch in 1:n_epochs
         epoch_loss = 0.0
         for datum in Tables.namedtupleiterator(resampled_df)
-            input = prep_input(datum, all_ngrams)
-            println()
-            println(datum)
+            input = try
+                prep_input(datum, all_ngrams)
+            catch
+                @warn "failured to preprocess a datum (skipping)" datum
+                continue
+            end
             output = datum  # it has the fields we need already
             _, step_loss, _, tstate = Training.single_train_step!(
                 AutoZygote(), DistributionLoss(),
@@ -54,4 +61,5 @@ function train(df, opt=Adam(0.003f0); n_samples=1000, n_epochs=10)
         average_loss = epoch_loss/nrow(resampled_df)
         @printf "Epoch: %3d \t Loss: %.5g\n" epoch average_loss
     end
+    return TrainedModel(tstate)
 end

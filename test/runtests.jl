@@ -17,6 +17,7 @@ using Lux.Training
 
 @testset "DLkitty.jl" begin
     @testset "data.jl" include("data.jl")
+    @testset "ngrams.jl" include("ngrams.jl")
     @testset "neural_net_output.jl" include("neural_net_output.jl")
     @testset "neural_net_model.jl" include("neural_net_model.jl")
     @testset "resampling.jl" include("resampling.jl")

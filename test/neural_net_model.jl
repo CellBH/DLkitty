@@ -1,8 +1,3 @@
-@testset "ngrams" begin
-    @test DLkitty.ngrams("ABCD", 3) == ["-AB", "ABC", "BCD", "CD="]
-end
-
-
 @testset "Protein Sequence Input" begin
     df = kcat_table_train_and_valid()
     ngram_len = 3
