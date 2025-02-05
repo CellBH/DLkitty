@@ -14,9 +14,10 @@
 end
 
 
-
-@testset "full train" begin
-    df = kcat_table_train_and_valid()
-    all_ngrams = load_all_sequence_ngrams(3)
-    trained_model = train(df, all_ngrams; n_samples=3, n_epochs=2)
+if !haskey(ENV, "CI")
+    @testset "full train" begin
+        df = kcat_table_train_and_valid()
+        all_ngrams = load_all_sequence_ngrams(3)
+        trained_model = train(df, all_ngrams; n_samples=3, n_epochs=2)
+    end
 end

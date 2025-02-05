@@ -27,7 +27,7 @@ end
 function train(
     df,
     all_ngrams,
-    opt=Adam(0.003f0);
+    opt=Adam(0.0003f0);
     n_samples=1000,
     n_epochs=10
 )
@@ -50,13 +50,18 @@ function train(
                 @warn "failured to preprocess a datum (skipping)" datum exception=err
                 continue
             end
-            output = datum  # it has the fields we need already
-            _, step_loss, _, tstate = Training.single_train_step!(
-                AutoZygote(), DistributionLoss(),
-                (input, output),
-                tstate
-            )
-            epoch_loss += step_loss
+            output = [datum]  # it has the fields we need already
+            try
+                _, step_loss, _, tstate = Training.single_train_step!(
+                    AutoZygote(), DistributionLoss(),
+                    (input, output),
+                    tstate
+                )
+                epoch_loss += step_loss
+            catch
+                @error "issue with processing" datum
+                rethrow()
+            end
         end
         average_loss = epoch_loss/nrow(resampled_df)
         @printf "Epoch: %3d \t Loss: %.5g\n" epoch average_loss

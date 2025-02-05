@@ -74,7 +74,7 @@ function DLkittyModel(; hdim=20, num_unique_ngrams)
     return DLkittyModel(
         SubstrateGNN(hdim),
         AttentionCNN(num_unique_ngrams; hdim),
-        Dense((2*hdim + 2)=>hdim, relu),  # TODO: this should maybe be deeper (and others shallower?)
+        Dense((2*hdim + 2)=>hdim, relu),
         DistOutputLayer{LogNormal}(hdim),
     )
 end
