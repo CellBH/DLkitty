@@ -36,8 +36,11 @@ function gnn_graph(mol)
             # TODO: insert fingerprint here: https://github.com/CellBH/DLkitty/issues/9
         ))
     end
+    # work-around: https://github.com/JuliaGraphs/GraphNeuralNetworks.jl/issues/582
+    edata = length(sources) > 0 ? columntable(edge_data) : nothing
     return GNNGraph(
         (sources, targets);
-        graph_type=:coo, edata=columntable(edge_data), ndata=columntable(node_data),
+        graph_type=:coo, num_nodes=length(node_data),
+        edata, ndata=columntable(node_data),
     )
 end

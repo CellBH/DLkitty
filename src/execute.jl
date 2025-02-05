@@ -46,8 +46,8 @@ function train(
         for datum in Tables.namedtupleiterator(resampled_df)
             input = try
                 prep_input(datum, all_ngrams)
-            catch
-                @warn "failured to preprocess a datum (skipping)" datum
+            catch err
+                @warn "failured to preprocess a datum (skipping)" datum exception=err
                 continue
             end
             output = datum  # it has the fields we need already

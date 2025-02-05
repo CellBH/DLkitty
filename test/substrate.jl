@@ -32,6 +32,7 @@ end
     Descriptors = pyimport("rdkit.Chem.Descriptors")
     @test pyconvert(Float64, Descriptors.MolWt(mol)) ≈ 1.008
     graph = gnn_graph(mol)
+    @test graph isa GNNGraph
 end
 
 
