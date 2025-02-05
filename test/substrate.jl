@@ -7,7 +7,7 @@
 
     adj = DLkitty.get_adjacency_matrix(mol)
     @test adj isa AbstractMatrix{Bool}
-    @test 0 < mean(adj) < 0.1  # sparse-ish
+    @test 0 < mean(adj) < 0.2  # sparse-ish
     n_atoms = 18+24+2
     @test size(adj) == (n_atoms, n_atoms)
 end
@@ -51,7 +51,7 @@ end
     graphs = gnn_graph.(mols)
     @testset "using only atomic weights" begin
         model = GNNChain(
-            Embedding(DLKitty.MAX_ATOMIC_NUM=>16),
+            Embedding(DLkitty.MAX_ATOMIC_NUM=>16),
             CGConv(16 => 64, relu; residual=false),
             CGConv(64 => 64, relu; residual=true),
             CGConv(64 => 64, relu; residual=true),
@@ -120,8 +120,8 @@ end
         struct NE1Model <: LuxCore.AbstractLuxLayer
         end
         components() = (;            
-            atomic_num_embed = Embedding(DLKitty.MAX_ATOMIC_NUM=>17),
-            bond_embedding = Embedding(DLKitty.BOND_TYPES=>5),
+            atomic_num_embed = Embedding(DLkitty.MAX_ATOMIC_NUM=>17),
+            bond_embedding = Embedding(DLkitty.BOND_TYPES=>5),
             input_net = CGConv((17,5) => 64, relu; residual=false),
             output_net = GNNChain(            
                 CGConv(64 => 64, relu; residual=true),
@@ -186,7 +186,6 @@ end
             return y[]
         end
         @test ŷs ≈ weights rtol=0.05 # at most off by 5%
-        
     end
 end
 

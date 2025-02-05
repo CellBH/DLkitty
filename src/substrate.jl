@@ -2,7 +2,9 @@ function mol_from_smiles(smiles)
     Chem = @pyconst pyimport("rdkit.Chem")
     parser_params = Chem.rdmolfiles.SmilesParserParams()
     parser_params.removeHs = false
-    return Chem.rdmolfiles.MolFromSmiles(smiles)
+    mol = Chem.rdmolfiles.MolFromSmiles(smiles, parser_params)
+    # For some reason just tsetting the parser_params doesn't always do it.
+    return Chem.rdmolops.AddHs(mol)
 end
 
 function get_adjacency_matrix(mol)
