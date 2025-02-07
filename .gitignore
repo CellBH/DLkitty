@@ -4,7 +4,6 @@
 *.rej
 .DS_Store
 .benchmarkci
-Manifest.toml
 benchmark/*.json
 coverage
 docs/build/
