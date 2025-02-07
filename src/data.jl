@@ -73,8 +73,8 @@ function is_holdout(row)
 end
 
 function is_usable(row)
-    has_smiles = all(!ismissing, row.SubstrateSMILES)
-    has_seq = !ismissing(row.ProteinSequences) && all(!ismissing, row.ProteinSequences)
+    has_smiles = all(!ismissing, row.SubstrateSMILES) && length(row.SubstrateSMILES) > 0
+    has_seq = !ismissing(row.ProteinSequences) && all(!ismissing, row.ProteinSequences) && length(row.ProteinSequences) > 0
     return has_smiles && has_seq
 end
 

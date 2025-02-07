@@ -1,4 +1,4 @@
-function resample(df; nsamples=100, fields_to_impute=[:Temperature, :pH], shuffle=true)
+function resample(df; n_samples=100, fields_to_impute=[:Temperature, :pH], shuffle=true)
     rows = Tables.namedtupleiterator(df)
     
     fill_sources = NamedTuple([
@@ -6,14 +6,14 @@ function resample(df; nsamples=100, fields_to_impute=[:Temperature, :pH], shuffl
         for field in fields_to_impute]
     )
     # use a function barrier:
-    return _resample(rows, fill_sources, nsamples, shuffle)
+    return _resample(rows, fill_sources, n_samples, shuffle)
 end
 
-function _resample(rows, fill_sources, nsamples, shuffle)
+function _resample(rows, fill_sources, n_samples, shuffle)
     new_rows = eltype(rows)[]
-    sizehint!(new_rows, nsamples*length(rows))
+    sizehint!(new_rows, n_samples*length(rows))
     for row in rows
-        for _ in 1:nsamples
+        for _ in 1:n_samples
             new_row = row
             for field in keys(fill_sources)
                 if ismissing(row[field])

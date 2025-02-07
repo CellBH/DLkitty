@@ -25,7 +25,8 @@ n_dist_parameters(::Type{D}) where D = length(parameter_functions(D))
 
 "ensures the parameter is a legal value"
 function parameter_functions end
-parameter_functions(::Type{<:Union{Normal,LogNormal}}) = (identity, abs)
+parameter_functions(::Type{<:Normal}) = (identity, abs)
+parameter_functions(::Type{<:LogNormal}) = (identity, abs∘log∘abs)
 parameter_functions(::Type{<:Truncated{D}}) where D = parameter_functions(D)
 parameter_functions(::Type{<:Gamma}) = (abs, abs)
 
@@ -64,4 +65,13 @@ loss1(d::DistributionLoss, dist::Distribution, y::Number) = d.sample_weight * ab
 # for mean + std-dev
 function loss1(d::DistributionLoss, dist::Distribution, y::NamedTuple{(:mean, :std)})
     return d.mean_std_weight * (abs2(mean(dist) - y.mean) + abs2(std(dist) - y.std))
+end
+
+# for either: (redispatch)
+function loss1(d::DistributionLoss, dist::Distribution, datum)
+    if ismissing(datum.StandardDeviation)
+        return loss1(d, dist, datum.Value)
+    else
+        return loss1(d, dist, (;mean=datum.Value, std=datum.StandardDeviation))
+    end
 end
