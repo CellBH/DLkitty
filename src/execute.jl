@@ -29,7 +29,7 @@ function train(
     all_ngrams,
     opt=Adam(0.0003f0);
     n_samples=1000,
-    n_epochs=10
+    n_epochs=3
 )
     # Increasing n_samples and n_epochs do very similar thing
     # as either way things get duplicated, but n_samples means also correct missing data
@@ -40,17 +40,16 @@ function train(
 
     usable_df = filter(is_usable, df)
     resampled_df = resample(usable_df; n_samples)
+    prepped_data = map(Tables.namedtupleiterator(resampled_df)) do datum
+        input = prep_input(datum, all_ngrams)
+        output = [datum]  # it has the fields we need already
+        return input, output
+    end
+
     tstate = Training.TrainState(tm, opt)
     for epoch in 1:n_epochs
         epoch_loss = 0.0
-        for datum in Tables.namedtupleiterator(resampled_df)
-            input = try
-                prep_input(datum, all_ngrams)
-            catch err
-                @warn "failured to preprocess a datum (skipping)" datum exception=err
-                continue
-            end
-            output = [datum]  # it has the fields we need already
+        for (input, output) in prepped_data           
             try
                 _, step_loss, _, tstate = Training.single_train_step!(
                     AutoZygote(), DistributionLoss(),
@@ -59,11 +58,12 @@ function train(
                 )
                 epoch_loss += step_loss
             catch
+                datum = output[]
                 @error "issue with processing" datum
                 rethrow()
             end
         end
-        average_loss = epoch_loss/nrow(resampled_df)
+        average_loss = epoch_loss/length(prepped_data)
         @printf "Epoch: %3d \t Loss: %.5g\n" epoch average_loss
     end
     return TrainedModel(tstate)
