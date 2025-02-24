@@ -18,7 +18,8 @@ using ChainRulesCore
 using GNNLux
 using Printf
 
-export kcat_table_train_and_valid, is_usable, resample, load_all_sequence_ngrams
+export kcat_table_train_and_valid, kcat_table_train, kcat_table_valid
+export is_usable, is_complete, resample, load_all_sequence_ngrams
 export mol_from_smiles, gnn_graph
 export TrainedModel, DLkittyModel, predict_kcat_dist, train, load
 

@@ -15,15 +15,19 @@
 - Change training/preprocessing functions in [`src/execute.jl`](src/execute.jl)
 - Change model structure in [`src/neural_net_model.jl`](src/neural_net_model.jl)
 
-### Training and Use
+## Training and Use
 
+### Training
 ```julia
 using DLkitty
 
-df = kcat_table_train_and_valid()
+training_df = kcat_table_train()
 all_ngrams = load_all_sequence_ngrams(3)
-trained_model = train(df, all_ngrams; n_samples=1000, n_epochs=100)
+trained_model = train(training_df, all_ngrams; n_samples=1000, n_epochs=100)
+```
 
+### Use
+```julia
 datum = (;
     SubstrateSMILES = ["C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C3C=CC(=C4)O"],
     ProteinSequences = ["MAAVKASTSKATRPWYSHPVYARYWQHYHQAMAWMQSHHNAYRKAVESCFNLPWYLPSALLPQSSYDNEAAYPQSFYDHHVAWQDYPCSSSHFRRSGQHPRYSSRIQASTKEDQALSKEEEMETESDAEVECDLSNMEITEELRQYFAETERHREERRRQQQLDAERLDSYVNADHDLYCNTRRSVEAPTERPGERRQAEMKRLYGDSAAKIQAMEAAVQLSFDKHCDRKQPKYWPVIPLKF"],
@@ -31,4 +35,24 @@ datum = (;
     pH = 7.5
 )
 dist = predict_kcat_dist(trained_model, all_ngrams, datum)
+```
+
+### Evaluation
+(Better evaluation would use kfold-cross validations splitting from `kcat_table_train_and_valid`)
+
+```julia
+using Tables
+using Statistics
+using Distributions
+
+eval_df = filter(is_complete, kcat_table_valid())
+eval_df.predicted_kcat_dists = map(Tables.namedtupleiterator(eval_df)) do datum
+    predict_kcat_dist(trained_model, all_ngrams, datum)
+end
+
+eval_df.loglikelyhoods = loglikelihood.(eval_df.predicted_kcat_dists, eval_df.Value)
+@show log_likelyhood_of_eval_set = sum(eval_df.loglikelyhoods)  # an extremely small number
+
+eval_df.ae_to_mode = abs.(mode.(eval_df.predicted_kcat_dists) .- eval_df.Value)
+@show mean_ae_to_mode = mean(eval_df.ae_to_mode)
 ```
