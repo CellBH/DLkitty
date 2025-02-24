@@ -1,5 +1,3 @@
-
-
 @testset "predict_kcat_dist" begin
     df = kcat_table_train_and_valid()
     ngram_len = 3
@@ -14,12 +12,10 @@
 end
 
 
-if !haskey(ENV, "CI")
-    @testset "full train" begin
-        rows_to_use = 500
-        df = kcat_table_train_and_valid()
-        df = df[shuffle(1:nrow(df))[1:rows_to_use], :]
-        all_ngrams = load_all_sequence_ngrams(3)
-        trained_model = train(df, all_ngrams; n_samples=2, n_epochs=1)
-    end
+@testset "train" begin
+    rows_to_use = 100
+    df = kcat_table_train_and_valid()
+    df = df[shuffle(1:nrow(df))[1:rows_to_use], :]
+    all_ngrams = load_all_sequence_ngrams(3)
+    trained_model = train(df, all_ngrams; n_samples=2, n_epochs=1)
 end

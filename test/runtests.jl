@@ -23,4 +23,5 @@ using Lux.Training
     @testset "resampling.jl" include("resampling.jl")
     @testset "substrate.jl" include("substrate.jl")
     @testset "execute.jl" include("execute.jl")
+    @testset "regularization.jl" include("regularization.jl")
 end

@@ -28,6 +28,7 @@ function train(
     df,
     all_ngrams,
     opt=Adam(0.0003f0);
+    l2_coefficient=1e-5,
     n_samples=1000,
     n_epochs=3
 )
@@ -52,7 +53,7 @@ function train(
         for (input, output) in prepped_data           
             try
                 _, step_loss, _, tstate = Training.single_train_step!(
-                    AutoZygote(), DistributionLoss(),
+                    AutoZygote(), L2RegLoss(DistributionLoss(), l2_coefficient),
                     (input, output),
                     tstate
                 )
