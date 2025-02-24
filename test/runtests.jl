@@ -14,6 +14,7 @@ using OneHotArrays
 using Statistics
 using GNNLux
 using Lux.Training
+using Functors
 
 @testset "DLkitty.jl" begin
     @testset "data.jl" include("data.jl")
