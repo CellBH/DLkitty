@@ -28,33 +28,27 @@ const MAX_ATOMIC_NUM = 100  # plutonium is 94, anything much larger we are not w
 const BOND_TYPES = 22  # This is determined by the BondType enum in RDkit
 
 # TODO: rewrite as a LuxCore.AbstractLuxContainerLayer
-struct SubstrateGNN <: LuxCore.AbstractLuxLayer
-    hdim::Int
+struct SubstrateGNN{A,B,C,D} <: LuxCore.AbstractLuxContainerLayer{(:atomic_num_embed, :bond_embedding, :input_net, :output_net)}
+    atomic_num_embed::A
+    bond_embedding::B
+    input_net::C
+    output_net::D
 end
 
-function components(m::SubstrateGNN)
-    return (;            
-        atomic_num_embed = Embedding(MAX_ATOMIC_NUM=>m.hdim),
-        bond_embedding = Embedding(BOND_TYPES=>m.hdim),
-        input_net = CGConv((m.hdim,m.hdim) => m.hdim, relu; residual=false),
-        output_net = GNNChain(            
-            CGConv(m.hdim => m.hdim, relu; residual=true),
-            CGConv(m.hdim => m.hdim, relu; residual=true),
+function SubstrateGNN(hdim::Int)
+    return SubstrateGNN(
+        #=atomic_num_embed=# Embedding(MAX_ATOMIC_NUM=>hdim),
+        #=bond_embedding=# Embedding(BOND_TYPES=>hdim),
+        #=input_net=# CGConv((hdim,hdim) => hdim, relu; residual=false),
+        #=output_net=# GNNChain(            
+            CGConv(hdim => hdim, relu; residual=true),
+            CGConv(hdim => hdim, relu; residual=true),
             x -> mean(x, dims=2),  # combine all node data
         )
     )
 end
 
-function LuxCore.initialparameters(rng::AbstractRNG, l::SubstrateGNN)
-    return Lux.fmap(x->LuxCore.initialparameters(rng, x), components(l))
-end
-
-function LuxCore.initialstates(rng::AbstractRNG, l::SubstrateGNN)
-    return Lux.fmap(x->LuxCore.initialstates(rng, x), components(l))
-end
-
-function (l::SubstrateGNN)(g::GNNGraph, ps, st)
-    c = @ignore_derivatives components(l)
+function (c::SubstrateGNN)(g::GNNGraph, ps, st)
     xn, _ = c.atomic_num_embed(g.ndata.atomic_num, ps.atomic_num_embed, st.atomic_num_embed)
     xe, _ = c.bond_embedding(g.edata.bond_type, ps.bond_embedding, st.bond_embedding)
     h, _ = c.input_net(g, xn, xe, ps.input_net, st.input_net)
