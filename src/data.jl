@@ -90,7 +90,6 @@ function is_validation(row)
     fields = (row.Value, row.StandardDeviation, row.Temperature, row.pH, row.UniProtID, row.Substrate)
     id_hash = foldr(hash, fields, init=0x00FAEBABE)
     # select 3/16ths (18.75%) of all items.
-    # Can drop 1 of these later to shrink our holdout set.
     return (id_hash & 0x0F) ∈ (0x03, 0x04, 0x05)
 end
 
