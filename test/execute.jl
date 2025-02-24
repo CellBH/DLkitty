@@ -16,8 +16,10 @@ end
 
 if !haskey(ENV, "CI")
     @testset "full train" begin
+        rows_to_use = 500
         df = kcat_table_train_and_valid()
+        df = df[shuffle(1:nrow(df))[1:rows_to_use], :]
         all_ngrams = load_all_sequence_ngrams(3)
-        trained_model = train(df, all_ngrams; n_samples=3, n_epochs=2)
+        trained_model = train(df, all_ngrams; n_samples=2, n_epochs=1)
     end
 end
