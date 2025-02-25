@@ -57,6 +57,16 @@ function kcat_table_train_and_valid(full_df=full_kcat_table())
 end
 
 
+function kcat_table_train(full_df=full_kcat_table())
+    return filter(is_train, full_df)
+end
+
+
+function kcat_table_valid(full_df=full_kcat_table())
+    return filter(is_validation, full_df)
+end
+
+
 ##################################################
 
 """
@@ -72,9 +82,29 @@ function is_holdout(row)
     return (id_hash & 0x0F) ∈ (0x00, 0x01, 0x02)
 end
 
+"""
+This function will consistently assign a given row to the static validation or not.
+No need to use this if doing kfolds cross validation.
+"""
+function is_validation(row)
+    fields = (row.Value, row.StandardDeviation, row.Temperature, row.pH, row.UniProtID, row.Substrate)
+    id_hash = foldr(hash, fields, init=0x00FAEBABE)
+    # select 3/16ths (18.75%) of all items.
+    return (id_hash & 0x0F) ∈ (0x03, 0x04, 0x05)
+end
+
+"""
+This function will consistently assign a given row to the validation or not.
+No need to use this if doing kfolds cross validation.
+"""
+is_train(row) = !is_validation(row) && !is_holdout(row)
+
+
 function is_usable(row)
     has_smiles = all(!ismissing, row.SubstrateSMILES) && length(row.SubstrateSMILES) > 0
     has_seq = !ismissing(row.ProteinSequences) && all(!ismissing, row.ProteinSequences) && length(row.ProteinSequences) > 0
     return has_smiles && has_seq
 end
+
+is_complete(row) = is_usable(row) && !ismissing(row.Temperature) && !ismissing(row.pH)
 

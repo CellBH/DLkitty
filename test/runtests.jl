@@ -9,6 +9,7 @@ using Optimisers
 using Zygote
 using PythonCall
 using Statistics
+using Tables
 using Graphs
 using OneHotArrays
 using Statistics
