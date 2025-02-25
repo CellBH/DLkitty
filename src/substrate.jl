@@ -12,7 +12,7 @@ function get_adjacency_matrix(mol)
     return pyconvert(Matrix{Bool}, Chem.GetAdjacencyMatrix(mol))
 end
 
-function gnn_graph(mol)
+function gnn_graph(mol)::GNNGraph{Tuple{Vector{Int64}, Vector{Int64}, Nothing}}
     Chem = @pyconst pyimport("rdkit.Chem")
 
     sources = Int[]
