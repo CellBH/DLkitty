@@ -14,6 +14,7 @@ using OneHotArrays
 using Statistics
 using GNNLux
 using Lux.Training
+using Functors
 
 @testset "DLkitty.jl" begin
     @testset "data.jl" include("data.jl")
@@ -23,4 +24,5 @@ using Lux.Training
     @testset "resampling.jl" include("resampling.jl")
     @testset "substrate.jl" include("substrate.jl")
     @testset "execute.jl" include("execute.jl")
+    @testset "regularization.jl" include("regularization.jl")
 end

@@ -17,6 +17,7 @@ using Tables
 using ChainRulesCore
 using GNNLux
 using Printf
+using Functors
 
 export kcat_table_train_and_valid, is_usable, resample, load_all_sequence_ngrams
 export mol_from_smiles, gnn_graph
@@ -30,6 +31,7 @@ include("resampling.jl")
 include("substrate.jl")
 include("trained_model.jl")
 include("execute.jl")
+include("regularization.jl")
 
 function __init__()
     init_data()
