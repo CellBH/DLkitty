@@ -19,6 +19,7 @@ using GNNLux
 using Printf
 using Functors
 using Graphs: Graphs
+using LinearAlgebra
 
 export kcat_table_train_and_valid, kcat_table_train, kcat_table_valid
 export is_usable, is_complete, resample, load_all_sequence_ngrams

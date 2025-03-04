@@ -45,11 +45,11 @@ function gnn_graph(mol)::GNNGraph{Tuple{Vector{Int64}, Vector{Int64}, Nothing}}
         (sources, targets);
         graph_type=:coo, num_nodes=length(node_data),
         ndata=columntable(node_data),
+        edata=columntable(edge_data),
     )
-    # add edata after to
-    # work-around: https://github.com/JuliaGraphs/GraphNeuralNetworks.jl/issues/582
-    for (fname, fdata) in pairs(columntable(edge_data))
-        setproperty!(graph.edata, fname, fdata)
+    @assert LinearAlgebra.issymmetric(graph)
+    if !Graphs.is_connected(graph)
+        @warn "Not connected. Seems inplausable as a molecule"
     end
     return graph
 end
@@ -81,9 +81,15 @@ function extract_fingerprints(graph, radius=3)
             #TODO I think this could be written more clearly by using Graphs.neighbors
             # rather than having that encoded in the i_j_edge_dict by j being first element of tuple
 
-            neibs = [(fnodes[j], edge) for (j, edge) in  i_j_edge_dict[i]]
-            fingerprint = (fnodes[i], sort(neibs))
-            return fingerprint
+            if haskey(i_j_edge_dict, i)
+                neibs = [(fnodes[j], edge) for (j, edge) in  i_j_edge_dict[i]]
+                fingerprint = (fnodes[i], sort(neibs))
+                return fingerprint
+            else
+                # comment out before maxlog to unlimit printing
+                @warn "node with no edges found" i  maxlog=1  _id=Symbol(:extract_fingerprints_, objectid(graph), :_, i)
+                return UNKNOWN_FINGERPRINT
+            end
         end
         cur_rad == radius && break  # exit early
 

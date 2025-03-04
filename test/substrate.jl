@@ -201,8 +201,10 @@ end
     graph = gnn_graph(mol)
     fingerprints_r2 = DLkitty.extract_fingerprints(graph, 2)
     fingerprints_r3 = DLkitty.extract_fingerprints(graph, 3)
-
+    @test length(fingerprints_r2) == nv(graph)
+    @test length(fingerprints_r3) == nv(graph)
     for (f2, f3) in zip(fingerprints_r2, fingerprints_r3)
-        @test f3[1] == f2
+        @test ismissing(f3) || f3[1] == f2
     end
+    @test !all(ismissing, fingerprints_r3)
 end
