@@ -93,8 +93,8 @@ end
     end
 
     @testset "using atomic weights and DLKitty.BOND_TYPES" begin
-        # We actually don't expect this to do better, because bond-type is not revervent to weight
-
+        # We actually don't expect this to do better, because bond-type is not relevent to weight
+        # But it should still run
         # Below SHOULD work but doesn't, probably because the `@compact` macro doesn't understand GNNFlux
         #==
         model = @compact(;            
@@ -189,3 +189,20 @@ end
     end
 end
 
+
+@testset "FingerPrint $smiles" for smiles in
+    (  
+        "O=O",
+        "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C3C=CC(=C4)O",
+        "CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[Co]"
+    )
+
+    mol = mol_from_smiles(smiles)
+    graph = gnn_graph(mol)
+    fingerprints_r2 = DLkitty.extract_fingerprints(graph, 2)
+    fingerprints_r3 = DLkitty.extract_fingerprints(graph, 3)
+
+    for (f2, f3) in zip(fingerprints_r2, fingerprints_r3)
+        @test f3[1] == f2
+    end
+end
