@@ -65,13 +65,14 @@ function _create_i_j_edge_bond_dict(graph)
     return i_j_edge_dict
 end
 
+const DISCONNECTED_BOND_MARKER = -1
+
 function extract_fingerprints(graph, radius=3)
     fnodes = graph.ndata.atomic_num
     if length(fnodes) == 1 || radius == 0
         return map(tuple, fnodes)
     end
-    
-    
+     
     i_j_edge_dict = _create_i_j_edge_bond_dict(graph)
     for cur_rad in 1:radius
         # Update each node id to be the fingerprint id,
@@ -86,9 +87,9 @@ function extract_fingerprints(graph, radius=3)
                 fingerprint = (fnodes[i], sort(neibs))
                 return fingerprint
             else
-                # comment out before maxlog to unlimit printing
-                @warn "node with no edges found" i  maxlog=1  _id=Symbol(:extract_fingerprints_, objectid(graph), :_, i)
-                return UNKNOWN_FINGERPRINT
+                # This happens if the molecule is disconnected, e.g. represents a ionic bond insolution.
+                # If the SMILEs has a "." in it
+                return DISCONNECTED_BOND_MARKER
             end
         end
         cur_rad == radius && break  # exit early
@@ -109,12 +110,13 @@ function extract_fingerprints(graph, radius=3)
     return fnodes
 end
 
-UNKNOWN_FINGERPRINT = missing
+const UNKNOWN_FINGERPRINT = missing
 
 function all_substrate_fingerprints(df, radius)
-    smiles = skipmissing(reduce(union!, df.SubstrateSMILES; init=Set{Union{Missing,String}}()))
+    smiles = collect(skipmissing(reduce(union!, df.SubstrateSMILES; init=Set{Union{Missing,String}}())))
     seen = []
-    for s in smiles
+    sizehint!(seen, length(smiles) + 1)
+    @showprogress for s in smiles
         try
             push!(seen, extract_fingerprints(gnn_graph(s), radius))
         catch
@@ -125,15 +127,20 @@ function all_substrate_fingerprints(df, radius)
     return push!(collect(seen), UNKNOWN_FINGERPRINT)
 end
 
-function save_all_substrate_fingerprints(df, radius)
+function save_all_substrate_fingerprints(df, radius=3)
+    # we are actually serializing it as a julia field
+    # not secure if we were allowing user to provide, but we are distributing in repo so it is fine
+    # and it is a readable format that can hold nested tuples and lists well.
     fingerprints = all_substrate_fingerprints(df, radius)
-    open(joinpath(dirname(@__DIR__), "data", "all_fingerprints_$(radius).txt"), "w") do fh
+    open(joinpath(dirname(@__DIR__), "data", "all_fingerprints_$(radius).jl"), "w") do fh
+        println(fh, "[")
         for fingerprint in fingerprints
-            println(fh, repr(fingerprint))
+            println(fh, "\t", repr(fingerprint), ",")
         end
+        println(fh,"]")
     end
 end
 
 function load_all_substrate_fingerprints(radius)
-    open(collect∘eval∘Meta.parse∘eachline, joinpath(dirname(@__DIR__), "data", "all_fingerprints_$(radius).txt"))
+    include(joinpath(dirname(@__DIR__), "data", "all_fingerprints_$(radius).jl"))
 end
