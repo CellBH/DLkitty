@@ -20,7 +20,6 @@
         z, _= attention_cnn((substrate_vector, onehots_seq), ps, st)
         @test size(z)== (20,)
     end
-
 end
 
 @testset "two substrates train" begin
