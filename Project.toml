@@ -2,5 +2,12 @@ name = "DLkitty"
 uuid = "d5dc50c5-ec9f-588f-8bbc-2f86cb530d38"
 version = "0.1.0"
 
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+JSONTables = "b9914132-a727-11e9-1322-f18e41205b0b"
+Pandas = "eadc2687-ae89-51f9-a5d9-86b5a6373a9c"
+
 [compat]
 julia = "1.10"
