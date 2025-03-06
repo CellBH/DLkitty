@@ -26,7 +26,7 @@ n_dist_parameters(::Type{D}) where D = length(parameter_functions(D))
 "ensures the parameter is a legal value"
 function parameter_functions end
 parameter_functions(::Type{<:Normal}) = (identity, abs)
-parameter_functions(::Type{<:LogNormal}) = (identity, abs∘log∘abs)
+parameter_functions(::Type{<:LogNormal}) = (identity, abs)
 parameter_functions(::Type{<:Truncated{D}}) where D = parameter_functions(D)
 parameter_functions(::Type{<:Gamma}) = (abs, abs)
 

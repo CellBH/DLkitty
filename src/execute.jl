@@ -63,7 +63,7 @@ end
 function train(
     df,
     preprocessor,
-    opt=Adam(0.0003f0);
+    opt=OptimiserChain(ClipGrad(1.0), Adam(0.0003f0));
     l2_coefficient=1e-5,
     n_samples=1000,
     n_epochs=3
@@ -88,11 +88,13 @@ function train(
         epoch_loss = 0.0
         for (input, output) in prepped_data           
             try
-                _, step_loss, _, tstate = Training.single_train_step!(
+                grads, step_loss, _, tstate = Training.single_train_step!(
                     AutoZygote(), L2RegLoss(DistributionLoss(), l2_coefficient),
                     (input, output),
                     tstate
                 )
+                # TODO insert appropriate logging functions to let us debug what is happening here.
+                # E.g. with TensorBoardLogger.jl
                 epoch_loss += step_loss
             catch
                 datum = output[]
