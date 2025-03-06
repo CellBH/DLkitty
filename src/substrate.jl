@@ -48,11 +48,9 @@ function gnn_graph(mol)::GNNGraph{Tuple{Vector{Int64}, Vector{Int64}, Nothing}}
         edata=columntable(edge_data),
     )
     @assert LinearAlgebra.issymmetric(graph)
-    if !Graphs.is_connected(graph)
-        @warn "Not connected. Seems inplausable as a molecule"
-    end
     return graph
 end
+
 
 function _create_i_j_edge_bond_dict(graph)
     i_j_edge_dict = Dict{Int, Vector{Tuple{Int, Int}}}()
@@ -110,11 +108,16 @@ function extract_fingerprints(graph, radius=3)
     return fnodes
 end
 
+fingerprint_radius(::Type{<:Int}) = 0
+fingerprint_radius(::Type{<:Tuple{T, Any}}) where T = fingerprint_radius(T) + 1
+fingerprint_radius(::T) where T<:Union{Tuple,Int} = fingerprint_radius(T)
+fingerprint_radius(::Type) = error("messed up types, or invalid finder print")
+
 const UNKNOWN_FINGERPRINT = missing
 
 function all_substrate_fingerprints(df, radius)
     smiles = collect(skipmissing(reduce(union!, df.SubstrateSMILES; init=Set{Union{Missing,String}}())))
-    seen = []
+    seen = Set()
     sizehint!(seen, length(smiles) + 1)
     @showprogress for s in smiles
         try
@@ -128,19 +131,13 @@ function all_substrate_fingerprints(df, radius)
 end
 
 function save_all_substrate_fingerprints(df, radius=3)
-    # we are actually serializing it as a julia field
-    # not secure if we were allowing user to provide, but we are distributing in repo so it is fine
-    # and it is a readable format that can hold nested tuples and lists well.
+    # This is safe to use the julia serializer without worrying about format changes
+    # as it is just tuples, lists and integers
     fingerprints = all_substrate_fingerprints(df, radius)
-    open(joinpath(dirname(@__DIR__), "data", "all_fingerprints_$(radius).jl"), "w") do fh
-        println(fh, "[")
-        for fingerprint in fingerprints
-            println(fh, "\t", repr(fingerprint), ",")
-        end
-        println(fh,"]")
-    end
+    path = joinpath(dirname(@__DIR__), "data", "all_fingerprints_$(radius).jsz")
+    serialize(path, fingerprints)
 end
 
 function load_all_substrate_fingerprints(radius)
-    include(joinpath(dirname(@__DIR__), "data", "all_fingerprints_$(radius).jl"))
+    return deserialize(joinpath(dirname(@__DIR__), "data", "all_fingerprints_$(radius).jsz"))
 end

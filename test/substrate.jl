@@ -190,7 +190,7 @@ end
 end
 
 
-@testset "FingerPrint $smiles" for smiles in
+@testset "Fingerprint $smiles" for smiles in
     (  
         "O=O",
         "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C3C=CC(=C4)O",
@@ -205,5 +205,7 @@ end
     @test length(fingerprints_r3) == nv(graph)
     for (f2, f3) in zip(fingerprints_r2, fingerprints_r3)
         @test f3[1] == f2
+        DLkitty.fingerprint_radius(f2) == 2
+        DLkitty.fingerprint_radius(f3) == 3
     end
 end

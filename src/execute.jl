@@ -1,10 +1,46 @@
+struct Preprocessor
+    all_ngrams::Vector{String}
+    all_fingerprints::Vector{Any}
+    fingerprint_radius::Int
+    # TODO: add standardizers etc here for temperature and pH
+end
+function Preprocessor(df; ngram_len::Integer=3, fingerprint_radius::Integer=3)
+    return Preprocessor(
+        all_sequence_ngrams(df, ngram_len),
+        all_substrate_fingerprints(df, fingerprint_radius),
+        fingerprint_radius
+    )
+end
+function load_preprocessor(; ngram_len::Integer=3, fingerprint_radius::Integer=3)
+    return Preprocessor(
+        load_all_sequence_ngrams(ngram_len),
+        load_all_substrate_fingerprints(fingerprint_radius),
+        fingerprint_radius
+    )
+end
 
-function prep_input(datum, all_ngrams)
-    ngram_len = length(first(all_ngrams))
+Base.propertynames(::Preprocessor, private=false) = (fieldnames(Preprocessor)..., :ngram_len)
+function Base.getproperty(preprocessor::Preprocessor, name::Symbol)
+    if name == :ngram_len
+        length(first(preprocessor.all_ngrams))
+    else
+        return getfield(preprocessor, name)
+    end
+end
+
+
+function attach_fingerprint_onehots!(graph, preprocessor)
+    fingerprint = extract_fingerprints(graph, preprocessor.fingerprint_radius)
+    graph.ndata.fingerprint_onehots = onehotbatch(fingerprint, preprocessor.all_fingerprints, UNKNOWN_FINGERPRINT)
+    return graph
+end
+
+function prep_input(preprocessor, datum)
+    (; all_ngrams) = preprocessor
+    ngram_len = preprocessor.ngram_len
 
     substrate_graphs = map(skipmissing(datum.SubstrateSMILES)) do smiles
-        mol = mol_from_smiles(smiles)   
-        gnn_graph(mol)
+        attach_fingerprint_onehots!(gnn_graph(smiles), preprocessor)
     end
 
     protein_1hots_seqs = map(skipmissing(datum.ProteinSequences)) do seq
@@ -17,8 +53,8 @@ function prep_input(datum, all_ngrams)
     return (substrate_graphs, protein_1hots_seqs, temperature, ph)
 end
 
-function  predict_kcat_dist((;model, ps, st), all_ngrams, datum)
-    prepped_datum = prep_input(datum, all_ngrams)
+function  predict_kcat_dist((;model, ps, st), preprocessor, datum)
+    prepped_datum = prep_input(preprocessor, datum)
     (y,), _ = model(prepped_datum, ps, st)
     return y
 end
@@ -26,7 +62,7 @@ end
 
 function train(
     df,
-    all_ngrams,
+    preprocessor,
     opt=Adam(0.0003f0);
     l2_coefficient=1e-5,
     n_samples=1000,
@@ -36,13 +72,13 @@ function train(
     # as either way things get duplicated, but n_samples means also correct missing data
     # however n_epochs uses less memory, because we do create the samples eagerly.
 
-    model = DLkittyModel(; num_unique_ngrams=length(all_ngrams))
+    model = DLkittyModel(preprocessor)
     tm = TrainedModel(model)
 
     usable_df = filter(is_usable, df)
     resampled_df = resample(usable_df; n_samples)
     prepped_data = map(Tables.namedtupleiterator(resampled_df)) do datum
-        input = prep_input(datum, all_ngrams)
+        input = prep_input(preprocessor, datum)
         output = [datum]  # it has the fields we need already
         return input, output
     end

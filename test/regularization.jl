@@ -1,6 +1,6 @@
 @testset "regularization.jl" begin
-    all_ngrams = load_all_sequence_ngrams(3)
-    model = DLkittyModel(; num_unique_ngrams=length(all_ngrams))
+    preprocessor = load_preprocessor()
+    model = DLkittyModel(preprocessor)
     trained_model = TrainedModel(model)  # actually untrained
 
     unit_ps = Functors.fmap(x->0.0.*x .+ 1.0, trained_model.ps)

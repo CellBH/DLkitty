@@ -64,12 +64,20 @@ struct DLkittyModel{S,P,M,O} <: LuxCore.AbstractLuxContainerLayer{(:substrate_ne
     output_layer::O
 end
 
-function DLkittyModel(; hdim=20, num_unique_ngrams)
+function DLkittyModel(; hdim=20, num_unique_ngrams, num_unique_fingerprints)
     return DLkittyModel(
         SubstrateGNN(hdim),
         AttentionCNN(num_unique_ngrams; hdim),
         Dense((2*hdim + 2)=>hdim, relu),
         DistOutputLayer{LogNormal}(hdim),
+    )
+end
+
+function DLkittyModel(preprocessor; kwargs...)
+    return DLkittyModel(;
+        num_unique_ngrams = length(preprocessor.all_ngrams),
+        num_unique_fingerprints = length(preprocessor.all_fingerprints),
+        kwargs...
     )
 end
 
