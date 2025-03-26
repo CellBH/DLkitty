@@ -22,19 +22,22 @@
 using DLkitty
 
 training_df = kcat_table_train()
-all_ngrams = load_all_sequence_ngrams(3)
-trained_model = train(training_df, all_ngrams; n_samples=1000, n_epochs=100)
+preprocessor = load_preprocessor()
+trained_model = train(training_df, preprocessor; n_samples=1000, n_epochs=100)
 ```
 
 ### Use
 ```julia
+using Statistics
 datum = (;
     SubstrateSMILES = ["C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C3C=CC(=C4)O"],
     ProteinSequences = ["MAAVKASTSKATRPWYSHPVYARYWQHYHQAMAWMQSHHNAYRKAVESCFNLPWYLPSALLPQSSYDNEAAYPQSFYDHHVAWQDYPCSSSHFRRSGQHPRYSSRIQASTKEDQALSKEEEMETESDAEVECDLSNMEITEELRQYFAETERHREERRRQQQLDAERLDSYVNADHDLYCNTRRSVEAPTERPGERRQAEMKRLYGDSAAKIQAMEAAVQLSFDKHCDRKQPKYWPVIPLKF"],
     Temperature = 300.0,
     pH = 7.5
 )
-dist = predict_kcat_dist(trained_model, all_ngrams, datum)
+@show dist = predict_kcat_dist(trained_model, preprocessor, datum)
+@show expected = mean(dist)  # useful for kinetic modelling
+@show upper_bound = quantile(dist, 0.99)  # useful for EC FBA
 ```
 
 ### Evaluation
@@ -42,12 +45,11 @@ dist = predict_kcat_dist(trained_model, all_ngrams, datum)
 
 ```julia
 using Tables
-using Statistics
 using Distributions
 
 eval_df = filter(is_complete, kcat_table_valid())
 eval_df.predicted_kcat_dists = map(Tables.namedtupleiterator(eval_df)) do datum
-    predict_kcat_dist(trained_model, all_ngrams, datum)
+    predict_kcat_dist(trained_model, preprocessor, datum)
 end
 
 eval_df.loglikelyhoods = loglikelihood.(eval_df.predicted_kcat_dists, eval_df.Value)

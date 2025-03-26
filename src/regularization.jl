@@ -1,9 +1,8 @@
-
 l2_term(x::AbstractArray{<:Number}) = sum(abs2, x)
 function l2_term(ps::NamedTuple)
     total = 0.0
     for (fname, fval) in pairs(ps)
-        if fname ∈ (:atomic_num_embed, :bond_embedding, :embed, :bias)
+        if fname ∈ (:atomic_num_embed, :bond_embedding, :fingerprint_embedding, :embed, :bias)
             continue
         else
             total += l2_term(fval)
