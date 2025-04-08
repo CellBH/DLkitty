@@ -28,6 +28,7 @@ export is_usable, is_complete, resample, load_all_sequence_ngrams
 export mol_from_smiles, gnn_graph
 export TrainedModel, DLkittyModel, Preprocessor, load_preprocessor, predict_kcat_dist, train, load
 
+include("standardizer.jl")
 include("data.jl")
 include("ngrams.jl")
 include("neural_net_output.jl")

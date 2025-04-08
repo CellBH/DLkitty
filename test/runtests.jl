@@ -18,6 +18,7 @@ using Lux.Training
 using Functors
 
 @testset "DLkitty.jl" begin
+    @testset "standardizer.jl" include("standardizer.jl")
     @testset "data.jl" include("data.jl")
     @testset "ngrams.jl" include("ngrams.jl")
     @testset "neural_net_output.jl" include("neural_net_output.jl")
