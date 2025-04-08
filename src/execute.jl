@@ -46,36 +46,44 @@ function attach_fingerprint_onehots!(graph, preprocessor)
     return graph
 end
 
-function prep_input(preprocessor, datum)
+function prep_input(preprocessor, datum, graphs)
     (; all_ngrams) = preprocessor
     ngram_len = preprocessor.ngram_len
 
-    substrate_graphs = map(skipmissing(datum.SubstrateSMILES)) do smiles
-        attach_fingerprint_onehots!(gnn_graph(smiles), preprocessor)
+    substrate_graphs = DLkitty.attach_fingerprint_onehots!.(graphs, (preprocessor,))
+
+    protein_1hots_seqs = map(DLkitty.skipmissing(datum.ProteinSequences)) do seq
+        DLkitty.onehotbatch(DLkitty.ngrams(seq, ngram_len), all_ngrams, DLkitty.UNKNOWN_NGRAM)
     end
 
-    protein_1hots_seqs = map(skipmissing(datum.ProteinSequences)) do seq
-        onehotbatch(ngrams(seq, ngram_len), all_ngrams, UNKNOWN_NGRAM)
-    end
-
-    # TODO: strongly consider z-normalzing temperature and pH
     temperature = preprocessor.temperature_transformer.(datum.Temperature)
     ph = preprocessor.ph_transformer.(datum.pH)
     return (substrate_graphs, protein_1hots_seqs, temperature, ph)
 end
 
+get_gnn_graphs(datum::DataFrameRow) = map(DLkitty.gnn_graph, skipmissing(datum.SubstrateSMILES))
+
+function get_gnn_graphs(df::DataFrame)
+    all_graphs = map(eachrow(df)) do datum
+        get_gnn_graphs(datum)
+    end
+    return all_graphs
+end
+
 function prep_data(preprocessor, df)
-    prep_f(datum) = prep_input(preprocessor, datum), [datum]  
-    data = map(prep_f, eachrow(df))
+    # multi-threaded data prep
+    # extracting GNN graphs separately as performing parallel PythonCalls is messy
+    all_graphs = get_gnn_graphs(df)
+    prep_f(datum, graphs) = prep_input(preprocessor, datum, graphs), [datum]
+    data = DLkitty.ThreadsX.map(prep_f, eachrow(df), all_graphs)
     return data
 end
 
-|function  predict_kcat_dist((;model, ps, st), preprocessor, datum)
-    prepped_datum = prep_input(preprocessor, datum)
+function predict_kcat_dist((;model, ps, st), preprocessor, datum)
+    prepped_datum = prep_input(preprocessor, datum, get_gnn_graphs(datum))
     (y,), _ = model(prepped_datum, ps, st)
     return y
 end
-
 
 function train(
     train_data,
@@ -86,10 +94,7 @@ function train(
     ad::Lux.AbstractADType=AutoZygote(),
     show_progress::Bool=false
 )
-    # Increasing n_samples and n_epochs do very similar thing
-    # as either way things get duplicated, but n_samples means also correct missing data
-    # however n_epochs uses less memory, because we do create the samples eagerly.
-
+    
     model = DLkittyModel(preprocessor)
     tm = TrainedModel(model)
 
