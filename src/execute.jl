@@ -78,7 +78,8 @@ function train(
     l2_coefficient=1e-5,
     n_samples=1000,
     n_epochs=3,
-    ad::Lux.AbstractADType=AutoZygote()
+    ad::Lux.AbstractADType=AutoZygote(),
+    show_progress::Bool=false
 )
     # Increasing n_samples and n_epochs do very similar thing
     # as either way things get duplicated, but n_samples means also correct missing data
@@ -98,6 +99,7 @@ function train(
     tstate = Training.TrainState(tm, opt)
     for epoch in 1:n_epochs
         epoch_loss = 0.0
+        p = Progress(length(prepped_data); enabled=show_progress, showspeed=true)
         for (input, output) in prepped_data           
             try
                 grads, step_loss, _, tstate = Training.single_train_step!(
@@ -108,6 +110,7 @@ function train(
                 # TODO insert appropriate logging functions to let us debug what is happening here.
                 # E.g. with TensorBoardLogger.jl
                 epoch_loss += step_loss
+                next!(p)
             catch
                 datum = output[]
                 @error "issue with processing" datum
@@ -115,7 +118,7 @@ function train(
             end
         end
         average_loss = epoch_loss/length(prepped_data)
-        @printf "Epoch: %3d \t Loss: %.5g\n" epoch average_loss
+        show_progress && @printf "Epoch: %3d \t Loss: %.5g\n" epoch average_loss
     end
     return TrainedModel(tstate)
 end
