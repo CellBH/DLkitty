@@ -36,7 +36,7 @@ end
     df = kcat_table_train_and_valid()
     df = df[shuffle(1:nrow(df))[1:rows_to_use], :]
     preprocessor = load_preprocessor()
-    esampled_df = resample(df; n_samples=2)
+    resampled_df = resample(df; n_samples=2)
     train_data = DLkitty.prep_data(preprocessor, resampled_df)
     trained_model = train(train_data, preprocessor; n_epochs=1)
 end
