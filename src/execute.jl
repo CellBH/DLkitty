@@ -64,7 +64,13 @@ function prep_input(preprocessor, datum)
     return (substrate_graphs, protein_1hots_seqs, temperature, ph)
 end
 
-function  predict_kcat_dist((;model, ps, st), preprocessor, datum)
+function prep_data(preprocessor, df)
+    prep_f(datum) = prep_input(preprocessor, datum), [datum]  
+    data = map(prep_f, eachrow(df))
+    return data
+end
+
+|function  predict_kcat_dist((;model, ps, st), preprocessor, datum)
     prepped_datum = prep_input(preprocessor, datum)
     (y,), _ = model(prepped_datum, ps, st)
     return y
@@ -72,11 +78,10 @@ end
 
 
 function train(
-    df,
+    train_data,
     preprocessor,
     opt=OptimiserChain(ClipGrad(1.0), Adam(0.0003f0));
     l2_coefficient=1e-5,
-    n_samples=1000,
     n_epochs=3,
     ad::Lux.AbstractADType=AutoZygote(),
     show_progress::Bool=false
@@ -88,22 +93,14 @@ function train(
     model = DLkittyModel(preprocessor)
     tm = TrainedModel(model)
 
-    usable_df = filter(is_usable, df)
-    resampled_df = resample(usable_df; n_samples)
-    prepped_data = map(Tables.namedtupleiterator(resampled_df)) do datum
-        input = prep_input(preprocessor, datum)
-        output = [datum]  # it has the fields we need already
-        return input, output
-    end
-
     tstate = Training.TrainState(tm, opt)
     for epoch in 1:n_epochs
         epoch_loss = 0.0
-        p = Progress(length(prepped_data); enabled=show_progress, showspeed=true)
-        for (input, output) in prepped_data           
+        p = Progress(length(train_data); enabled=show_progress, showspeed=true)
+        for (input, output) in train_data           
             try
                 grads, step_loss, _, tstate = Training.single_train_step!(
-                    ad, lL2RegLoss(DistributionLoss(), l2_coefficient),
+                    ad, L2RegLoss(DistributionLoss(), l2_coefficient),
                     (input, output),
                     tstate
                 )
@@ -117,7 +114,7 @@ function train(
                 rethrow()
             end
         end
-        average_loss = epoch_loss/length(prepped_data)
+        average_loss = epoch_loss/length(train_data)
         show_progress && @printf "Epoch: %3d \t Loss: %.5g\n" epoch average_loss
     end
     return TrainedModel(tstate)
