@@ -13,7 +13,7 @@ end
 
 """
 first step and all parameters/state of DistOutputLayer is as per Dense
-this function constructions one so we can delgate to it.
+this function constructions one so we can delegate to it.
 It entirely optimizes away.
 """
 function _backing_Dense(l::DistOutputLayer{D}) where D
@@ -26,7 +26,7 @@ n_dist_parameters(::Type{D}) where D = length(parameter_functions(D))
 "ensures the parameter is a legal value"
 function parameter_functions end
 parameter_functions(::Type{<:Normal}) = (identity, abs)
-parameter_functions(::Type{<:LogNormal}) = (identity, abs)
+parameter_functions(::Type{<:LogNormal}) = (identity, abs∘log∘abs)
 parameter_functions(::Type{<:Truncated{D}}) where D = parameter_functions(D)
 parameter_functions(::Type{<:Gamma}) = (abs, abs)
 
@@ -54,8 +54,6 @@ end
     sample_weight::Float64 = 1.0
     mean_std_weight::Float64 = 2.0  # 2x as much information as a single point
 end
-
-
 
 (loss::DistributionLoss)(ŷs, ys) = mean(((ŷ, y),)->loss1(loss, ŷ, y), zip(ŷs, ys))
 
