@@ -77,7 +77,8 @@ function train(
     opt=OptimiserChain(ClipGrad(1.0), Adam(0.0003f0));
     l2_coefficient=1e-5,
     n_samples=1000,
-    n_epochs=3
+    n_epochs=3,
+    ad::Lux.AbstractADType=AutoZygote()
 )
     # Increasing n_samples and n_epochs do very similar thing
     # as either way things get duplicated, but n_samples means also correct missing data
@@ -100,7 +101,7 @@ function train(
         for (input, output) in prepped_data           
             try
                 grads, step_loss, _, tstate = Training.single_train_step!(
-                    AutoZygote(), L2RegLoss(DistributionLoss(), l2_coefficient),
+                    ad, lL2RegLoss(DistributionLoss(), l2_coefficient),
                     (input, output),
                     tstate
                 )
