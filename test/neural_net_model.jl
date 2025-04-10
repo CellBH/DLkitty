@@ -29,14 +29,14 @@ end
     datum2 = @NamedTuple{PubMedID::Union{Missing, Int64}, Organism::String, Substrate::Vector{String}, ECNumber::Union{Missing, Vector{String}}, EnzymeName::Union{Missing, String}, EnzymeType::String, UniProtID::Union{Missing, Vector{String}}, pH::Union{Missing, Float64}, Temperature::Union{Missing, Real}, Value::Real, StandardDeviation::Union{Missing, Float64}, ProteinSequences::Union{Missing, Vector}, SubstrateSMILES::Vector}(
         (8369299, "Escherichia coli", ["Isocitrate", "NAD+"], ["1.1.1.42"], "isocitrate dehydrogenase (NADP+)", "wildtype", ["P08200"], 8.3, 31, 4.22, missing, ["MESKVVVPAQGKKITLQNGKLNVPENPIIPYIEGDGIGVDVTPAMLKVVDAAVEKAYKGERKISWMEIYTGEKSTQVYGQDVWLPAETLDLIREYRVAIKGPLTTPVGGGIRSLNVALRQELDLYICLRPVRYYQGTPSPVKHPELTDMVIFRENSEDIYAGIEWKADSADAEKVIKFLREEMGVKKIRFPEHCGIGIKPCSEEGTKRLVRAAIEYAIANDRDSVTLVHKGNIMKFTEGAFKDWGYQLAREEFGGELIDGGPWLKVKNPNTGKEIVIKDVIADAFLQQILLRPAEYDVIACMNLNGDYISDALAAQVGGIGIAPGANIGDECALFEATHGTAPKYAGQDKVNPGSIILSAEMMLRHMGWTEAADLIVKGMEGAINAKTVTYDFERLMDGAKLLKCSEFGDAIIENM"], ["C(C(C(C(=O)O)O)C(=O)O)C(=O)O", "C1=CC(=C[N+](=C1)C2C(C(C(O2)COP(=O)([O-])OP(=O)(O)OCC3C(C(C(O3)N4C=NC5=C(N=CN=C54)N)O)O)O)O)C(=O)N"])
     )
-    seq = datum.ProteinSequences[1]
+    seq = datum1.ProteinSequences[1]
     fingerprint_radius = 3
     preprocessor = Preprocessor(DataFrame([datum1, datum2]))
     tm = TrainedModel(DLkittyModel(preprocessor))
     tstate = Training.TrainState(tm, Adam(0.003f0))
 
     # Test forward
-    input = DLkitty.prep_input(preprocessor, datum)
+    input = DLkitty.prep_input(preprocessor, datum1)
     (y,), _ = tm.model(input, tm.ps, tm.st)
     @test y isa LogNormal
 
