@@ -50,10 +50,10 @@ function prep_input(preprocessor, datum, graphs)
     (; all_ngrams) = preprocessor
     ngram_len = preprocessor.ngram_len
 
-    substrate_graphs = DLkitty.attach_fingerprint_onehots!.(graphs, (preprocessor,))
+    substrate_graphs = attach_fingerprint_onehots!.(graphs, (preprocessor,))
 
-    protein_1hots_seqs = map(DLkitty.skipmissing(datum.ProteinSequences)) do seq
-        DLkitty.onehotbatch(DLkitty.ngrams(seq, ngram_len), all_ngrams, DLkitty.UNKNOWN_NGRAM)
+    protein_1hots_seqs = map(skipmissing(datum.ProteinSequences)) do seq
+        onehotbatch(ngrams(seq, ngram_len), all_ngrams, UNKNOWN_NGRAM)
     end
 
     temperature = preprocessor.temperature_transformer.(datum.Temperature)
@@ -61,7 +61,7 @@ function prep_input(preprocessor, datum, graphs)
     return (substrate_graphs, protein_1hots_seqs, temperature, ph)
 end
 
-get_gnn_graphs(datum::DataFrameRow) = map(DLkitty.gnn_graph, skipmissing(datum.SubstrateSMILES))
+get_gnn_graphs(datum::DataFrameRow) = map(gnn_graph, skipmissing(datum.SubstrateSMILES))
 
 function get_gnn_graphs(df::DataFrame)
     all_graphs = map(eachrow(df)) do datum
@@ -85,8 +85,14 @@ function predict_kcat_dist((;model, ps, st), preprocessor, datum)
     return y
 end
 
+function compute_loss(lossf, model, ps, st, data)
+    loss = ThreadsX.sum(first(lossf(model, ps, st, datum)) for datum in data)
+    return loss/length(data)
+end
+
 function train(
     train_data,
+    valid_data,
     preprocessor,
     opt=OptimiserChain(ClipGrad(1.0), Adam(0.0003f0));
     l2_coefficient=1e-5,
@@ -97,6 +103,7 @@ function train(
     
     model = DLkittyModel(preprocessor)
     tm = TrainedModel(model)
+    lossf = DLkitty.L2RegLoss(DLkitty.DistributionLoss(), l2_coefficient)
 
     tstate = Training.TrainState(tm, opt)
     for epoch in 1:n_epochs
@@ -105,9 +112,7 @@ function train(
         for (input, output) in train_data           
             try
                 grads, step_loss, _, tstate = Training.single_train_step!(
-                    ad, L2RegLoss(DistributionLoss(), l2_coefficient),
-                    (input, output),
-                    tstate
+                    ad, lossf, (input, output), tstate
                 )
                 # TODO insert appropriate logging functions to let us debug what is happening here.
                 # E.g. with TensorBoardLogger.jl
@@ -120,7 +125,10 @@ function train(
             end
         end
         average_loss = epoch_loss/length(train_data)
-        show_progress && @printf "Epoch: %3d \t Loss: %.5g\n" epoch average_loss
+        _ps = tstate.parameters
+        _st = Lux.testmode(tstate.states)
+        valid_loss = compute_loss(lossf, model, _ps, _st, valid_data)
+        show_progress && @printf "Epoch: %3d \t Training Loss: %.5g \t Validation Loss: %.5g\n" epoch average_loss valid_loss
     end
     return TrainedModel(tstate)
 end
