@@ -11,7 +11,7 @@ function AttentionCNN(num_unique_ngrams; window=11, hdim=20)
         attention=Dense(hdim=>hdim, relu),
     ) do (substrate_vector, ngrams_onehot_matrix)
         @assert eltype(ngrams_onehot_matrix) == Bool
-        x1 =  embed(ngrams_onehot_matrix)
+        x1 = embed(ngrams_onehot_matrix)
         x1_wide = reshape(x1, Val{4}())
         xs_wide = foldl(|>, convs; init=x1_wide)
         xs = dropdims(xs_wide, dims=(3, 4))
@@ -22,10 +22,6 @@ function AttentionCNN(num_unique_ngrams; window=11, hdim=20)
         @return dropdims(mean(ys, dims=2), dims=2)
     end
 end
-
-
-const MAX_ATOMIC_NUM = 100  # plutonium is 94, anything much larger we are not worrying about ever
-const BOND_TYPES = 22  # This is determined by the BondType enum in RDkit
 
 # TODO: rewrite as a LuxCore.AbstractLuxContainerLayer
 struct SubstrateGNN{B,C,D} <: LuxCore.AbstractLuxContainerLayer{(:fingerprint_embedding, :input_net, :output_net)}
@@ -91,7 +87,7 @@ function (m::DLkittyModel)((substrate_graphs, protein_1hots_seqs, temperature, p
         # drop state (its empty anyway)
         first(m.protein_net((substrate_h, seq), ps.protein_net, st.protein_net))
     end
-
+    
     # TODO: other misc features, (not just tempurature and ph)
     # TODO consider just putting in the number of substrates and proteins as a features (esp as sume subtrates are Missing)
     # TODO consider putting in just the total length of the proteins
