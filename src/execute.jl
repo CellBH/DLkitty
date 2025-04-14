@@ -90,6 +90,22 @@ function compute_loss(lossf, model, ps, st, data)
     return loss/length(data)
 end
 
+function fill_param_dict!(dict, m, prefix)
+    if m isa Chain
+        for (i, layer) in enumerate(m.layers)
+            fill_param_dict!(dict, layer, prefix*"layer_"*string(i)*"/"*string(layer)*"/")
+        end
+    else
+        for fieldname in fieldnames(typeof(m))
+            val = getfield(m, fieldname)
+            if val isa AbstractArray
+                val = vec(val)
+            end
+            dict[prefix*string(fieldname)] = val
+        end
+    end
+end
+
 function train(
     train_data,
     valid_data,
@@ -98,7 +114,8 @@ function train(
     l2_coefficient=1e-5,
     n_epochs=3,
     ad::Lux.AbstractADType=AutoZygote(),
-    show_progress::Bool=false
+    show_progress::Bool=false,
+    logger::TBLogger=TBLogger("tensorboard_logs/run", min_level=Logging.Info)
 )
     
     model = DLkittyModel(preprocessor)
@@ -106,16 +123,17 @@ function train(
     lossf = DLkitty.L2RegLoss(DLkitty.DistributionLoss(), l2_coefficient)
 
     tstate = Training.TrainState(tm, opt)
+    _grads, unflatten_grads = ParameterHandling.flatten(tm.ps)
+    grads = zeros(length(_grads))
     for epoch in 1:n_epochs
         epoch_loss = 0.0
         p = Progress(length(train_data); enabled=show_progress, showspeed=true)
         for (input, output) in train_data           
             try
-                grads, step_loss, _, tstate = Training.single_train_step!(
+                _grads, step_loss, _, tstate = Training.single_train_step!(
                     ad, lossf, (input, output), tstate
                 )
-                # TODO insert appropriate logging functions to let us debug what is happening here.
-                # E.g. with TensorBoardLogger.jl
+                grads .+= ParameterHandling.flatten(_grads)[1]
                 epoch_loss += step_loss
                 next!(p)
             catch
@@ -125,10 +143,21 @@ function train(
             end
         end
         average_loss = epoch_loss/length(train_data)
+        avg_grads = grads ./ length(train_data)
         _ps = tstate.parameters
         _st = Lux.testmode(tstate.states)
         valid_loss = compute_loss(lossf, model, _ps, _st, valid_data)
         show_progress && @printf "Epoch: %3d \t Training Loss: %.5g \t Validation Loss: %.5g\n" epoch average_loss valid_loss
+        param_dict = Dict{String, Any}()
+        grad_dict = Dict{String, Any}()
+        fill_param_dict!(param_dict, _ps, "")
+        fill_param_dict!(grad_dict, unflatten_grads(avg_grads), "")
+        with_logger(logger) do
+            @info "train" loss=average_loss
+            @info "valid" loss=valid_loss log_step_increment=0
+            @info "model" params=param_dict log_step_increment=0
+            @info "gradients" params=grad_dict log_step_increment=0
+        end
     end
     return TrainedModel(tstate)
 end
