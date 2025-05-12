@@ -114,6 +114,7 @@ function fill_param_dict!(dict, m, prefix)
     end
 end
 
+# (single sample) stochastic gradient descent
 function train(preprocessor::Preprocessor, 
                args...; 
                opt=OptimiserChain(ClipGrad(1.0), Adam(0.0005f0)), 
@@ -178,5 +179,67 @@ function train(
     end
     return tstate
 end
-    return TrainedModel(tstate)
+
+# minibatch stochastic gradient descent
+function train_batch(preprocessor::Preprocessor, 
+               args...; 
+               opt=OptimiserChain(ClipGrad(1.0), Adam(0.0005f0)), 
+               kwargs...)
+    model = DLkittyModel(preprocessor)
+    tm = TrainedModel(model)
+    tstate = Training.TrainState(tm, opt)
+    train_batch(tstate, args...; kwargs...)
+end
+
+function train_batch(
+    tstate::Training.TrainState,
+    train_data,
+    valid_data;
+    l2_coefficient=1f-5,
+    n_epochs=3,
+    batchsize::Int=1,
+    ad::Lux.AbstractADType=AutoZygote(),
+    show_progress::Bool=false,
+    logger::TBLogger=TBLogger("tensorboard_logs/run", min_level=Logging.Info)
+)
+    train_data_loader = MLUtils.DataLoader(train_data; batchsize)
+    lossf = L2RegLoss(PointEstimateLoss(), l2_coefficient)
+    _grads, unflatten_grads = ParameterHandling.flatten(tstate.parameters)
+    grads = zeros(length(_grads))
+   
+    for epoch in 1:n_epochs
+        epoch_loss = 0f0
+        grads[:] .= 0f0
+        p = Progress(length(train_data_loader); enabled=show_progress, showspeed=true)
+        for train_batch in train_data_loader
+            try
+                _grads, step_loss, _, tstate = Training.single_train_step!(
+                    ad, lossf, train_batch, tstate
+                )
+                grads .+= ParameterHandling.flatten(_grads)[1]
+                epoch_loss += step_loss
+                next!(p)
+            catch
+                @error "issue with processing in epoch $epoch"
+                rethrow()
+            end
+        end
+        average_loss = epoch_loss/length(train_data_loader)
+        _ps = tstate.parameters
+        _st = Lux.testmode(tstate.states)
+        valid_loss, _ = lossf(tstate.model, _ps, _st, valid_data)
+        show_progress && @printf "Epoch: %3d \t Training Loss: %.5g \t Validation Loss: %.5g\n" epoch average_loss valid_loss
+        param_dict = Dict{String, Any}()
+        grad_dict = Dict{String, Any}()
+        fill_param_dict!(param_dict, _ps, "")
+        avg_grads = grads ./ length(train_data_loader)
+        fill_param_dict!(grad_dict, unflatten_grads(avg_grads), "")
+        with_logger(logger) do
+            @info "train" loss=average_loss
+            @info "valid" loss=valid_loss log_step_increment=0
+            @info "model" params=param_dict log_step_increment=0
+            @info "gradients" params=grad_dict log_step_increment=0
+        end
+    end
+    return tstate
 end

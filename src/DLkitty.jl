@@ -26,6 +26,7 @@ using ThreadsX
 using Logging
 using TensorBoardLogger
 using ParameterHandling
+using MLUtils
 using OhMyThreads
 
 export kcat_table_train_and_valid, kcat_table_train, kcat_table_valid
