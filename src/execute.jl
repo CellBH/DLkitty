@@ -128,13 +128,15 @@ function train(
     
     model = DLkittyModel(preprocessor)
     tm = TrainedModel(model)
-    lossf = DLkitty.L2RegLoss(DLkitty.DistributionLoss(), l2_coefficient)
-
+    #lossf = L2RegLoss(DistributionLoss(), l2_coefficient)
+    # NOTE: Single-point estimate
+    lossf = L2RegLoss(MSELoss(), l2_coefficient)
     tstate = Training.TrainState(tm, opt)
     _grads, unflatten_grads = ParameterHandling.flatten(tm.ps)
     grads = zeros(length(_grads))
     for epoch in 1:n_epochs
         epoch_loss = 0.0
+        grads[:] .= 0.0
         p = Progress(length(train_data); enabled=show_progress, showspeed=true)
         for (input, output) in train_data           
             try
