@@ -66,6 +66,7 @@ end
 get_gnn_graphs(datum::DataFrameRow) = map(gnn_graph, skipmissing(datum.SubstrateSMILES))
 
 function get_gnn_graphs(df::DataFrame)
+    # no multithreading as performing parallel PythonCalls is messy
     all_graphs = map(eachrow(df)) do datum
         get_gnn_graphs(datum)
     end
@@ -74,10 +75,13 @@ end
 
 function prep_data(preprocessor, df)
     # multi-threaded data prep
-    # extracting GNN graphs separately as performing parallel PythonCalls is messy
     all_graphs = get_gnn_graphs(df)
-    prep_f(datum, graphs) = prep_input(preprocessor, datum, graphs), [datum]
-    data = DLkitty.ThreadsX.map(prep_f, eachrow(df), all_graphs)
+    # NOTE: Single-point estimate
+    data = DLkitty.OhMyThreads.tmap(1:DLkitty.nrow(df)) do i
+        datum = df[i, :]
+        graphs = all_graphs[i]
+        DLkitty.prep_input(preprocessor, datum, graphs), Float32.(log(datum.Value))
+    end
     return data
 end
 
@@ -87,8 +91,10 @@ function predict_kcat_dist((;model, ps, st), preprocessor, datum)
     return y
 end
 
-function compute_loss(lossf, model, ps, st, data)
-    loss = ThreadsX.sum(first(lossf(model, ps, st, datum)) for datum in data)
+function compute_loss(lossf, model, ps, st, data::AbstractArray)
+    loss = OhMyThreads.tmapreduce(+, 1:length(data)) do i
+        lossf(model, ps, st, data[i])[1]
+    end
     return loss/length(data)
 end
 

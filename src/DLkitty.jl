@@ -26,6 +26,7 @@ using ThreadsX
 using Logging
 using TensorBoardLogger
 using ParameterHandling
+using OhMyThreads
 
 export kcat_table_train_and_valid, kcat_table_train, kcat_table_valid
 export is_usable, is_complete, resample, load_all_sequence_ngrams, prep_data
