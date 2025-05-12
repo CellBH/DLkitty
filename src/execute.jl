@@ -114,29 +114,36 @@ function fill_param_dict!(dict, m, prefix)
     end
 end
 
+function train(preprocessor::Preprocessor, 
+               args...; 
+               opt=OptimiserChain(ClipGrad(1.0), Adam(0.0005f0)), 
+               kwargs...)
+    model = DLkittyModel(preprocessor)
+    tm = TrainedModel(model)
+    tstate = Training.TrainState(tm, opt)
+    train(tstate, args...; kwargs...)
+end
+
 function train(
+    tstate::Training.TrainState,
     train_data,
-    valid_data,
-    preprocessor,
-    opt=OptimiserChain(ClipGrad(1.0), Adam(0.0005f0));
+    valid_data;
     l2_coefficient=1f-5,
     n_epochs=3,
     ad::Lux.AbstractADType=AutoZygote(),
     show_progress::Bool=false,
     logger::TBLogger=TBLogger("tensorboard_logs/run", min_level=Logging.Info)
 )
-    
-    model = DLkittyModel(preprocessor)
-    tm = TrainedModel(model)
     #lossf = L2RegLoss(DistributionLoss(), l2_coefficient)
     # NOTE: Single-point estimate
     lossf = L2RegLoss(MSELoss(), l2_coefficient)
-    tstate = Training.TrainState(tm, opt)
-    _grads, unflatten_grads = ParameterHandling.flatten(tm.ps)
+    _grads, unflatten_grads = ParameterHandling.flatten(tstate.parameters)
     grads = zeros(length(_grads))
     for epoch in 1:n_epochs
-        epoch_loss = 0.0
-        grads[:] .= 0.0
+        #BLAS.set_num_threads(6)
+        #println("BLAS threads: ", BLAS.get_num_threads())
+        epoch_loss = 0f0
+        grads[:] .= 0f0
         p = Progress(length(train_data); enabled=show_progress, showspeed=true)
         for (input, output) in train_data           
             try
@@ -156,7 +163,7 @@ function train(
         avg_grads = grads ./ length(train_data)
         _ps = tstate.parameters
         _st = Lux.testmode(tstate.states)
-        valid_loss = compute_loss(lossf, model, _ps, _st, valid_data)
+        valid_loss = compute_loss(lossf, tstate.model, _ps, _st, valid_data)
         show_progress && @printf "Epoch: %3d \t Training Loss: %.5g \t Validation Loss: %.5g\n" epoch average_loss valid_loss
         param_dict = Dict{String, Any}()
         grad_dict = Dict{String, Any}()
@@ -169,5 +176,7 @@ function train(
             @info "gradients" params=grad_dict log_step_increment=0
         end
     end
+    return tstate
+end
     return TrainedModel(tstate)
 end
