@@ -1,6 +1,6 @@
 l2_term(x::AbstractArray{<:Number}) = sum(abs2, x)
 function l2_term(ps::NamedTuple)
-    total = 0.0
+    total = 0f0
     for (fname, fval) in pairs(ps)
         if fname ∈ (:atomic_num_embed, :bond_embedding, :fingerprint_embedding, :embed, :bias)
             continue
@@ -14,7 +14,7 @@ end
 
 struct L2RegLoss{F<:Lux.AbstractLossFunction} <: Lux.AbstractLossFunction
     base_loss::F
-    l2_coefficient::Float64
+    l2_coefficient::Float32
 end
 
 function (self::L2RegLoss)(model::Lux.AbstractLuxLayer, ps, st, (x, y))

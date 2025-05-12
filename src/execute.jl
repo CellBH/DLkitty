@@ -58,6 +58,8 @@ function prep_input(preprocessor, datum, graphs)
 
     temperature = preprocessor.temperature_transformer.(datum.Temperature)
     ph = preprocessor.ph_transformer.(datum.pH)
+    temperature = Float32.(temperature)
+    ph = Float32.(ph)
     return (substrate_graphs, protein_1hots_seqs, temperature, ph)
 end
 
@@ -110,8 +112,8 @@ function train(
     train_data,
     valid_data,
     preprocessor,
-    opt=OptimiserChain(ClipGrad(1.0), Adam(0.0003f0));
-    l2_coefficient=1e-5,
+    opt=OptimiserChain(ClipGrad(1.0), Adam(0.0005f0));
+    l2_coefficient=1f-5,
     n_epochs=3,
     ad::Lux.AbstractADType=AutoZygote(),
     show_progress::Bool=false,
