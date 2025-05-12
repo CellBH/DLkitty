@@ -138,7 +138,7 @@ function train(
     #lossf = L2RegLoss(DistributionLoss(), l2_coefficient)
     # NOTE: Single-point estimate
     lossf = L2RegLoss(MSELoss(), l2_coefficient)
-    _grads, unflatten_grads = ParameterHandling.flatten(tstate.parameters)
+    _grads, unflatten_grads = ParameterHandling.flatten(Float32, tstate.parameters)
     grads = zeros(length(_grads))
     for epoch in 1:n_epochs
         #BLAS.set_num_threads(6)
@@ -152,6 +152,7 @@ function train(
                     ad, lossf, (input, output), tstate
                 )
                 grads .+= ParameterHandling.flatten(_grads)[1]
+                grads .+= ParameterHandling.flatten(Float32, _grads)[1]
                 epoch_loss += step_loss
                 next!(p)
             catch
@@ -204,7 +205,7 @@ function train_batch(
 )
     train_data_loader = MLUtils.DataLoader(train_data; batchsize)
     lossf = L2RegLoss(PointEstimateLoss(), l2_coefficient)
-    _grads, unflatten_grads = ParameterHandling.flatten(tstate.parameters)
+    _grads, unflatten_grads = ParameterHandling.flatten(Float32, tstate.parameters)
     grads = zeros(length(_grads))
    
     for epoch in 1:n_epochs
@@ -216,7 +217,7 @@ function train_batch(
                 _grads, step_loss, _, tstate = Training.single_train_step!(
                     ad, lossf, train_batch, tstate
                 )
-                grads .+= ParameterHandling.flatten(_grads)[1]
+                grads .+= ParameterHandling.flatten(Float32, _grads)[1]
                 epoch_loss += step_loss
                 next!(p)
             catch
