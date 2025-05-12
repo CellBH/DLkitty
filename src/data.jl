@@ -1,5 +1,3 @@
-
-
 function init_data()
     ENV["DATADEPS_ALWAYS_ACCEPT"] = true  # bypass prompts
 
@@ -35,7 +33,9 @@ reaction_rates_table() = DataFrame(CSV.File(reaction_rates_file()))
 
 ###############
 
-full_kcat_file() = datadep"Sabio-RK_kcats_full_nov_2024/Sabio-RK_kcats_full_nov_2024.json"
+full_kcat_file() = "data/databases/kcats_complete.json"
+#full_kcat_file() = datadep"Sabio-RK_kcats_full_nov_2024/Sabio-RK_kcats_full_nov_2024.json"
+#full_kcat_file() = datadep"Sabio-Brenda-complete_mar_2025/kcats_complete.json"
 function full_kcat_table()
     df = DataFrames.DataFrame(jsontable(full_kcat_file()))
     df.ProteinSequences = map(df.ProteinSequences) do protseqs
@@ -53,6 +53,7 @@ end
 
 
 function kcat_table_train_and_valid(full_df=full_kcat_table())
+    full_df = filter(is_usable, full_df)
     return filter(!is_holdout, full_df)
 end
 
@@ -79,7 +80,7 @@ function is_holdout(row)
     id_hash = foldr(hash, fields, init=0x00FAEBABE)
     # select 3/16ths (18.75%) of all items.
     # Can drop 1 of these later to shrink our holdout set.
-    return (id_hash & 0x0F) ∈ (0x00, 0x01, 0x02)
+    return is_usable(row) && (id_hash & 0x0F) ∈ (0x00, 0x01, 0x02)
 end
 
 """
@@ -90,21 +91,22 @@ function is_validation(row)
     fields = (row.Value, row.StandardDeviation, row.Temperature, row.pH, row.UniProtID, row.Substrate)
     id_hash = foldr(hash, fields, init=0x00FAEBABE)
     # select 3/16ths (18.75%) of all items.
-    return (id_hash & 0x0F) ∈ (0x03, 0x04, 0x05)
+    return is_usable(row) && (id_hash & 0x0F) ∈ (0x03, 0x04, 0x05)
 end
 
 """
 This function will consistently assign a given row to the validation or not.
 No need to use this if doing kfolds cross validation.
 """
-is_train(row) = !is_validation(row) && !is_holdout(row)
+is_train(row) = is_usable(row) && !is_validation(row) && !is_holdout(row)
 
 
 function is_usable(row)
     has_smiles = all(!ismissing, row.SubstrateSMILES) && length(row.SubstrateSMILES) > 0
-    has_seq = !ismissing(row.ProteinSequences) && all(!ismissing, row.ProteinSequences) && length(row.ProteinSequences) > 0
+    has_seq = !ismissing(row.ProteinSequences) && all(!ismissing, row.ProteinSequences) && length(row.ProteinSequences) > 0 &&
+              (row.ProteinSequences != [""]) && all(!isempty, row.ProteinSequences)
+               # NOTE: added extra condition 
     return has_smiles && has_seq
 end
 
 is_complete(row) = is_usable(row) && !ismissing(row.Temperature) && !ismissing(row.pH)
-
