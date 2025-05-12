@@ -17,6 +17,12 @@ struct L2RegLoss{F<:Lux.AbstractLossFunction} <: Lux.AbstractLossFunction
     l2_coefficient::Float32
 end
 
+function (self::L2RegLoss)(model::Lux.AbstractLuxLayer, ps, st, data::AbstractArray)
+    base, new_st, _ = self.base_loss(model, ps, st, data)
+    reg = self.l2_coefficient * l2_term(ps)
+    return (base + reg), new_st, (;)
+end
+
 function (self::L2RegLoss)(model::Lux.AbstractLuxLayer, ps, st, (x, y))
     base, new_st, _ = self.base_loss(model, ps, st, (x, y))
     reg = self.l2_coefficient * l2_term(ps)

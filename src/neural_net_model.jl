@@ -63,7 +63,9 @@ function DLkittyModel(; hdim=20, num_unique_ngrams, num_unique_fingerprints)
         SubstrateGNN(hdim, num_unique_fingerprints),
         AttentionCNN(num_unique_ngrams; hdim),
         Dense((2*hdim + 2)=>hdim, relu),
-        DistOutputLayer{LogNormal}(hdim),
+        #DistOutputLayer{LogNormal}(hdim),
+        # NOTE: Single-point estimate
+        Dense(hdim => 1)
     )
 end
 
@@ -74,6 +76,7 @@ function DLkittyModel(preprocessor; kwargs...)
         kwargs...
     )
 end
+(m::DLkittyModel)(data::AbstractArray, ps, st) = [first(m(datum, ps, st)) for datum in data], st
 
 function (m::DLkittyModel)((substrate_graphs, protein_1hots_seqs, temperature, ph), ps, st)
     # This sum is a DeepSet operation
@@ -93,5 +96,5 @@ function (m::DLkittyModel)((substrate_graphs, protein_1hots_seqs, temperature, p
     # TODO consider putting in just the total length of the proteins
     h2, _ = m.merge_net([substrate_h; protein_h; temperature; ph], ps.merge_net, st.merge_net)
     y, _ = m.output_layer(h2, ps.output_layer, st.output_layer)
-    return y, st
+    return y[1], st
 end

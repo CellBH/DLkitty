@@ -73,3 +73,16 @@ function loss1(d::DistributionLoss, dist::Distribution, datum)
         return loss1(d, dist, (;mean=datum.Value, std=datum.StandardDeviation))
     end
 end
+
+struct PointEstimateLoss <: Lux.AbstractLossFunction
+end
+
+function (self::PointEstimateLoss)(model::Lux.AbstractLuxLayer, ps, st, data::AbstractArray)
+    base = ThreadsX.sum(1:length(data)) do i
+        x, y = data[i]
+        y_pred, _ = model(x, ps, st)
+        Lux.LossFunctionImpl.l2_distance_loss(y_pred, y)
+    end
+    base /= length(data)
+    return base, st, (;)
+end
