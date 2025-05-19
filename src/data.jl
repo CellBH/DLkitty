@@ -103,9 +103,7 @@ is_train(row) = is_usable(row) && !is_validation(row) && !is_holdout(row)
 
 function is_usable(row)
     has_smiles = all(!ismissing, row.SubstrateSMILES) && length(row.SubstrateSMILES) > 0
-    has_seq = !ismissing(row.ProteinSequences) && all(!ismissing, row.ProteinSequences) && length(row.ProteinSequences) > 0 &&
-              (row.ProteinSequences != [""]) && all(!isempty, row.ProteinSequences)
-               # NOTE: added extra condition 
+    has_seq = !ismissing(row.ProteinSequences) && all(!ismissing, row.ProteinSequences) && length(row.ProteinSequences) > 0
     return has_smiles && has_seq
 end
 
