@@ -25,6 +25,20 @@ function init_data()
         "https://dlkitty.file.core.windows.net/dlkitty/Sabio-RK_kcats_full_nov_2024.json?sp=r&st=2024-12-03T07:17:45Z&se=2165-12-04T07:09:00Z&spr=https&sv=2022-11-02&sig=R2BV4ogxEZE6I3uDkRwlIVKZt%2BtdPnIdZaHnG7M%2FCAc%3D&sr=f",
         "d513e29d9c21ce636b45a17860817a0575e9a18c50cee29903b63dec67c46c47"
     ))
+
+    register(DataDep(
+        "kcats_complete_may_2025",
+        """
+        Kcat data from Sabio + Brenda
+        crossreferenced with protien sequences from Uniprot
+        crossreferenced with SMILES from pubchem.
+        Some data incomplete rows
+        """,
+        "https://dlkitty.blob.core.windows.net/dlkitty/kcats_complete_may_2025.json",
+        "d85329c991fd0a317b6e3e45091d71ca8b8c087a89aaa71f06f15bad62bed8e3"
+    ))
+
+
 end
 ###########
 
@@ -35,7 +49,7 @@ reaction_rates_table() = DataFrame(CSV.File(reaction_rates_file()))
 
 ###############
 
-full_kcat_file() = datadep"Sabio-RK_kcats_full_nov_2024/Sabio-RK_kcats_full_nov_2024.json"
+full_kcat_file() = datadep"kcats_complete_may_2025/kcats_complete_may_2025.json"
 function full_kcat_table()
     df = DataFrames.DataFrame(jsontable(full_kcat_file()))
     df.ProteinSequences = map(df.ProteinSequences) do protseqs
