@@ -25,7 +25,6 @@ function Base.getproperty(preprocessor::Preprocessor, name::Symbol)
     end
 end
 
-
 function preprocessor_filename(preprocessor::Preprocessor)
     radius = preprocessor.fingerprint_radius
     len = preprocessor.ngram_len
@@ -71,13 +70,32 @@ function  predict_kcat_dist((;model, ps, st), preprocessor, datum)
 end
 
 
+function fill_param_dict!(dict, m, prefix)
+    if m isa Chain
+        for (i, layer) in enumerate(m.layers)
+            fill_param_dict!(dict, layer, prefix*"layer_"*string(i)*"/"*string(layer)*"/")
+        end
+    else
+        for fieldname in fieldnames(typeof(m))
+            val = getfield(m, fieldname)
+            if val isa AbstractArray
+                val = vec(val)
+            end
+            dict[prefix*string(fieldname)] = val
+        end
+    end
+end
+
+
 function train(
     df,
     preprocessor,
     opt=OptimiserChain(ClipGrad(1.0), Adam(0.0003f0));
     l2_coefficient=1e-5,
     n_samples=1000,
-    n_epochs=3
+    n_epochs=3,
+    log_train::Bool=false,
+    logger::Union{TBLogger, Nothing}=log_train ? TBLogger("tensorboard_logs/run", min_level=Logging.Info) : nothing
 )
     # Increasing n_samples and n_epochs do very similar thing
     # as either way things get duplicated, but n_samples means also correct missing data
@@ -85,7 +103,8 @@ function train(
 
     model = DLkittyModel(preprocessor)
     tm = TrainedModel(model)
-
+    tstate = Training.TrainState(tm, opt)
+    
     usable_df = filter(is_usable, df)
     resampled_df = resample(usable_df; n_samples)
     prepped_data = map(Tables.namedtupleiterator(resampled_df)) do datum
@@ -94,18 +113,21 @@ function train(
         return input, output
     end
 
-    tstate = Training.TrainState(tm, opt)
+    _grads, unflatten_grads = ParameterHandling.flatten(tstate.parameters)
+    grads = zeros(eltype(_grads), length(_grads))
+    print(typeof(grads))
+
     for epoch in 1:n_epochs
         epoch_loss = 0.0
+        grads[:] .= zero(eltype(grads))
         for (input, output) in prepped_data           
             try
-                grads, step_loss, _, tstate = Training.single_train_step!(
+                _grads, step_loss, _, tstate = Training.single_train_step!(
                     AutoZygote(), L2RegLoss(DistributionLoss(), l2_coefficient),
                     (input, output),
                     tstate
                 )
-                # TODO insert appropriate logging functions to let us debug what is happening here.
-                # E.g. with TensorBoardLogger.jl
+                grads .+= ParameterHandling.flatten(eltype(grads), _grads)[1]
                 epoch_loss += step_loss
             catch
                 datum = output[]
@@ -113,8 +135,23 @@ function train(
                 rethrow()
             end
         end
-        average_loss = epoch_loss/length(prepped_data)
-        @printf "Epoch: %3d \t Loss: %.5g\n" epoch average_loss
+        avg_loss = epoch_loss/length(prepped_data)
+        @printf "Epoch: %3d \t Loss: %.5g\n" epoch avg_loss
+        
+        if log_train
+            avg_grads = grads ./ length(prepped_data)
+            _ps = tstate.parameters
+            param_dict = Dict{String, Any}()
+            grad_dict = Dict{String, Any}()
+            fill_param_dict!(param_dict, _ps, "")
+            fill_param_dict!(grad_dict, unflatten_grads(avg_grads), "")
+            with_logger(logger) do
+                @info "train" loss=avg_loss
+                @info "model" params=param_dict log_step_increment=0
+                @info "gradients" params=grad_dict log_step_increment=0
+            end
+        end
+
     end
     return TrainedModel(tstate)
 end
